@@ -1,0 +1,21 @@
+@value dsared from '../../styles/colors.module.css';
+
+.header {
+  margin-bottom: 1.45rem;
+  background: dsared;
+}
+
+.inlay {
+  margin: 0 auto;
+  maxwidth: 960;
+  padding: 1.45rem 1.0875rem;
+}
+
+.title {
+  margin: 0;
+}
+
+.title-link {
+  color: white;
+  text-decoration: none;
+}

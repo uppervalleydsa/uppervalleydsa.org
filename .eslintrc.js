@@ -5,7 +5,10 @@ module.exports = {
     'no-else-return': 0,
     'no-console': 0,
     'import/prefer-default-export': 1,
-    'import/no-extraneous-dependencies': [2, { devDependencies: true }],
+    'import/no-extraneous-dependencies': [
+      2,
+      { devDependencies: true, packageDir: __dirname },
+    ],
     'import/order': [
       2,
       {
@@ -22,7 +25,7 @@ module.exports = {
     'jsx-a11y/anchor-is-valid': [2, { specialLink: ['to'] }],
   },
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2020,
     sourceType: 'module',
     ecmaFeatures: {
       modules: true,

@@ -1,20 +1,22 @@
+const path = require('path');
+
 module.exports = {
   siteMetadata: {
-    title: `Upper Valley DSA`,
-    description: `Website for the Upper Valley DSA.`,
-    author: `Upper Valley DSA`,
+    title: 'Upper Valley DSA',
+    description: 'Website for the Upper Valley DSA.',
+    author: 'Upper Valley DSA',
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: 'images',
+        path: path.join(__dirname, 'src/images'),
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-netlify-cms`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-netlify-cms',
   ],
 };

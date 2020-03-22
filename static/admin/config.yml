@@ -5,9 +5,13 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+publish_mode: editorial_workflow
+
 collections:
   - name: "update"
-    label: "Update"
+    label: "Updates"
+    label_singular: "Update"
+    description: "News and events"
     folder: "content/updates"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -19,13 +23,26 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
-    label: "Page"
-    folder: "content/pages"
-    create: true
-    slug: "{{slug}}"
-    editor:
-      preview: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+    label: "Pages"
+    label_singular: "Page"
+    description: "Core site pages, e.g. Contact and About"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "site/content/about.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Contact Page"
+        name: "contact"
+        file: "site/content/contact.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - label: Social Media
+            name: socials
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+
