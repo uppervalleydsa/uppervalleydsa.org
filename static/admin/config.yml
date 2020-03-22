@@ -8,41 +8,25 @@ public_folder: /img
 publish_mode: editorial_workflow
 
 collections:
-  - name: "update"
-    label: "Updates"
-    label_singular: "Update"
-    description: "News and events"
-    folder: "content/updates"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    editor:
-      preview: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
     label_singular: "Page"
+    extension: 'md'
+    format: 'frontmatter'
     description: "Core site pages, e.g. Contact and About"
+    preview_path: "{{slug}}"
     files:
       - label: "About Page"
         name: "about"
-        file: "site/content/about.yml"
+        file: "site/content/about.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Contact Page"
         name: "contact"
-        file: "site/content/contact.yml"
+        file: "site/content/contact.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-          - label: Social Media
-            name: socials
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: URL, name: url, widget: string}
-
