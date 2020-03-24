@@ -16,21 +16,21 @@ collections:
     files:
       - label: "About Page"
         name: "about"
-        file: "site/content/about.md"
+        file: "content/pages/about.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "URL", name: "url", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Contact Page"
         name: "contact"
-        file: "site/content/contact.md"
+        file: "content/pages/contact.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "URL", name: "url", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Issues Page"
         name: "organizing"
-        file: "site/content/organizing.md"
+        file: "content/pages/organizing.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "URL", name: "url", widget: "string" }
@@ -46,7 +46,7 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "site/layout/home.md"
+        file: "content/layout/home.md"
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
 

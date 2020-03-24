@@ -3,7 +3,7 @@ exports.createPages = async ({ actions, graphql }) => {
     const { data } = await graphql(`
       query {
         allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/content/${pageName}.md$/" } }
+          filter: { fileAbsolutePath: { regex: "/pages/${pageName}.md$/" } }
         ) {
           nodes {
             html
