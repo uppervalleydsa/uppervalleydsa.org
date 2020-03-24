@@ -4,10 +4,11 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 
+/* eslint-disable react/no-danger */
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <div __dangerouslySetInnerHtml={{ __html: data.markdownRemark.html }} />
+    <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
   </Layout>
 );
 
