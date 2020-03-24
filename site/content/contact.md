@@ -1,5 +1,5 @@
 ---
-url: '/contact'
+url: '/contact/'
 title: 'Contact'
 ---
 

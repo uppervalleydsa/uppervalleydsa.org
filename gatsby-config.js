@@ -25,6 +25,11 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-netlify-cms',
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        modulePath: path.join(__dirname, 'src/pages/custom-admin.js'),
+      },
+    },
   ],
 };

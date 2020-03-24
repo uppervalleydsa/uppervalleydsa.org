@@ -1,25 +1,34 @@
 exports.createPages = async ({ actions, graphql }) => {
-  const { data } = await graphql(`
-    query ContentPages {
-      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/content/" } }) {
-        nodes {
-          html
-          frontmatter {
-            url
-            title
+  const getNetlifyPage = async (pageName) => {
+    const { data } = await graphql(`
+      query {
+        allMarkdownRemark(
+          filter: { fileAbsolutePath: { regex: "/content/${pageName}.md$/" } }
+        ) {
+          nodes {
+            html
+            frontmatter {
+              url
+              title
+            }
           }
         }
       }
-    }
-  `);
+    `);
+    return data.allMarkdownRemark.nodes[0];
+  };
 
-  data.allMarkdownRemark.nodes.forEach((node) => {
-    const { url, title } = node.frontmatter;
-    const { html } = node;
+  const createBasicPage = async (pageName) => {
+    const page = await getNetlifyPage(pageName);
+    const { url, title } = page.frontmatter;
+    const { html } = page;
     actions.createPage({
       path: url,
-      component: require.resolve(`./src/templates/ContentPage.js`),
+      component: require.resolve(`./src/templates/BasicContentWrapper.js`),
       context: { html, title, url },
     });
-  });
+  };
+
+  await createBasicPage('about');
+  await createBasicPage('contact');
 };
