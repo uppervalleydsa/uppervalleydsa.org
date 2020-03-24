@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Brian Jacobel <bjacobel@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.20.3",
+    "gatsby": "^2.20.4",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-netlify-cms": "^4.2.1",
     "gatsby-plugin-react-helmet": "^3.2.1",
