@@ -1,7 +1,7 @@
 import React from 'react';
 import CMS from 'netlify-cms-app';
 
-import BasicContent from '../templates/BasicContent';
+import BasicContent from './templates/BasicContent';
 
 const Preview = ({ entry, widgetFor }) => {
   const { title } = entry.toJS().data;

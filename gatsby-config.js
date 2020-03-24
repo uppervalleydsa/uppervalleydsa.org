@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
-        modulePath: path.join(__dirname, 'src/pages/custom-admin.js'),
+        modulePath: path.join(__dirname, 'src/custom-admin.js'),
       },
     },
   ],
