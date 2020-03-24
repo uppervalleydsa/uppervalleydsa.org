@@ -1,17 +1,22 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <h1>
-      Upper Valley chapter of the largest socialist organization in the United
-      States.
-    </h1>
-    <p>This page is still under construction.</p>
+    <div __dangerouslySetInnerHtml={{ __html: data.markdownRemark.html }} />
   </Layout>
 );
+
+export const query = graphql`
+  query {
+    markdownRemark(fileAbsolutePath: { regex: "/layout/home.md$/" }) {
+      html
+    }
+  }
+`;
 
 export default IndexPage;

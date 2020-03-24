@@ -10,3 +10,4 @@ const Preview = ({ entry, widgetFor }) => {
 
 CMS.registerPreviewTemplate('about', Preview);
 CMS.registerPreviewTemplate('contact', Preview);
+CMS.registerPreviewTemplate('organizing', Preview);

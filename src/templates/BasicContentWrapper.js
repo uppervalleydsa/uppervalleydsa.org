@@ -2,11 +2,18 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import BasicContent from './BasicContent';
+import SEO from '../components/seo';
 
 export default ({ data }) => {
   const post = data.markdownRemark;
-  return <BasicContent title={post.frontmatter.title} html={post.html} />;
+  return (
+    <>
+      <SEO title={post.frontmatter.title} />
+      <BasicContent title={post.frontmatter.title} html={post.html} />
+    </>
+  );
 };
+
 export const query = graphql`
   query($url: String!) {
     markdownRemark(frontmatter: { url: { eq: $url } }) {

@@ -31,4 +31,5 @@ exports.createPages = async ({ actions, graphql }) => {
 
   await createBasicPage('about');
   await createBasicPage('contact');
+  await createBasicPage('organizing');
 };

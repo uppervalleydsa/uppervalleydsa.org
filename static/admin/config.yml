@@ -9,8 +9,8 @@ publish_mode: editorial_workflow
 
 collections:
   - name: "pages"
-    label: "Pages"
-    label_singular: "Page"
+    label: "Content Pages"
+    label_singular: "Content Page"
     extension: 'md'
     format: 'frontmatter'
     description: "Core site pages, e.g. Contact and About"
@@ -30,3 +30,25 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "URL", name: "url", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Issues Page"
+        name: "organizing"
+        file: "site/content/organizing.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "special"
+    label: "Special Pages"
+    label_singular: "Special Page"
+    extension: 'md'
+    format: 'frontmatter'
+    description: "Special pages, like Home"
+    editor:
+      preview: false
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "site/layout/home.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
