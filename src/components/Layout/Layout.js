@@ -8,7 +8,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Header from '../Header/Header';
+import Header from '../Header';
 import { content } from './layout.module.css';
 
 // @TODO: get all css into modules
