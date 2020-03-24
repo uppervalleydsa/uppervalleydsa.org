@@ -1,0 +1,30 @@
+name: 'Validate'
+on:
+  - push
+jobs:
+  lint-test:
+    name: 'Lint/Test'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: 'Checkout'
+        uses: actions/checkout@master
+      - name: Cache node_modules
+        id: cache
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+      - name: Install
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install --frozen-lockfile --ignore-scripts
+      - name: Lint
+        run: yarn lint
+      - name: Test
+        run: yarn test
+      - name: Build
+        run: yarn build
+        env:
+          NODE_ENV: production
