@@ -1,21 +1,141 @@
 @value dsared from '../../styles/colors.module.css';
+@value mobile, margin from '../../styles/measurements.module.css';
 
 .header {
-  margin-bottom: 1.45rem;
+  margin-bottom: margin;
+  padding: 0 margin;
   background: dsared;
-}
-
-.inlay {
-  margin: 0 auto;
-  maxwidth: 960;
-  padding: 1.45rem 1.0875rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 75px;
 }
 
 .title {
   margin: 0;
+  font-size: 1.8rem;
+  flex-grow: 1;
+  font-family: "Manifold DSA";
+  font-weight: 700;
 }
 
-.title-link {
+.title-link, .navbar-link {
   color: white;
   text-decoration: none;
+}
+
+.navbar-link {
+  text-align: right;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.hotlink {
+  padding: 0 margin;
+  margin: 0;
+  font-size: 1.3rem;
+  font-family: "Manifold DSA";
+  font-weight: 700;
+  text-align: right;
+
+  &:last-of-type {
+    padding-right: 0;
+  }
+}
+
+.hotlinks {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+
+  @media (max-width: mobile) {
+    display: none;
+  }
+
+  &.mobileHotlinks {
+    display: block;
+    padding: margin;
+    position: absolute;
+    background-color: dsared;
+    right: margin;
+    margin: 0;
+    top: 75px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    clip-path: inset(0 -10px -10px -10px);
+
+    .hotlink {
+      padding: 0.5em;
+    }
+  }
+}
+
+.mobileBurger {
+  background: none;
+  border: none;
+  box-shadow: none;
+  z-index: 2147483647;
+  display: none;
+  width: 45px;
+  height: 45px;
+  padding: 10px 5px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  @media (max-width: mobile) {
+    display: block;
+  }
+
+  .burgerLines {
+    width: 35px;
+    height: 3px;
+    display: block;
+    position: relative;
+    background-color: white;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    user-select: none;
+    transition: all 0.25s ease;
+
+    &::before {
+      content: '\00A0';
+      height: 3px;
+      display: block;
+      position: relative;
+      background-color: white;
+      user-select: none;
+      transition: all 0.25s ease;
+      top: -9px;
+    }
+
+    &::after {
+      content: '\00A0';
+      height: 3px;
+      display: block;
+      position: relative;
+      background-color: white;
+      user-select: none;
+      transition: all 0.25s ease;
+      top: 6px;
+    }
+
+    &.active {
+      background: transparent;
+
+      &::before {
+        transform: rotate3d(0, 0, 1, -45deg);
+        background-color: white;
+        top: 3px;
+      }
+
+      &::after {
+        transform: rotate3d(0, 0, 1, 45deg);
+        background-color: white;
+        top: 0;
+      }
+    }
+  }
 }
