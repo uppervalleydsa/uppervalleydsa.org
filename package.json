@@ -18,7 +18,7 @@
     "gatsby": "^2.20.8",
     "netlify-cms-app": "^2.11.32",
     "postcss-font-magician": "^2.3.1",
-    "precss": "2",
+    "precss": "4",
     "prop-types": "^15.7.2",
     "react-dom": "^16.13.1",
     "react": "^16.13.1",
