@@ -27,6 +27,14 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description;
 
+  const schemaOrgJSONLD = {
+    '@context': 'http://www.schema.org',
+    '@type': 'Organization',
+    name: site.siteMetadata.title,
+    url: 'uppervalleydsa.org',
+    description: site.siteMetadata.description,
+  };
+
   return (
     <Helmet
       htmlAttributes={{
@@ -68,7 +76,11 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <script type="application/ld+json">
+        {JSON.stringify(schemaOrgJSONLD)}
+      </script>
+    </Helmet>
   );
 }
 
