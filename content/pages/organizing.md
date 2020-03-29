@@ -1,13 +1,12 @@
 ---
-url: '/organizing/'
-title: 'Organizing'
+title: Organizing
+url: /organizing/
 ---
-
 This page could be used to display our current organizing priorities.
 
 ### Welcoming Communities
 
-Some copy about this initiative
+Some copy about this initiative?
 
 ### Milk with Dignity
 
