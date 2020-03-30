@@ -7,6 +7,18 @@ publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
 
+fields: &fields
+  - { label: "Title", name: "title", widget: "string" }
+  - { label: "URL", name: "url", widget: "string" }
+  - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Add widgets"
+    name: "widgets"
+    widget: "select"
+    multiple: true
+    options:
+      - { label: "Mailing list sign-up", value: "Signup" }
+      - { label: "Calendar", value: "Calendar" }
+
 collections:
   - name: "pages"
     label: "Content Pages"
@@ -19,24 +31,15 @@ collections:
       - label: "About Page"
         name: "about"
         file: "content/pages/about.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "URL", name: "url", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+        fields: *fields
       - label: "Contact Page"
         name: "contact"
         file: "content/pages/contact.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "URL", name: "url", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+        fields: *fields
       - label: "Issues Page"
         name: "organizing"
         file: "content/pages/organizing.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "URL", name: "url", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+        fields: *fields
   - name: "special"
     label: "Special Pages"
     label_singular: "Special Page"

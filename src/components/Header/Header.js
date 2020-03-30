@@ -56,7 +56,7 @@ const Header = () => {
       />
       <ul className={classNames(hotlinks, { [mobileHotlinks]: menuActive })}>
         {Object.entries(navItems).map(([linkTitle, location]) => (
-          <li className={hotlink} tabIndex="-1" role="menuitem">
+          <li key={location} className={hotlink} tabIndex="-1" role="menuitem">
             <Link
               className={navbarLink}
               to={location}

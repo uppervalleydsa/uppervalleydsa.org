@@ -1,0 +1,29 @@
+@value dsared from '../../styles/colors.module.css';
+@value mobile, margin from '../../styles/measurements.module.css';
+
+.footer {
+  margin-top: margin;
+  padding: margin;
+  background: dsared;
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  p {
+    font-family: "Manifold DSA";
+    font-weight: 700;
+    color: white;
+    margin: 0;
+  }
+}
+
+.socials {
+  list-style-type: none;
+  margin: 0;
+
+  .social-item {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+  }
+}

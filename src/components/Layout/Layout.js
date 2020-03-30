@@ -9,20 +9,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Header from '../Header';
-import { content } from './layout.module.css';
-
+import Footer from '../Footer';
+import { content, wrapper } from './layout.module.css';
 // @TODO: get all css into modules
 import '../../styles/global.css';
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className={wrapper}>
       <Header />
-      <div className={content}>
+      <main className={content}>
         <main>{children}</main>
-        <footer>{/* TODO: build a footer with hotlinks */}</footer>
-      </div>
-    </>
+      </main>
+      <Footer />
+    </div>
   );
 };
 

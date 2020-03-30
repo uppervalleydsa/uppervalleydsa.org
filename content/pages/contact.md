@@ -1,9 +1,10 @@
 ---
 title: Contact
 url: /contact/
+widgets:
+  - Signup
 ---
+
 ### Get in touch with us via the following channels:
 
-* [Facebook](https://facebook.com/upper-valley-dsa)
-* [Join our Mailing List](mailto:upper-valley-dsa-bulletins+subscribe@googlegroups.com)
-* [Email us](mailto:uppervalleydsa@gmail.com) for info or to sign up for updates
+- [Facebook](https://facebook.com/upper-valley-dsa)

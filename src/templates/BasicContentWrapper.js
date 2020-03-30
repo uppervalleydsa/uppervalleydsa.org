@@ -9,7 +9,7 @@ export default ({ data }) => {
   return (
     <>
       <SEO title={post.frontmatter.title} />
-      <BasicContent title={post.frontmatter.title} html={post.html} />
+      <BasicContent html={post.html} {...post.frontmatter} />
     </>
   );
 };
@@ -20,6 +20,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        widgets
       }
     }
   }

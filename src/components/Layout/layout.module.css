@@ -1,6 +1,13 @@
 @value margin, mobile from '../../styles/measurements.module.css';
 
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .content {
+  flex: 1;
   max-width: 960px;
   width: 100%;
   padding: 0 margin;
