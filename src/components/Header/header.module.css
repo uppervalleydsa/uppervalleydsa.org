@@ -2,7 +2,7 @@
 @value mobile, margin from '../../styles/measurements.module.css';
 
 .header {
-  margin-bottom: margin;
+  margin-bottom: calc(margin * 2);
   padding: 0 margin;
   background: dsared;
   display: flex;
@@ -15,11 +15,12 @@
   margin: 0;
   font-size: 1.8rem;
   flex-grow: 1;
-  font-family: "Manifold DSA";
+  font-family: 'Manifold DSA';
   font-weight: 700;
 }
 
-.title-link, .navbar-link {
+.title-link,
+.navbar-link {
   color: white;
   text-decoration: none;
 }
@@ -36,7 +37,7 @@
   padding: 0 margin;
   margin: 0;
   font-size: 1.3rem;
-  font-family: "Manifold DSA";
+  font-family: 'Manifold DSA';
   font-weight: 700;
   text-align: right;
 
@@ -63,7 +64,7 @@
     right: margin;
     margin: 0;
     top: 75px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     clip-path: inset(0 -10px -10px -10px);
 
     .hotlink {
