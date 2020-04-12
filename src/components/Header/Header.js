@@ -1,10 +1,10 @@
-import { Link } from 'gatsby';
 import React, { useState } from 'react';
+import { Link, graphql, useStaticQuery } from 'gatsby';
 import classNames from 'classnames';
 
 import {
   header,
-  title,
+  title as titleStyle,
   titleLink,
   navbarLink,
   hotlinks,
@@ -28,21 +28,48 @@ const MenuButton = ({ toggleMenu, menuActive }) => {
   );
 };
 
+const AmbiguousLink = ({ to, children, ...props }) =>
+  to.startsWith('/') ? (
+    <Link to={to} {...props}>
+      {children}
+    </Link>
+  ) : (
+    <a href={to} {...props}>
+      {children}
+    </a>
+  );
+
 const Header = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      markdownRemark(fileAbsolutePath: { regex: "/layout/header.md$/" }) {
+        frontmatter {
+          links {
+            link {
+              title
+              url
+            }
+          }
+        }
+      }
+    }
+  `);
   const [menuActive, toggleMenuActive] = useState(false);
   const menuCloseOnClick = () => {
     if (menuActive) toggleMenuActive(false);
   };
 
-  const navItems = {
-    About: '/about/',
-    Contact: '/contact/',
-    Organizing: '/organizing/',
-  };
+  const navItems = data.markdownRemark.frontmatter.links.reduce(
+    (prev, { link: { title, url } }) => ({
+      ...prev,
+      [title]: url,
+    }),
+    {},
+  );
 
   return (
     <header className={header} role="menubar">
-      <h1 className={title}>
+      <h1 className={titleStyle}>
         <Link className={titleLink} to="/">
           Upper Valley DSA
         </Link>
@@ -57,13 +84,13 @@ const Header = () => {
       <ul className={classNames(hotlinks, { [mobileHotlinks]: menuActive })}>
         {Object.entries(navItems).map(([linkTitle, location]) => (
           <li key={location} className={hotlink} tabIndex="-1" role="menuitem">
-            <Link
+            <AmbiguousLink
               className={navbarLink}
               to={location}
               onClick={menuCloseOnClick}
             >
               {linkTitle}
-            </Link>
+            </AmbiguousLink>
           </li>
         ))}
       </ul>
