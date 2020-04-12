@@ -24,7 +24,7 @@ exports.createPages = async ({ actions, graphql }) => {
     const { html } = page;
     actions.createPage({
       path: url,
-      component: require.resolve(`./src/templates/BasicContentWrapper.js`),
+      component: require.resolve(`./src/templates/BasicContent.js`),
       context: { html, title, url },
     });
   };

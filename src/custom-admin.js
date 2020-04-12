@@ -5,9 +5,14 @@ import { PreviewContext } from './constants';
 import BasicContent from './templates/BasicContent';
 
 const Preview = ({ entry, widgetFor }) => {
+  const fakeQueryResults = {
+    markdownRemark: {
+      frontmatter: entry.toJS().data,
+    },
+  };
   return (
     <PreviewContext.Provider value>
-      <BasicContent {...entry.toJS().data}>{widgetFor('body')}</BasicContent>
+      <BasicContent data={fakeQueryResults}>{widgetFor('body')}</BasicContent>
     </PreviewContext.Provider>
   );
 };
