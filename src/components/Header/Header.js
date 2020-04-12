@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 import classNames from 'classnames';
 
+import { PreviewContext } from '../../constants';
 import {
   header,
   title as titleStyle,
@@ -39,21 +40,32 @@ const AmbiguousLink = ({ to, children, ...props }) =>
     </a>
   );
 
+const noLinks = {
+  markdownRemark: {
+    frontmatter: {
+      links: [],
+    },
+  },
+};
+
 const Header = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      markdownRemark(fileAbsolutePath: { regex: "/layout/header.md$/" }) {
-        frontmatter {
-          links {
-            link {
-              title
-              url
+  const preview = useContext(PreviewContext);
+  const data = preview
+    ? noLinks
+    : useStaticQuery(graphql`
+        query {
+          markdownRemark(fileAbsolutePath: { regex: "/layout/header.md$/" }) {
+            frontmatter {
+              links {
+                link {
+                  title
+                  url
+                }
+              }
             }
           }
         }
-      }
-    }
-  `);
+      `);
   const [menuActive, toggleMenuActive] = useState(false);
   const menuCloseOnClick = () => {
     if (menuActive) toggleMenuActive(false);

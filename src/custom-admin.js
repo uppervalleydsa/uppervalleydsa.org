@@ -1,11 +1,14 @@
 import React from 'react';
 import CMS from 'netlify-cms-app';
 
+import { PreviewContext } from './constants';
 import BasicContent from './templates/BasicContent';
 
 const Preview = ({ entry, widgetFor }) => {
   return (
-    <BasicContent {...entry.toJS().data}>{widgetFor('body')}</BasicContent>
+    <PreviewContext.Provider value>
+      <BasicContent {...entry.toJS().data}>{widgetFor('body')}</BasicContent>
+    </PreviewContext.Provider>
   );
 };
 
