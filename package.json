@@ -10,7 +10,7 @@
     "gatsby-image": "^2.3.2",
     "gatsby-plugin-netlify-cms": "^4.2.4",
     "gatsby-plugin-postcss": "^2.2.1",
-    "gatsby-plugin-react-helmet": "^3.2.2",
+    "gatsby-plugin-react-helmet": "^3.2.4",
     "gatsby-plugin-sharp": "~2.5.4",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-transformer-remark": "^2.7.1",
