@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Brian Jacobel <bjacobel@gmail.com>",
   "dependencies": {
-    "autoprefixer": "^9.7.6",
+    "autoprefixer": "^9.8.0",
     "classnames": "^2.2.6",
     "gatsby-image": "^2.4.3",
     "gatsby-plugin-netlify-cms": "^4.3.2",
