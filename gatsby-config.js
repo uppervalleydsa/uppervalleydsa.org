@@ -33,5 +33,11 @@ module.exports = {
         modulePath: path.join(__dirname, 'src/custom-admin.js'),
       },
     },
+    {
+      resolve: 'gatsby-plugin-favicon',
+      options: {
+        logo: './src/images/logo.png',
+      },
+    },
   ],
 };

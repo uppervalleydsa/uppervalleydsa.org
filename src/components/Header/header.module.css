@@ -140,3 +140,13 @@
     }
   }
 }
+
+.logoDiv {
+  height: 45px;
+  width: 45px;
+  margin: 0;
+  margin-right: margin;
+  background-color: white;
+  padding: 3px;
+  border-radius: 50%;
+}
