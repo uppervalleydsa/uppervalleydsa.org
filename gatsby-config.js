@@ -36,7 +36,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-favicon',
       options: {
-        logo: './src/images/logo.png',
+        logo: './src/images/logo-noborder.png',
       },
     },
   ],
