@@ -14,7 +14,9 @@ import {
   burgerLines,
   active,
   mobileHotlinks,
+  logoDiv,
 } from './header.module.css';
+import logo from '../../images/logo.png';
 
 const MenuButton = ({ toggleMenu, menuActive }) => {
   return (
@@ -81,6 +83,7 @@ const Header = () => {
 
   return (
     <header className={header} role="menubar">
+      <img className={logoDiv} src={logo} alt="" />
       <h1 className={titleStyle}>
         <Link className={titleLink} to="/">
           Upper Valley DSA
