@@ -1,3 +1,9 @@
-## We are the Upper Valley (Vermont and New Hampshire) chapter of the largest socialist organization in the United States.
+## We are the Upper Valley chapter of the Democratic Socialists of America
 
-This page is still under construction.
+The Upper Valley of Vermont and New Hampshire is a group of towns on both sides of the Upper Connecticut River, centred around the confluence of the White River and the Connecticut. 
+
+
+
+![BLM protest](/img/blmgreen.jpg "BLM protest")
+
+The Upper Valley chapter of the Democratic Socialists of America is a diverse group of individuals from all walks of life seeking to better the conditions for all people, everywhere. All are welcome, any time.
