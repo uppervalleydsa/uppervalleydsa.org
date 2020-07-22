@@ -10,6 +10,9 @@ links:
       title: Issues
       url: /organizing
   - link:
+      title: Blog
+      url: /blog
+  - link:
       title: Join
       url: 'https://dsausa.org/join'
 ---

@@ -4,6 +4,8 @@ backend:
 
 publish_mode: editorial_workflow
 
+local_backend: true
+
 media_folder: static/img
 public_folder: /img
 
@@ -20,6 +22,22 @@ fields: &fields
       - { label: "Calendar", value: "Calendar" }
 
 collections:
+  - name: "blog"
+    label: "Blog Posts"
+    label_singular: "Blog Post"
+    extension: 'md'
+    format: 'frontmatter'
+    preview_path: "blog/{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} ({{year}}-{{month}}-{{day}})"
+    folder: "content/blog"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string", default: "Upper Valley DSA"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "pages"
     label: "Content Pages"
     label_singular: "Content Page"

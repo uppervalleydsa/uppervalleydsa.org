@@ -1,0 +1,11 @@
+@value lightgrey from '../styles/colors.module.css';
+@value margin from '../styles/measurements.module.css';
+
+.author {
+  font-size: 1em;
+}
+
+.date {
+  color: lightgrey;
+  font-size: 1em;
+}
