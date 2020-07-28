@@ -1,0 +1,33 @@
+@value lightgrey, verylightgrey, dsared from '../styles/colors.module.css';
+@value margin from '../styles/measurements.module.css';
+
+.list {
+  list-style-type: none;
+  padding: margin 0;
+  margin-left: 0;
+  border-bottom: 2px solid verylightgrey;
+
+  &:first-of-type {
+    border-top: 2px solid verylightgrey;
+  }
+}
+
+.headline a {
+  color: dsared;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.date {
+  color: lightgrey;
+  font-size: 1em;
+}
+
+.excerpt {
+  color: black;
+  margin-top: margin;
+}

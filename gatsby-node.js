@@ -4,11 +4,19 @@ const moment = require('moment');
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `blog` });
+    const filepath = createFilePath({ node, getNode, basePath: `blog` });
+    const formattedDate = moment(node.frontmatter.date).format('YYYY-MM-DD');
+
     createNodeField({
       node,
-      name: `slug`,
-      value: slug,
+      name: 'filepath',
+      value: filepath,
+    });
+
+    createNodeField({
+      node,
+      name: 'url',
+      value: `/blog/${formattedDate}-${filepath.substr(1)}`,
     });
   }
 };
@@ -54,10 +62,8 @@ exports.createPages = async ({ actions, graphql }) => {
         edges {
           node {
             fields {
-              slug
-            }
-            frontmatter {
-              date
+              filepath
+              url
             }
           }
         }
@@ -67,15 +73,13 @@ exports.createPages = async ({ actions, graphql }) => {
 
   data.allMarkdownRemark.edges.forEach(({ node }) => {
     const {
-      frontmatter: { date },
-      fields: { slug },
+      fields: { filepath, url },
     } = node;
-    const formattedDate = moment(date).format('YYYY-MM-DD');
 
     actions.createPage({
-      path: `/blog/${formattedDate}-${slug.substr(1)}`,
+      path: url,
       component: require.resolve(`./src/templates/BlogEntry.js`),
-      context: { slug },
+      context: { filepath },
     });
   });
 };
