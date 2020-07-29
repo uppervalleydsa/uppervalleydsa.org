@@ -1,7 +1,12 @@
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const moment = require('moment');
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
+  // for gatsby-remark-relative-images
+  // see: https://www.gatsbyjs.org/packages/gatsby-remark-relative-images/#to-convert-frontmatter-images
+  fmImagesToRelative(node);
+
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
     const filepath = createFilePath({ node, getNode, basePath: `blog` });

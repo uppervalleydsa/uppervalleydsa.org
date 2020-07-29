@@ -3,12 +3,15 @@
 
 .list {
   list-style-type: none;
-  padding: margin 0;
   margin-left: 0;
-  border-bottom: 2px solid verylightgrey;
 
-  &:first-of-type {
-    border-top: 2px solid verylightgrey;
+  li {
+    padding: margin 0;
+    border-bottom: 2px solid verylightgrey;
+
+    &:first-of-type {
+      border-top: 2px solid verylightgrey;
+    }
   }
 }
 

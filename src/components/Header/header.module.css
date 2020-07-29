@@ -1,5 +1,5 @@
 @value dsared from '../../styles/colors.module.css';
-@value mobile, margin from '../../styles/measurements.module.css';
+@value mobile, margin, maxz from '../../styles/measurements.module.css';
 
 .header {
   margin-bottom: calc(margin * 2);
@@ -66,6 +66,7 @@
     top: 75px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     clip-path: inset(0 -10px -10px -10px);
+    z-index: maxz;
 
     .hotlink {
       padding: 0.5em;
@@ -77,7 +78,7 @@
   background: none;
   border: none;
   box-shadow: none;
-  z-index: 2147483647;
+  z-index: maxz;
   display: none;
   width: 45px;
   height: 45px;

@@ -14,8 +14,8 @@ import {
 /* eslint-disable react/no-danger */
 const BlogIndex = ({ data }) => (
   <Layout>
-    <SEO title="Blog Posts" />
-    <h2>Blog posts</h2>
+    <SEO title="Blog" />
+    <h2>Blog</h2>
     <ol className={list}>
       {data.allMarkdownRemark.edges.map(
         ({ node: { fields, frontmatter, excerpt } }) => (
@@ -24,7 +24,6 @@ const BlogIndex = ({ data }) => (
               <a href={fields.url}>{frontmatter.title}</a>
             </h3>
             <h4 className={date}>{moment(frontmatter.date).format('LL')}</h4>
-
             <p className={excerptClass}>{excerpt}</p>
           </li>
         ),
