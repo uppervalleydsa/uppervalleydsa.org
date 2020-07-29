@@ -1,6 +1,6 @@
 ## We are the Upper Valley chapter of the Democratic Socialists of America
 
-The Upper Valley of Vermont and New Hampshire is a group of towns on both sides of the Upper Connecticut River, centred around the confluence of the White River and the Connecticut.
+The Upper Valley of Vermont and New Hampshire is a group of towns on both sides of the Upper Connecticut River, centered around the confluence of the White River and the Connecticut.
 
 ![BLM protest](/uploads/blmgreen.jpg 'BLM protest')
 
