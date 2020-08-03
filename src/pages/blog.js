@@ -33,10 +33,12 @@ const BlogIndex = ({ data }) => (
                 </h4>
                 <p>{excerpt}</p>
               </div>
-              <Img
-                className={thumbnail}
-                fluid={frontmatter.thumbnail.childImageSharp.fluid}
-              />
+              {frontmatter.thumbnail && (
+                <Img
+                  className={thumbnail}
+                  fluid={frontmatter.thumbnail.childImageSharp.fluid}
+                />
+              )}
             </div>
           </li>
         ),
@@ -47,7 +49,7 @@ const BlogIndex = ({ data }) => (
 
 export const query = graphql`
   query {
-    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "^/blog/" } }) {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "^/posts/" } }) {
       edges {
         node {
           fields {

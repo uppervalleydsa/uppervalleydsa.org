@@ -29,7 +29,7 @@ collections:
     format: 'frontmatter'
     preview_path: "blog/{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}} ({{year}}-{{month}}-{{day}})"
-    folder: "content/blog"
+    folder: "content/posts"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}

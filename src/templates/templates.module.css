@@ -1,5 +1,5 @@
 @value lightgrey from '../styles/colors.module.css';
-@value margin from '../styles/measurements.module.css';
+@value margin, mobile from '../styles/measurements.module.css';
 
 .author {
   font-size: 1em;
@@ -9,3 +9,15 @@
   color: lightgrey;
   font-size: 1em;
 }
+
+.thumbnail {
+  margin: margin 0;
+  width: 100%;
+
+  @media (min-width: 600px) {
+    float: right;
+    margin: 0 0 margin margin;
+    max-width: 350px;
+  }
+}
+

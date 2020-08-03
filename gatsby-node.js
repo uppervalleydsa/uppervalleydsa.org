@@ -63,7 +63,7 @@ exports.createPages = async ({ actions, graphql }) => {
   // Blog pages
   const { data } = await graphql(/* GraphQL */ `
     query {
-      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "^/blog/" } }) {
+      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "^/posts/" } }) {
         edges {
           node {
             fields {
