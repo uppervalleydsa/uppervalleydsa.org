@@ -20,9 +20,6 @@ jobs:
       - name: Install
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install --frozen-lockfile
-      - name: Check local_backend setting
-        run: |
-          [ $(npx yq r static/admin/config.yml 'local_backend') == "true" ] && echo "You left the local_backend setting on" && exit 1
       - name: Lint
         run: yarn lint
       # - name: Test
