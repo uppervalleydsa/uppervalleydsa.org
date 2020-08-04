@@ -1,6 +1,6 @@
 const { createFilePath } = require(`gatsby-source-filesystem`);
-const moment = require('moment');
 const { fmImagesToRelative } = require('gatsby-remark-relative-images');
+const moment = require('moment');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   // for gatsby-remark-relative-images
