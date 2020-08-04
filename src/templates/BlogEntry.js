@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import moment from 'moment';
 import Img from 'gatsby-image/withIEPolyfill';
 
@@ -14,15 +14,15 @@ import {
 
 /* eslint-disable react/no-danger */
 export default ({ data, children }) => {
-  const { html, frontmatter } = data.markdownRemark;
-  const { title, author, date, thumbnail } = frontmatter;
+  const { html, frontmatter, excerpt } = data.markdownRemark;
+  const { title, author, date, thumbnail, note } = frontmatter;
 
   const ifHtml = html ? { dangerouslySetInnerHTML: { __html: html } } : {};
   const preview = useContext(PreviewContext);
 
   return (
     <>
-      {!preview && <SEO title={title} />}
+      {!preview && <SEO title={title} description={excerpt} />}
       <Layout>
         <div>
           <h1>{title}</h1>
@@ -40,7 +40,15 @@ export default ({ data, children }) => {
             // we are inside the preview editor. sucks to have to do this
             <img src={thumbnail} className={thumbnailClass} alt="" />
           )}
+          {note && (
+            <p>
+              <i>{note}</i>
+            </p>
+          )}
           <div {...ifHtml}>{children}</div>
+          <p>
+            <Link to="/blog">← Back to all posts</Link>
+          </p>
         </div>
       </Layout>
     </>
@@ -51,10 +59,12 @@ export const query = graphql`
   query($filepath: String!) {
     markdownRemark(fields: { filepath: { eq: $filepath } }) {
       html
+      excerpt(pruneLength: 250)
       frontmatter {
         title
         author
         date
+        note
         thumbnail {
           childImageSharp {
             fluid(maxWidth: 650) {
