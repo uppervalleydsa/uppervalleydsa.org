@@ -1,7 +1,7 @@
 ---
 title: Challenging Racism at its Roots
 author: Robbie Boody
-date: 2020-08-04T13:43:27.713Z
+date: 2020-07-19T13:43:27.713Z
 ---
 (*This editorial appeared as a letter to the Editor in the July 19 edition of the Valley News.*)
 
