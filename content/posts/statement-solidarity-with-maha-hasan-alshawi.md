@@ -1,5 +1,5 @@
 ---
-title: "Statement: Solidarity with Maha Hasan Alshawi"
+title: Solidarity with Maha Hasan Alshawi
 author: Upper Valley DSA
 date: 2020-07-25T13:40:59.597Z
 ---
