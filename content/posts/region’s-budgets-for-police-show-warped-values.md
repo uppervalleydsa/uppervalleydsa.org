@@ -3,7 +3,7 @@ title: Region’s budgets for police show warped values
 author: Kendall Dix (Co-Chair, Upper Valley DSA)
 date: 2020-06-29T13:38:29.485Z
 ---
-*(This statement appeared as a Letter to the Editor in the June 29 edition of the Valley News.)*
+*(This statement appeared as a letter to the Editor in the June 29 edition of the Valley News.)*
 
 If you can judge a town’s values by how it spends its money, then the Upper Valley’s values are all out of whack.
 
