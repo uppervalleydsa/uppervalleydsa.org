@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import moment from 'moment';
 import Img from 'gatsby-image/withIEPolyfill';
 
@@ -24,7 +24,7 @@ const BlogIndex = ({ data }) => (
         ({ node: { fields, frontmatter, excerpt } }) => (
           <li>
             <h3 className={headline}>
-              <a href={fields.url}>{frontmatter.title}</a>
+              <Link to={fields.url}>{frontmatter.title}</Link>
             </h3>
             <div className={content}>
               <div className={excerptClass}>
@@ -32,6 +32,7 @@ const BlogIndex = ({ data }) => (
                   {moment(frontmatter.date).format('LL')}
                 </h4>
                 <p>{excerpt}</p>
+                <Link to={fields.url}>Read more →</Link>
               </div>
               {frontmatter.thumbnail && (
                 <Img
