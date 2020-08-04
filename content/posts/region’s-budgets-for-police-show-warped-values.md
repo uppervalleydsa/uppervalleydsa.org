@@ -1,5 +1,5 @@
 ---
-title: Region’s budgets for police show warped values
+title: Region’s budgets for police show warped value
 author: Kendall Dix (Co-Chair, Upper Valley DSA)
 date: 2020-06-29T13:38:29.485Z
 ---
