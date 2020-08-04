@@ -1,5 +1,5 @@
 ---
-title: Challenging Racism at its Roots
+title: Challenging racism at its roots
 author: Robbie Boody
 date: 2020-07-19T13:43:27.713Z
 ---
