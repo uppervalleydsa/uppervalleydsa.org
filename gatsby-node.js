@@ -9,7 +9,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
-    const filepath = createFilePath({ node, getNode, basePath: `blog` });
+    const filepath = createFilePath({ node, getNode, basePath: `posts` });
     const formattedDate = moment(node.frontmatter.date).format('YYYY-MM-DD');
 
     createNodeField({
