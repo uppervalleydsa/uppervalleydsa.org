@@ -59,8 +59,12 @@ collections:
           label: 'URL',
           name: 'url',
           widget: 'string',
-          hint: 'The relative URL where the content should live, e.g. /about',
-          pattern: ['^\/[a-zA-Z0-9]+$', 'Must be a valid URL (no special characters, only one slash)']
+          hint: 'The relative URL where the content should live, e.g. /big-event',
+          pattern:
+            [
+              '^\/[a-zA-Z0-9-]+$',
+              'Must be a valid URL (only A-Z 0-9 characters, numbers, dashes, and one slash)',
+            ],
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Add widgets'
