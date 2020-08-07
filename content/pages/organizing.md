@@ -4,8 +4,7 @@ url: /organizing/
 widgets:
   - Signup
 ---
-
-![Capitalism kills](/uploads/covid.jpg 'COVID-19')
+![Capitalism kills](/uploads/covid.jpg)
 
 # Organizing
 
