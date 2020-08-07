@@ -1,6 +1,7 @@
 const path = require('path');
 
 const name = 'Upper Valley DSA';
+const url = 'https://uppervalleydsa.org';
 const description =
   'Upper Valley (Vermont and New Hampshire) chapter of the largest socialist organization in the United States.';
 
@@ -9,6 +10,7 @@ module.exports = {
     title: name,
     description,
     author: name,
+    siteUrl: url,
   },
   plugins: [
     'gatsby-plugin-postcss',
@@ -59,5 +61,6 @@ module.exports = {
         logo: './src/images/logo-noborder.png',
       },
     },
+    'gatsby-plugin-sitemap',
   ],
 };
