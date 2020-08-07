@@ -62,5 +62,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-174910115-1',
+        exclude: ['/admin/**'],
+      },
+    },
   ],
 };
