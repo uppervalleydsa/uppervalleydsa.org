@@ -30,7 +30,5 @@ const PreviewBasicContent = (props) => (
 
 const PreviewBlogEntry = (props) => <Preview {...props} template={BlogEntry} />;
 
-CMS.registerPreviewTemplate('about', PreviewBasicContent);
-CMS.registerPreviewTemplate('contact', PreviewBasicContent);
-CMS.registerPreviewTemplate('organizing', PreviewBasicContent);
+CMS.registerPreviewTemplate('pages', PreviewBasicContent);
 CMS.registerPreviewTemplate('blog', PreviewBlogEntry);

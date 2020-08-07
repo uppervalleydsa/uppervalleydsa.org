@@ -27,41 +27,32 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 };
 
 exports.createPages = async ({ actions, graphql }) => {
-  const getNetlifyPage = async (pageName) => {
-    const { data } = await graphql(/* GraphQL */ `
-      query {
-        allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/pages/${pageName}.md$/" } }
-        ) {
-          nodes {
-            html
-            frontmatter {
-              url
-              title
-            }
+  // Content pages
+  const { data: contentPages } = await graphql(/* GraphQL */ `
+    query {
+      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "^/pages/" } }) {
+        nodes {
+          html
+          frontmatter {
+            url
+            title
           }
         }
       }
-    `);
-    return data.allMarkdownRemark.nodes[0];
-  };
+    }
+  `);
 
-  const createBasicPage = async (pageName) => {
-    const page = await getNetlifyPage(pageName);
+  contentPages.allMarkdownRemark.nodes.forEach((page) => {
     const { url } = page.frontmatter;
     actions.createPage({
       path: url,
       component: require.resolve(`./src/templates/BasicContent.js`),
       context: { url },
     });
-  };
-
-  await createBasicPage('about');
-  await createBasicPage('contact');
-  await createBasicPage('organizing');
+  });
 
   // Blog pages
-  const { data } = await graphql(/* GraphQL */ `
+  const { data: blogPages } = await graphql(/* GraphQL */ `
     query {
       allMarkdownRemark(filter: { fileAbsolutePath: { regex: "^/posts/" } }) {
         edges {
@@ -76,7 +67,7 @@ exports.createPages = async ({ actions, graphql }) => {
     }
   `);
 
-  data.allMarkdownRemark.edges.forEach(({ node }) => {
+  blogPages.allMarkdownRemark.edges.forEach(({ node }) => {
     const {
       fields: { filepath, url },
     } = node;

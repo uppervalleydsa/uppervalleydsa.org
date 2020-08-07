@@ -11,68 +11,78 @@ slug:
   encoding: ascii
   clean_accents: true
 
-fields: &fields
-  - { label: "Title", name: "title", widget: "string" }
-  - { label: "URL", name: "url", widget: "string" }
-  - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Add widgets"
-    name: "widgets"
-    widget: "select"
-    multiple: true
-    options:
-      - { label: "Mailing list sign-up", value: "Signup" }
-      - { label: "Calendar", value: "Calendar" }
-
 collections:
-  - name: "blog"
-    label: "Blog Posts"
-    label_singular: "Blog Post"
+  - name: 'blog'
+    label: 'Blog Posts'
+    label_singular: 'Blog Post'
     extension: 'md'
     format: 'frontmatter'
-    preview_path: "blog/{{year}}-{{month}}-{{day}}-{{slug}}"
-    summary: "{{title}} ({{year}}-{{month}}-{{day}})"
-    folder: "content/posts"
+    preview_path: 'blog/{{year}}-{{month}}-{{day}}-{{slug}}'
+    summary: '{{title}} ({{year}}-{{month}}-{{day}})'
+    folder: 'content/posts'
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "string", default: "Upper Valley DSA"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-      - {label: "Editor's Note", name: "note", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'string',
+          default: 'Upper Valley DSA',
+        }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Featured Image',
+          name: 'thumbnail',
+          widget: 'image',
+          required: false,
+        }
+      - {
+          label: "Editor's Note",
+          name: 'note',
+          widget: 'string',
+          required: false,
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: "pages"
-    label: "Content Pages"
-    label_singular: "Content Page"
+  - name: 'pages'
+    label: 'Content Pages'
+    label_singular: 'Content Page'
     extension: 'md'
     format: 'frontmatter'
-    description: "Core site pages, e.g. Contact and About"
-    preview_path: "{{slug}}"
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "content/pages/about.md"
-        fields: *fields
-      - label: "Contact Page"
-        name: "contact"
-        file: "content/pages/contact.md"
-        fields: *fields
-      - label: "Issues Page"
-        name: "organizing"
-        file: "content/pages/organizing.md"
-        fields: *fields
-  - name: "special"
-    label: "Special Pages"
-    label_singular: "Special Page"
+    description: 'Core site pages, e.g. Contact and About'
+    preview_path: '{{slug}}'
+    create: true
+    folder: 'content/pages'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'URL',
+          name: 'url',
+          widget: 'string',
+          hint: 'The relative URL where the content should live, e.g. /about',
+          pattern: ['^\/[a-zA-Z0-9]+$', 'Must be a valid URL (no special characters, only one slash)']
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Add widgets'
+        name: 'widgets'
+        widget: 'select'
+        multiple: true
+        required: false
+        options:
+          - { label: 'Mailing list sign-up', value: 'Signup' }
+          - { label: 'Calendar', value: 'Calendar' }
+
+  - name: 'special'
+    label: 'Special Pages'
+    label_singular: 'Special Page'
     extension: 'md'
     format: 'frontmatter'
-    description: "Special pages, like Home"
+    description: 'Special pages, like Home'
     editor:
       preview: false
     files:
-      - label: "Home Page"
-        name: "home"
-        file: "content/layout/home.md"
+      - label: 'Home Page'
+        name: 'home'
+        file: 'content/layout/home.md'
         fields:
-          - { label: "Body", name: "body", widget: "markdown" }
-
+          - { label: 'Body', name: 'body', widget: 'markdown' }

@@ -1,13 +1,13 @@
 version: 1
 update_configs:
-  - package_manager: "javascript"
-    directory: "/"
-    update_schedule: "live"
+  - package_manager: 'javascript'
+    directory: '/'
+    update_schedule: 'live'
     commit_message:
-      prefix: "[skip netlify]"
+      prefix: '[skip netlify]'
     automerged_updates:
       - match:
           update_type: in_range
     ignored_updates:
       - match:
-          dependency_name: "precss"
+          dependency_name: 'precss'
