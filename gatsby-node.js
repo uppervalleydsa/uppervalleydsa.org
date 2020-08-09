@@ -78,4 +78,32 @@ exports.createPages = async ({ actions, graphql }) => {
       context: { filepath },
     });
   });
+
+  // shortlinks
+  const { data: shortlinks } = await graphql(/* GraphQL */ `
+    query {
+      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "^/links/" } }) {
+        edges {
+          node {
+            frontmatter {
+              from
+              to
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  shortlinks.allMarkdownRemark.edges.forEach(({ node }) => {
+    const {
+      frontmatter: { from, to },
+    } = node;
+
+    actions.createPage({
+      path: from,
+      component: require.resolve(`./src/templates/Redirect.js`),
+      context: { to },
+    });
+  });
 };

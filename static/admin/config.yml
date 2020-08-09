@@ -11,6 +11,12 @@ slug:
   encoding: ascii
   clean_accents: true
 
+urlvalidation:
+  &urlvalidation [
+    '^\/[a-zA-Z0-9-]+$',
+    'Must be a valid URL (only A-Z 0-9 characters, numbers, dashes, and one slash)',
+  ]
+
 collections:
   - name: 'blog'
     label: 'Blog Posts'
@@ -60,11 +66,7 @@ collections:
           name: 'url',
           widget: 'string',
           hint: 'The relative URL where the content should live, e.g. /big-event',
-          pattern:
-            [
-              '^\/[a-zA-Z0-9-]+$',
-              'Must be a valid URL (only A-Z 0-9 characters, numbers, dashes, and one slash)',
-            ],
+          pattern: *urlvalidation,
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Add widgets'
@@ -90,3 +92,27 @@ collections:
         file: 'content/layout/home.md'
         fields:
           - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'links'
+    label: 'Short Links'
+    label_singular: 'Short Link'
+    extension: 'md'
+    format: 'frontmatter'
+    description: 'Shortlinks that use uppervalleydsa.org/something as a redirect'
+    summary: '{{from}} → {{to}}'
+    editor:
+      preview: false
+    folder: 'content/links'
+    create: true
+    identifier_field: from
+    fields:
+      - label: 'From'
+        name: 'from'
+        widget: 'string'
+        hint: 'This is the part that comes after uppervalleydsa.org e.g. /big-event'
+        pattern: *urlvalidation
+      - label: 'To'
+        name: 'to'
+        widget: 'string'
+        hint: 'The fully qualified link you want to redirect to e.g. https://eventbrite.com/asdf-1234'
+        pattern: ['^https:\/\/', 'URLs should start with https://']
