@@ -9,4 +9,4 @@ On Wednesday, in the middle of a nationwide uprising against police violence, Jo
 
 Watching the Democratic Party try to snuff out leftist candidates at the national level can make you feel powerless, especially when mainstream liberals push a narrative that political work only happens a few times a year on election days. As socialists, we believe that organizing is a year-round activity. Participating in local political work can be often more impactful and empowering because fewer people get involved at the municipal and state level.
 
-Our DSA chapter has local campaigns where you can get involved now and make a difference. [Join us](https://uppervalleydsa.org/contact) and help build power where it matters most. Trust us when we say it’s more productive and feels better than getting mad at cable news.
+Our DSA chapter has [local campaigns](https://uppervalleydsa.org/organizing) where you can get involved now and make a difference. [Join us](https://uppervalleydsa.org/contact) and help build power where it matters most. Trust us when we say it’s more productive and feels better than getting mad at cable news.
