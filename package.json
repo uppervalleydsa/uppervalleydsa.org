@@ -18,7 +18,7 @@
     "gatsby-plugin-sitemap": "^2.4.12",
     "gatsby-remark-images": "^3.3.28",
     "gatsby-remark-relative-images": "0.2.3",
-    "gatsby-source-filesystem": "^2.3.26",
+    "gatsby-source-filesystem": "^2.3.27",
     "gatsby-transformer-remark": "^2.8.30",
     "gatsby-transformer-sharp": "^2.5.13",
     "moment": "2.27.0",
