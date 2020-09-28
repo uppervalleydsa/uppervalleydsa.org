@@ -15,7 +15,7 @@
     "gatsby-plugin-postcss": "^2.3.12",
     "gatsby-plugin-react-helmet": "^3.3.11",
     "gatsby-plugin-sharp": "~2.6.36",
-    "gatsby-plugin-sitemap": "^2.4.13",
+    "gatsby-plugin-sitemap": "^2.4.14",
     "gatsby-remark-images": "^3.3.30",
     "gatsby-remark-relative-images": "0.2.3",
     "gatsby-source-filesystem": "^2.3.30",
