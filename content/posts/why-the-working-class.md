@@ -2,6 +2,7 @@
 title: Why the Working Class
 author: Nancy Welch
 date: 2020-09-29T20:26:08.306Z
+thumbnail: /uploads/strike.jpg
 note: Upper Valley DSA’s Nancy Welch gave this talk for a Socialist Night School
   class co-hosted with Southern New Hampshire DSA. The “syllabus” for this class
   included Hadas Thier’s “Why the Working Class Is the Vast Majority of
