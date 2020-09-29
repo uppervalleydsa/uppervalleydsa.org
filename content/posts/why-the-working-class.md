@@ -48,4 +48,4 @@ What social justice issues and struggles are you involved with? What does this d
 
 *To get involved with the discussion, follow[ Upper Valley DSA on Facebook](https://www.facebook.com/UpperValleyDSA/) and on [Twitter](https://twitter.com/UV_DSA/). Make sure to [join our mailing list](https://groups.google.com/g/upper-valley-dsa-bulletins?pli=1) so you don't miss upcoming discussions and events.*
 
-*Lead image credit: [Kheel Center, Cornell University Library](https://www.flickr.com/photos/38445726@N04/5279691132) (CC BY 2.0)*
+*Lead image credit: [Kheel Center, Cornell University Library](https://www.flickr.com/photos/38445726@N04/5279691132) ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))*
