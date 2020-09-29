@@ -8,9 +8,7 @@ note: Upper Valley DSA’s Nancy Welch gave this talk for a Socialist Night Scho
   included Hadas Thier’s “Why the Working Class Is the Vast Majority of
   Society,” Tithi Bhattacharya’s “How Not to Skip Class,” Vivek Chibber’s “Why
   the Working Class,” and the last two sections particularly of Kim Moody’s “How
-  Just-in-Time Capitalism Spread Covid-19.” The next Socialist Night School, 8
-  pm October 15, will focus on Racism and Capitalism. Follow Upper Valley DSA
-  and Southern New Hampshire DSA on Facebook for details to come.
+  Just-in-Time Capitalism Spread Covid-19.”
 ---
 To answer the question “Why the working class?” we have to start with what the working class is not. Contrary to what we see in popular culture, class is not expressed in cultural traits, such as whether you drink beer on the front stoop or sip chardonnay on the back deck. It’s not measured either by income or determined by the number of diplomas you’ve acquired. When the New York Times ran a series on class, now in a book called Class Matters, the "prestige" levels of one's occupation and education were the big markers. Apparently because I have a doctorate and teach at a university, I'm in or very close to the ruling class. Now the fact that more than 75% of PhD-holding university instructors are precariously employed adjuncts tells me that no, a PhD does not land you in the ruling class. But as Hadas Thier points out in Jacobin, because we are taught to see class as a measure of “\[i]ncome levels, education, lifestyles, and patterns of consumption,” most people do hold the seemingly common-sense view that the middle class is the U.S. majority class and that there is no working class at all--except, of course, in election years when we’re told that the working class is a white rural cis-gender male voter in the post-industrial midwest who has cast his vote for Trump. Here the working class is represented as a dangerous class, a reactionary class.
 
@@ -46,6 +44,8 @@ So here’s where I’ll end, with the relationship of socialists to cultivating
 
 What social justice issues and struggles are you involved with? What does this discussion of class, and organizing for the exercise of workers’ power, contribute to your thinking about how to advance those struggles?
 
-*To get involved with the discussion, follow[ Upper Valley DSA on Facebook](https://www.facebook.com/UpperValleyDSA/) and on [Twitter](https://twitter.com/UV_DSA/). Make sure to [join our mailing list](https://groups.google.com/g/upper-valley-dsa-bulletins?pli=1) so you don't miss upcoming discussions and events.*
+*To get involved with the discussion, follow[ Upper Valley DSA on Facebook](https://www.facebook.com/UpperValleyDSA/) and on [Twitter](https://twitter.com/UV_DSA/).*
+
+*The next Socialist Night School, 8 pm October 15, will focus on Racism and Capitalism. Follow [Upper Valley DSA](https://www.facebook.com/UpperValleyDSA) and [Southern New Hampshire DSA on Facebook](https://www.facebook.com/snhdsa/) for details to come, and make sure to [join our mailing list](https://groups.google.com/g/upper-valley-dsa-bulletins?pli=1) so you don't miss other upcoming discussions and events.* 
 
 *Lead image credit: [Kheel Center, Cornell University Library](https://www.flickr.com/photos/38445726@N04/5279691132) ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))*
