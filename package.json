@@ -14,7 +14,7 @@
     "gatsby-plugin-netlify-cms": "^4.3.14",
     "gatsby-plugin-postcss": "^2.3.13",
     "gatsby-plugin-react-helmet": "^3.3.12",
-    "gatsby-plugin-sharp": "~2.6.37",
+    "gatsby-plugin-sharp": "~2.6.38",
     "gatsby-plugin-sitemap": "^2.4.14",
     "gatsby-remark-images": "^3.3.31",
     "gatsby-remark-relative-images": "0.2.3",
