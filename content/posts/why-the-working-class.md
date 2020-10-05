@@ -46,6 +46,6 @@ What social justice issues and struggles are you involved with? What does this d
 
 *To get involved with the discussion, follow[ Upper Valley DSA on Facebook](https://www.facebook.com/UpperValleyDSA/) and on [Twitter](https://twitter.com/UV_DSA/).*
 
-*The next Socialist Night School, 8 pm October 15, will focus on Racism and Capitalism. Follow [Upper Valley DSA](https://www.facebook.com/UpperValleyDSA) and [Southern New Hampshire DSA on Facebook](https://www.facebook.com/snhdsa/) for details to come, and make sure to [join our mailing list](https://groups.google.com/g/upper-valley-dsa-bulletins?pli=1) so you don't miss other upcoming discussions and events.* 
+*[The next Socialist Night School, 8 pm October 15, will focus on Racism and Capitalism.](https://www.facebook.com/events/1311836845818634) Follow [Upper Valley DSA](https://www.facebook.com/UpperValleyDSA) and [Southern New Hampshire DSA on Facebook](https://www.facebook.com/snhdsa/) for more details, and make sure to [join our mailing list](https://groups.google.com/g/upper-valley-dsa-bulletins?pli=1) so you don't miss other upcoming discussions and events.* 
 
 *Lead image credit: [Kheel Center, Cornell University Library](https://www.flickr.com/photos/38445726@N04/5279691132) ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))*
