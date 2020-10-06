@@ -1,0 +1,15 @@
+---
+title: Making socialism discussions more accessible
+author: Upper Valley DSA
+date: 2020-10-06T00:34:40.719Z
+thumbnail: /uploads/jargongiraffe.jpg
+---
+As Democratic Socialists, we strive to be as inclusive and welcoming as possible, but we also live in an unbelievably complex world. Part of being inclusive means acknowledging that very complexity. We must not reduce the struggles of marginalized groups to overly simplistic terms. [Intersectionality](https://en.wikipedia.org/wiki/Intersectionality) is both a difficult concept to grasp fully, but incredibly important. 
+
+We cannot always oversimplify the solutions to very difficult problems, thereby giving our opponents easy opportunities to tear down our ideas. There is a joke that says if you ask 10 [Democratic Socialists](https://www.dsausa.org/about-us/what-is-democratic-socialism/) [what Socialism means](https://www.currentaffairs.org/2018/03/socialism-as-a-set-of-principles), you'll get 12 [different](https://simple.wikipedia.org/wiki/Socialism) [answers](https://en.wikipedia.org/wiki/Socialism). 
+
+Because of this complexity, we must always strive to educate ourselves as best we can. Here at UV DSA, we are committed to political education. We [host](https://fb.me/e/4rHZmIZ57) [regular](https://fb.me/e/4rOcBLdpC) [Book](https://fb.me/e/4ixYgaDYS) [Group](https://fb.me/e/1wKagRMJV) [discussions](https://fb.me/e/1vgSuyOLX), and [Socialist Night School](https://fb.me/e/1xVFQdMaY), and through our connection to DSA national, offer a wide variety of [training](https://www.dsausa.org/organize/) and [educational](https://www.dsausa.org/strategy/) [materials](https://www.dsausa.org/resources/) and [resources](https://www.dsausa.org/resources/audio/). 
+
+However, we always want to be bringing in new members, new organizers, new [comrades](https://en.wikipedia.org/wiki/Comrade#:~:text=Political%20use%20of%20the%20term,often%20associated%20it%20with%20communism.), new friends.  In an effort to make our meetings and discussions more accessible, understandable and less intimidating, we'd like to institute a concept known as the "jargon giraffe". This should be introduced at the beginning of all larger meetings and discussions. Any time a speaker uses a technical term, acronym, or piece of complex vocabulary AKA jargon that someone doesn't understand, they simply raise their hand in the shape of a giraffe (see picture, similar to what you may be familiar with as the 'quiet coyote') and the speaker should make an effort to explain their language in simpler terms. 
+
+In this way, we can ensure that we are all being understood, that all are welcome in our discussions, and that we can better achieve our goals of building a world that works for all of us. [Solidarity!](https://en.wikipedia.org/wiki/Solidarity#:~:text=Solidarity%20is%20an%20awareness%20of,bind%20people%20together%20as%20one.)
