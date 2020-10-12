@@ -4,6 +4,9 @@ links:
       title: About
       url: /about
   - link:
+      title: Events
+      url: /events
+  - link:
       title: Contact
       url: /contact
   - link:
@@ -12,7 +15,4 @@ links:
   - link:
       title: Blog
       url: /blog
-  - link:
-      title: Join
-      url: 'https://dsausa.org/join'
 ---
