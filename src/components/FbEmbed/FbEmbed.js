@@ -1,5 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import useMeasure from 'react-use-measure'
+
+import { wrapper, iframe } from './fbembed.module.css';
 
 const makeEmbedSrc = (params) => {
   const baseParams = {
@@ -17,19 +20,21 @@ const makeEmbedSrc = (params) => {
 }
 
 const FbEmbed = ({ tabs }) => {
-  const width = 500;
+  const [ref, bounds] = useMeasure();
   return (
-    <iframe
-      title='Facebook embed'
-      src={makeEmbedSrc({ tabs, width })}
-      width={width}
-      height='700'
-      style={{border: 'none', overflow: 'hidden'}}
-      scrolling="no"
-      frameBorder="0"
-      allowtransparency="true"
-      allow="encrypted-media"
-    />
+    <div className={wrapper} ref={ref}>
+      <iframe
+        title='Facebook embed'
+        src={makeEmbedSrc({ tabs, width: Math.min(bounds.width, 500) })}
+        width={Math.min(bounds.width, 500)}
+        height='700'
+        className={iframe}
+        scrolling="no"
+        frameBorder="0"
+        allowtransparency="true"
+        allow="encrypted-media"
+      />
+    </div>
   );
 };
 
