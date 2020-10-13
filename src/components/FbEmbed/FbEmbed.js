@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import useMeasure from 'react-use-measure'
+import useMeasure from 'react-use-measure';
 import { ResizeObserver } from '@juggle/resize-observer';
 
 import { wrapper, iframe } from './fbembed.module.css';
@@ -17,18 +17,20 @@ const makeEmbedSrc = (params) => {
   };
 
   // interesting that we can use URLSearchParams even in gatsby node rendering
-  return `https://www.facebook.com/plugins/page.php?${new URLSearchParams(baseParams)}`
-}
+  return `https://www.facebook.com/plugins/page.php?${new URLSearchParams(
+    baseParams,
+  )}`;
+};
 
 const FbEmbed = ({ tabs }) => {
   const [ref, bounds] = useMeasure({ polyfill: ResizeObserver });
   return (
     <div className={wrapper} ref={ref}>
       <iframe
-        title='Facebook embed'
+        title="Facebook embed"
         src={makeEmbedSrc({ tabs, width: Math.min(bounds.width, 500) })}
         width={Math.min(bounds.width, 500)}
-        height='700'
+        height="700"
         className={iframe}
         scrolling="no"
         frameBorder="0"
@@ -40,7 +42,7 @@ const FbEmbed = ({ tabs }) => {
 };
 
 FbEmbed.propTypes = {
-  tabs: PropTypes.arrayOf(PropTypes.string).isRequired
+  tabs: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default FbEmbed;
