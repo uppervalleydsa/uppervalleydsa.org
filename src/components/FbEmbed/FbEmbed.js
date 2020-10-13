@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import useMeasure from 'react-use-measure'
+import { ResizeObserver } from '@juggle/resize-observer';
 
 import { wrapper, iframe } from './fbembed.module.css';
 
@@ -20,7 +21,7 @@ const makeEmbedSrc = (params) => {
 }
 
 const FbEmbed = ({ tabs }) => {
-  const [ref, bounds] = useMeasure();
+  const [ref, bounds] = useMeasure({ polyfill: ResizeObserver });
   return (
     <div className={wrapper} ref={ref}>
       <iframe
