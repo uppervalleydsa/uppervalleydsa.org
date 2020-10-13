@@ -50,6 +50,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
+        manualInit: true,
+        enableIdentityWidget: false,
         modulePath: path.join(__dirname, 'src/custom-admin.js'),
       },
     },

@@ -32,3 +32,9 @@ const PreviewBlogEntry = (props) => <Preview {...props} template={BlogEntry} />;
 
 CMS.registerPreviewTemplate('pages', PreviewBasicContent);
 CMS.registerPreviewTemplate('blog', PreviewBlogEntry);
+
+CMS.init({
+  config: {
+    local_backend: process.env.GATSBY_NETLIFY_LOCAL_BACKEND === 'true',
+  },
+})
