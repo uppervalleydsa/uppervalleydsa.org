@@ -1,23 +1,12 @@
 ---
 title: Organizing
-url: /organizing/
+url: /organizing
 widgets:
   - Signup
 ---
-
-![Capitalism kills](/uploads/covid.jpg 'COVID-19')
-
-# Organizing
+![Capitalism kills](/uploads/lebpolice.png)
 
 The Upper Valley DSA is currently focused on several local organizing priorities. For more information or to get involved, [please contact us! ](https://uppervalleydsa.org/contact/)
-
-### COVID-19
-
-The current global pandemic is the defining issue of our times and it is abundantly clear that our heavily capitalist economic system is dangerous, oppressive, and designed only to serve the wealthy and powerful.
-
-DSA national has a bulletin for info, [click here to view](https://www.dsausa.org/news). There is also a [collaborative One-Stop Resources document ](https://drive.google.com/open?id=1f9qGDVbs7NfrhBCMVFQouiwU2b5Ew0scA3x6OzVNViM)that is being updated frequently.
-
-Upper Valley Response Team is coordinating mutual aid for the region. [Sign up](http://www.transformationalpractice.org/covid) to help, or request help for yourself or someone you know who is vulnerable or needs assistance.
 
 ### Police and Prison Abolition
 
@@ -26,6 +15,16 @@ The Upper Valley Chapter of the Democratic Socialists of America stands in solid
 The ultimate goal of the abolition of the police and prison industrial system is the creation of a society free from poverty, discrimination, and oppression, where crime is rare and approached as a problem of public health and where there is no need for a traditional police force or prison system. Towards this goal we seek an immediate reallocation of funding from police and prison budgets to the health, housing, library, social service, parks, and public works budgets that assist and lift up people in need and create livable communities for all. We further call on social service agencies to cease collaborating with police, insisting instead that communities in need are best and most safely supported by social service professionals. Seeking as well an end to the racist criminalization of undocumented workers, we call for an immediate halt to any collaboration between local and state governments and those on their employ with Immigration and Customs Enforcement (ICE) and Border Patrol.
 
 Another world is possible. Eliminating the power, control, and indeed the very existence of police and prisons is necessary to create it.
+
+We are currently engaged in a campaign in Lebanon to reallocate 50% of the police budget to other services that aid and support citizens. Please [read and sign our petition](https://docs.google.com/forms/d/e/1FAIpQLSe-CIQ2TXU22NvmwqyUqVhepf-br9Y1l7B5ud1AG9ds9pWPVA/viewform?usp=sf_link). 
+
+### COVID-19
+
+The current global pandemic is the defining issue of our times and it is abundantly clear that our heavily capitalist economic system is dangerous, oppressive, and designed only to serve the wealthy and powerful.
+
+DSA national has a bulletin for info, [click here to view](https://www.dsausa.org/news). There is also a [collaborative One-Stop Resources document ](https://drive.google.com/open?id=1f9qGDVbs7NfrhBCMVFQouiwU2b5Ew0scA3x6OzVNViM)that is being updated frequently.
+
+Upper Valley Response Team is coordinating mutual aid for the region. [Sign up](http://www.transformationalpractice.org/covid) to help, or request help for yourself or someone you know who is vulnerable or needs assistance.
 
 ### Welcoming Communities
 
