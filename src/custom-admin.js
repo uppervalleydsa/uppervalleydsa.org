@@ -37,4 +37,4 @@ CMS.init({
   config: {
     local_backend: process.env.GATSBY_NETLIFY_LOCAL_BACKEND === 'true',
   },
-})
+});
