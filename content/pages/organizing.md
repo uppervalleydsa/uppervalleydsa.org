@@ -30,8 +30,6 @@ We believe re-allocating a portion of public funds from the police department wi
 
 We urge members of the city council, as officials elected to represent and advocate for the interests of their community, to support a 50% police budget reallocation at the upcoming budget meeting.
 
-For more information, [please read our proposal. ](https://drive.google.com/file/d/1qAoVNba65-jnLwzS2QwkljSadMbbgRY2/view?usp=sharing)
-
 ### COVID-19
 
 The current global pandemic is the defining issue of our times and it is abundantly clear that our heavily capitalist economic system is dangerous, oppressive, and designed only to serve the wealthy and powerful.
