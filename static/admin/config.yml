@@ -96,21 +96,26 @@ collections:
         name: 'header'
         file: 'content/layout/header.md'
         fields:
-          - label: "Nav Items"
-            name: "links"
-            widget: "list"
-            hint: "Make sure whatever you add to the navbar fits on various viewports. There is no preview for this functionality."
+          - label: 'Nav Items'
+            name: 'links'
+            widget: 'list'
+            hint: 'Make sure whatever you add to the navbar fits on various viewports. There is no preview for this functionality.'
             fields:
-              - label: "Nav Item Title"
-                name: "title"
-                widget: "string"
-              - label: "Links"
-                name: "sublinks"
-                widget: "list"
+              - label: 'Nav Item Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Links'
+                name: 'sublinks'
+                widget: 'list'
                 hint: "Add more than one link for a nested nav item (hover dropdown). If there's just one, it will just be a normal header link pointing to the first URL."
-                fields: 
-                  - { label: "Link Title", name: "subtitle", widget: 'string' }
-                  - { label: "Link URL", name: "url", widget: 'string', pattern: *urlvalidation }
+                fields:
+                  - { label: 'Link Title', name: 'subtitle', widget: 'string' }
+                  - {
+                      label: 'Link URL',
+                      name: 'url',
+                      widget: 'string',
+                      pattern: *urlvalidation,
+                    }
 
   - name: 'links'
     label: 'Short Links'
