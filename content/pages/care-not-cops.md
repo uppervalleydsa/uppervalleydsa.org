@@ -8,9 +8,9 @@ If you're interested in getting involved, please [Contact Us](/contact) for more
 
 ![Care Not Cops proposal summary](/uploads/care-not-cops-proposal-summary.png)
 
-We believe that the current City of Lebanon budget priorities--which allocate $6.9 million to the police while allocating only $560,000 to health and human services--do not reflect the values of our community.
+We believe that the current City of Lebanon budget priorities--which allocates $6.3 million to the police while allocating only $560,000 to health and human services--do not reflect the values of our community.
 
-We support reducing the police budget in Lebanon 50% by 2022 and reallocating the $3.45 million to social services provided by the city and local non-profits.
+We support reducing the police budget in Lebanon 50% by 2022 and reallocating the $3.15 million to social services provided by the city and local non-profits.
 
 We believe re-allocating a portion of public funds from the police department will create a safer and healthier community by providing much-needed resources for senior services, substance abuse counseling, affordable housing, transportation, and other social services.
 
