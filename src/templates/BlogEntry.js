@@ -22,7 +22,9 @@ export default ({ data, children }) => {
 
   return (
     <>
-      {!preview && <SEO title={title} description={excerpt} />}
+      {!preview && (
+        <SEO title={title} description={excerpt} image={thumbnail} />
+      )}
       <Layout>
         <div>
           <h1>{title}</h1>
