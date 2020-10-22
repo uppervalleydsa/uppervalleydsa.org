@@ -1,13 +1,25 @@
 ---
 links:
   - title: About
-    url: /about
-  - title: Events
-    url: /events
-  - title: Contact
-    url: /contact
+    sublinks:
+      - subtitle: Who we are
+        url: /about
+      - subtitle: Contact
+        url: /contact
+      - subtitle: Join
+        url: https://dsausa.org/join
   - title: Issues
-    url: /organizing
+    sublinks:
+      - subtitle: Our issues
+        url: /organizing
+      - subtitle: Care Not Cops
+        url: /care-not-cops
+  - title: Events
+    sublinks:
+      - subtitle: Events
+        url: /events
   - title: Blog
-    url: /blog
+    sublinks:
+      - subtitle: Blog
+        url: /blog
 ---
