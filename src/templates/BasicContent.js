@@ -13,7 +13,7 @@ const widgetComponents = {
 /* eslint-disable react/no-danger */
 export default ({ data, children }) => {
   const { html, frontmatter } = data.markdownRemark;
-  const { widgets, title } = frontmatter;
+  const { widgets, title, description } = frontmatter;
 
   const ifHtml = html ? { dangerouslySetInnerHTML: { __html: html } } : {};
   const requestedComponents = (widgets || []).map((name) =>
@@ -24,7 +24,7 @@ export default ({ data, children }) => {
 
   return (
     <>
-      {!preview && <SEO title={title} />}
+      {!preview && <SEO title={title} description={description} />}
       <Layout>
         <div>
           <h1>{title}</h1>
@@ -42,6 +42,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        description
         widgets
       }
     }
