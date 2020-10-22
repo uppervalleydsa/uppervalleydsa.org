@@ -10,6 +10,7 @@ import {
   navbarLink,
   hotlinks,
   hotlink,
+  coldlink,
   mobileBurger,
   burgerLines,
   active,
@@ -69,7 +70,7 @@ const NestedHeaderItem = ({ topTitle, nestedItems, onClick }) =>
     />
   ) : (
     <li className={classNames(hotlink, hidesNestedItems)}>
-      <span className={classNames(navbarLink)}>{topTitle}</span>
+      <span className={classNames(coldlink, navbarLink)}>{topTitle}</span>
       <ul className={nestedNavItems}>
         {nestedItems.map(({ subtitle, url }) => (
           <HeaderItem key={url} url={url} title={subtitle} onClick={onClick} />
