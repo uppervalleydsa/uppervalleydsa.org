@@ -1,18 +1,13 @@
 ---
 links:
-  - link:
-      title: About
-      url: /about
-  - link:
-      title: Events
-      url: /events
-  - link:
-      title: Contact
-      url: /contact
-  - link:
-      title: Issues
-      url: /organizing
-  - link:
-      title: Blog
-      url: /blog
+  - title: About
+    url: /about
+  - title: Events
+    url: /events
+  - title: Contact
+    url: /contact
+  - title: Issues
+    url: /organizing
+  - title: Blog
+    url: /blog
 ---

@@ -59,10 +59,8 @@ const Header = () => {
           markdownRemark(fileAbsolutePath: { regex: "/layout/header.md$/" }) {
             frontmatter {
               links {
-                link {
-                  title
-                  url
-                }
+                title
+                url
               }
             }
           }
@@ -74,7 +72,7 @@ const Header = () => {
   };
 
   const navItems = data.markdownRemark.frontmatter.links.reduce(
-    (prev, { link: { title, url } }) => ({
+    (prev, { title, url }) => ({
       ...prev,
       [title]: url,
     }),
