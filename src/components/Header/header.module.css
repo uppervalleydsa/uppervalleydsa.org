@@ -82,9 +82,9 @@
       padding: calc(margin / 2) 0;
     }
 
-    >.hotlink:not(.hides-nested-items) {
+    > .hotlink:not(.hides-nested-items) {
       border-top: 1px solid white;
-      
+
       &:last-of-type {
         border-bottom: 1px solid white;
       }
@@ -108,7 +108,7 @@
   }
 
   span:hover {
-    text-decoration: none
+    text-decoration: none;
   }
 
   .nested-nav-items {
@@ -122,7 +122,8 @@
 }
 
 @media (min-width: mobile) {
-  .hotlink, .hotlinks {
+  .hotlink,
+  .hotlinks {
     height: 100%;
   }
 
