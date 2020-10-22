@@ -15,3 +15,5 @@ We support reducing the police budget in Lebanon 50% by 2022 and reallocating th
 We believe re-allocating a portion of public funds from the police department will create a safer and healthier community by providing much-needed resources for senior services, substance abuse counseling, affordable housing, transportation, and other social services.
 
 We urge members of the city council, as officials elected to represent and advocate for the interests of their community, to support a 50% police budget reallocation at the upcoming budget meeting.
+
+For more information, please [view our full proposal to the city council](https://drive.google.com/file/d/1uS66tBSpz4Ui5x4T92-9wTq3WD1JIpbT/view?usp=sharing).
