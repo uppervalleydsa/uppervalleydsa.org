@@ -61,14 +61,17 @@ collections:
     folder: 'content/pages'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - {
-          label: 'URL',
-          name: 'url',
-          widget: 'string',
-          hint: 'The relative URL where the content should live, e.g. /big-event',
-          pattern: *urlvalidation,
-        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Description'
+        required: false
+        name: 'description'
+        widget: 'text'
+        hint: 'Summary for search engines and social sharing. Leave blank to use the site default.'
+      - label: 'URL'
+        name: 'url'
+        widget: 'string'
+        hint: 'The relative URL where the content should live, e.g. /big-event'
+        pattern: *urlvalidation
       - label: 'Add widgets'
         name: 'widgets'
         widget: 'select'

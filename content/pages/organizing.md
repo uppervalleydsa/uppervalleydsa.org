@@ -1,5 +1,8 @@
 ---
 title: Organizing
+description: The Upper Valley DSA is currently focused on several local
+  organizing priorities, including police and prison abolition, a just COVID-19
+  recovery, and the Welcoming Communities initiative.
 url: /organizing
 widgets:
   - Signup
