@@ -33,6 +33,12 @@
   }
 }
 
+@media (min-width: mobile) {
+  .hotlink, .hotlinks {
+    height: 100%;
+  }
+}
+
 .hotlink {
   padding: margin;
   margin: 0;
@@ -40,7 +46,6 @@
   font-family: 'Manifold DSA';
   font-weight: 700;
   text-align: right;
-  height: 100%;
 
   &:last-of-type {
     padding-right: 0;
@@ -50,7 +55,6 @@
 .hotlinks {
   cursor: pointer;
   color: white;
-  height: 100%;
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -73,7 +77,7 @@
     z-index: maxz;
 
     .hotlink {
-      padding: 0.5em;
+      padding: calc(margin / 2) 0;
     }
   }
 }
@@ -89,32 +93,42 @@
     text-decoration: none
   }
 
-  ul.nested-nav-items {
-    display: none;
-  }
+  .nested-nav-items {
+    margin: 0;
+    list-style-type: none;
 
-  &:hover {
-    ul.nested-nav-items {
-      display: block;
+    .hotlink {
+      padding: calc(margin / 2) 0;
     }
   }
 }
 
-.nested-nav-items {
-  margin: 0;
-  list-style-type: none;
-  padding: margin;
-  position: absolute;
-  top: 65px;
-  margin: 0 0 0 calc(-1 * margin - 0.5em);
-  background-color: dsared;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  clip-path: inset(0 -10px -10px -10px);
-  z-index: maxz;
+@media (min-width: mobile) {
+  .hides-nested-items {
+    ul.nested-nav-items {
+      display: none;
+    }
 
-  .hotlink {
-    padding: 0.5em;
-    text-align: left;
+    &:hover {
+      ul.nested-nav-items {
+        display: block;
+      }
+    }
+
+    .nested-nav-items {
+      padding: 0 margin margin margin;
+      position: absolute;
+      top: 65px;
+      margin: 0 0 0 calc(-1 * margin);
+      background-color: dsared;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+      clip-path: inset(0 -10px -10px -10px);
+      z-index: maxz;
+
+      .hotlink {
+        text-align: left;
+      }
+    }
   }
 }
 
