@@ -6,7 +6,7 @@ We are currently engaged in a campaign in Lebanon, NH to reallocate 50% of the p
 
 If you're interested in getting involved, please [Contact Us](/contact) for more information.
 
-![Care Not Cops proposal summary](/uploads/docs.google.com_document_d_1xlj4_pcygejvnbkg3nkct0-ikdqigljcnjpmfbgsqqk_edit_ts-5f8f881c.png)
+![Care Not Cops proposal summary](/uploads/care-not-cops-proposal-summary.png)
 
 We believe that the current City of Lebanon budget priorities--which allocate $6.9 million to the police while allocating only $560,000 to health and human services--do not reflect the values of our community.
 
