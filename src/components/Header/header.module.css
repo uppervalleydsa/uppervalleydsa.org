@@ -19,6 +19,13 @@
   font-weight: 700;
 }
 
+.logo-div {
+  height: 50px;
+  width: 50px;
+  margin: 0;
+  margin-right: margin;
+}
+
 .title-link,
 .navbar-link {
   color: white;
@@ -34,7 +41,7 @@
 }
 
 .hotlink {
-  padding: 0 margin;
+  padding: margin;
   margin: 0;
   font-size: 1.1rem;
   font-family: 'Manifold DSA';
@@ -47,6 +54,8 @@
 }
 
 .hotlinks {
+  cursor: pointer;
+  color: white;
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -56,7 +65,8 @@
     display: none;
   }
 
-  &.mobileHotlinks {
+  &.mobile-hotlinks {
+    min-width: 200px;
     display: block;
     padding: margin;
     position: absolute;
@@ -69,12 +79,83 @@
     z-index: maxz;
 
     .hotlink {
-      padding: 0.5em;
+      padding: calc(margin / 2) 0;
+    }
+
+    > .hotlink:not(.hides-nested-items) {
+      border-top: 1px solid white;
+
+      &:last-of-type {
+        border-bottom: 1px solid white;
+      }
+    }
+
+    .coldlink {
+      display: block;
+      cursor: default;
+      font-size: 0.8rem;
+      width: 100%;
+      border-bottom: 1px solid white;
     }
   }
 }
 
-.mobileBurger {
+.hides-nested-items {
+  display: block;
+
+  * {
+    padding: 0;
+  }
+
+  span:hover {
+    text-decoration: none;
+  }
+
+  .nested-nav-items {
+    margin: 0;
+    list-style-type: none;
+
+    .hotlink {
+      padding: calc(margin / 2) 0;
+    }
+  }
+}
+
+@media (min-width: mobile) {
+  .hotlink,
+  .hotlinks {
+    height: 100%;
+  }
+
+  .hides-nested-items {
+    ul.nested-nav-items {
+      display: none;
+    }
+
+    &:hover {
+      ul.nested-nav-items {
+        display: block;
+      }
+    }
+
+    .nested-nav-items {
+      padding: 0 margin margin margin;
+      position: absolute;
+      top: 65px;
+      margin: 0 0 0 calc(-1 * margin);
+      background-color: dsared;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+      clip-path: inset(0 -10px -10px -10px);
+      z-index: maxz;
+
+      .hotlink {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.mobile-burger {
   background: none;
   border: none;
   box-shadow: none;
@@ -90,7 +171,7 @@
     display: block;
   }
 
-  .burgerLines {
+  .burger-lines {
     width: 35px;
     height: 3px;
     display: block;
@@ -140,11 +221,4 @@
       }
     }
   }
-}
-
-.logoDiv {
-  height: 50px;
-  width: 50px;
-  margin: 0;
-  margin-right: margin;
 }
