@@ -28,8 +28,14 @@ function SEO({ description, lang, meta, title, image }) {
   );
 
   const metaDescription = description || site.siteMetadata.description;
-  const ogImage =
-    typeof image === 'string' ? image : image.childImageSharp.fluid.src;
+  let ogImage;
+  if (!image) {
+    ogImage = logo;
+  } else if (typeof image === 'string') {
+    ogImage = image;
+  } else {
+    ogImage = image.childImageSharp.fluid.src;
+  }
 
   const schemaOrgJSONLD = {
     '@context': 'http://www.schema.org',
