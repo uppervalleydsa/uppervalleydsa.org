@@ -44,7 +44,10 @@ export default ({ data, children }) => {
 
   const preview = useContext(PreviewContext);
 
-  const image = findRespImageLink(htmlAst);
+  let image;
+  if (!preview) {
+    image = findRespImageLink(htmlAst);
+  }
 
   return (
     <>
