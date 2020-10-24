@@ -28,6 +28,8 @@ function SEO({ description, lang, meta, title, image }) {
   );
 
   const metaDescription = description || site.siteMetadata.description;
+  const ogImage =
+    typeof image === 'string' ? image : image.childImageSharp.fluid.src;
 
   const schemaOrgJSONLD = {
     '@context': 'http://www.schema.org',
@@ -79,7 +81,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           name: 'og:image',
-          content: image,
+          content: ogImage,
         },
       ].concat(meta)}
     >
@@ -102,7 +104,12 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
-  image: PropTypes.string,
+  image: PropTypes.oneOf([
+    PropTypes.string,
+    PropTypes.shape({
+      childImageSharp: PropTypes.shape,
+    }),
+  ]),
 };
 
 export default SEO;
