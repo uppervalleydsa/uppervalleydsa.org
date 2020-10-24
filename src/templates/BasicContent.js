@@ -10,9 +10,31 @@ const widgetComponents = {
   Signup,
 };
 
+const findRespImageLink = (ast) => {
+  if (
+    ast.tagName === 'a' &&
+    ast.properties &&
+    ast.properties.className &&
+    ast.properties.className.includes('gatsby-resp-image-link')
+  ) {
+    return ast.properties.href;
+  }
+
+  if (!ast.children) return undefined;
+
+  // eslint-disable-next-line no-restricted-syntax
+  return ast.children.reduce((prev, child) => {
+    const result = findRespImageLink(child);
+    if (!prev && result) {
+      return result;
+    }
+    return prev;
+  }, undefined);
+};
+
 /* eslint-disable react/no-danger */
 export default ({ data, children }) => {
-  const { html, frontmatter } = data.markdownRemark;
+  const { html, htmlAst, frontmatter } = data.markdownRemark;
   const { widgets, title, description } = frontmatter;
 
   const ifHtml = html ? { dangerouslySetInnerHTML: { __html: html } } : {};
@@ -22,9 +44,16 @@ export default ({ data, children }) => {
 
   const preview = useContext(PreviewContext);
 
+  let image;
+  if (!preview) {
+    image = findRespImageLink(htmlAst);
+  }
+
   return (
     <>
-      {!preview && <SEO title={title} description={description} />}
+      {!preview && (
+        <SEO title={title} description={description} image={image} />
+      )}
       <Layout>
         <div>
           <h1>{title}</h1>
@@ -40,6 +69,7 @@ export const query = graphql`
   query($url: String!) {
     markdownRemark(frontmatter: { url: { eq: $url } }) {
       html
+      htmlAst
       frontmatter {
         title
         description

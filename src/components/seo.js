@@ -10,7 +10,9 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
-function SEO({ description, lang, meta, title }) {
+import logo from '../images/logo-noborder.png';
+
+function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -26,6 +28,14 @@ function SEO({ description, lang, meta, title }) {
   );
 
   const metaDescription = description || site.siteMetadata.description;
+  let ogImage;
+  if (!image) {
+    ogImage = logo;
+  } else if (typeof image === 'string') {
+    ogImage = image;
+  } else {
+    ogImage = image.childImageSharp.fluid.src;
+  }
 
   const schemaOrgJSONLD = {
     '@context': 'http://www.schema.org',
@@ -75,6 +85,10 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          property: 'og:image',
+          content: ogImage,
+        },
       ].concat(meta)}
     >
       <script type="application/ld+json">
@@ -88,6 +102,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
+  image: logo,
 };
 
 SEO.propTypes = {
@@ -95,6 +110,12 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  image: PropTypes.oneOf([
+    PropTypes.string,
+    PropTypes.shape({
+      childImageSharp: PropTypes.shape,
+    }),
+  ]),
 };
 
 export default SEO;
