@@ -1,8 +1,7 @@
 ---
 title: About
-url: /about/
+url: /about
 ---
-
 The Upper Valley is a regional community centered on the Connecticut River, with towns in both New Hampshire and Vermont. We are the local chapter of the [Democratic Socialists of America](www.dsausa.org), a political organizing group focused on improving conditions for all people, everywhere. We believe that working people should run both the economy and society democratically to meet human needs, not to make profits for a few. We are a political and activist organization, not a party; through campus and community-based chapters, DSA members use a variety of tactics, from legislative to direct action, to fight for reforms that empower working people.
 
 ## National Priorities
@@ -38,5 +37,3 @@ Through collaborative study, reading and book discussion groups, activist speake
 ### Organizing
 
 While individual voting is important, political power is wielded by groups of people who come together to make their voices heard. Democratic Socialism is and has always been about fighting for improved conditions. The Upper Valley DSA organizing committee meets regularly to find opportunities throughout the Upper Valley of VT/NH to build coalitions and pressure government officials to enact more just policies, as well as directly helping those in need, especially in times of crisis. For more information, [check out our ongoing campaigns.](https://uppervalleydsa.org/organizing/)
-
-![Do something](/uploads/organize.jpg)
