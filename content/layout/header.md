@@ -7,7 +7,7 @@ links:
       - subtitle: Contact
         url: /contact
       - subtitle: Join
-        url: https://dsausa.org/join
+        url: /join
   - title: Issues
     sublinks:
       - subtitle: Our issues
