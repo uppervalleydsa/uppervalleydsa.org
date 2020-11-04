@@ -14,7 +14,7 @@ All are welcome to our General Body Meetings, 2nd Monday of every month at 8 PM.
 
 Come to one of our Political Education events, like [Book Club](https://fb.me/e/37PzH5xM3), or [Socialist Night School](https://fb.me/e/4oCCw01wV) to learn more about Democratic Socialism. 
 
-[Become a dues paying member of DSA](dsausa.org/join) - there's a sliding scale, so don't be intimidated. They'll send us your name eventually, but we'd rather [you reached out ](/contact)directly as well!
+[Become a dues paying member of DSA](https://dsausa.org/join) - there's a sliding scale, so don't be intimidated. They'll send us your name eventually, but we'd rather [you reached out ](/contact)directly as well!
 
 Ultimately, we hope you'll become an active organizer - get involved in one of our working groups, do research, recruit more members and organizers, take part in actions, mutual aid, and more! Build power, solidarity, and win for all.
 
