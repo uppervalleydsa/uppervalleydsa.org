@@ -26,4 +26,4 @@ The ongoing global pandemic has stripped the veil from a society not broken, but
 
 As we build power and find solidarity among all the groups cast aside by the powerful in their vacuous hunger for more and more, we can and will bring about the needed revolution. But it starts in your town, in your neighbourhood, with your neighbours, coworkers, and friends. As our chapter co-chair Kendall Dix wrote in this letter to the local newspaper, “mainstream liberals push a narrative that political work only happens a few times a year on election days. As socialists, we know that organizing is a year-round activity.”
 
-So join us. We here at DSA are building a coalition of working class people, to bring about a society, an economy, and a government that works for people, not for capital. Isn’t it time you joined the struggle?
+So join us. We here at UV DSA are building a coalition of working class people, to bring about a society, an economy, and a government that works for people, not for capital. Isn’t it time [you joined the struggle?](/join)
