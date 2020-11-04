@@ -2,11 +2,13 @@
 title: Organise
 author: Upper Valley DSA
 date: 2020-11-04T02:43:34.604Z
-thumbnail: /uploads/help-us.jpg
+thumbnail: ""
 ---
 As the dust settles on the most contentious and bizarre national election in living memory, many of us are left with a profound dissatisfaction. Having been forced to choose between two elderly, white, male, sexual predators for the umpteenth time, being shamed into choosing ‘harm reduction’, and choosing the ‘lesser of two evils’, how can people of good conscience continue the struggle for equality, freedom, and opportunity that our society promises?
 
 Our federal government, with this man at the helm, will now continue its bipartisan policies of caging brown children, bombing innocent civilians in countries that deny us free reign over their resources, and using dog-whistle code words to quiet dissent among the so-called ‘middle class’. It is as simple as using employer-provided, for-profit medecine to chain us to the bosses, so that the wealthy own the most fundamental parts of our existence: our health. And they will continue to claim that it is too ‘expensive’ to save our society from the catastrophic consequences of global climate change, or too politically difficult. 
+
+![same policies, different identity politics](/uploads/help-us.jpg "help us plz")
 
 *“We have come to this miserable state of affairs in large part because the left has failed to create an alternative to “lesser evils” who, along with the greater evils, have devastated lives and imperiled the planet” [New Politics Ed. Board](https://newpol.org/dont-support-biden-even-against-trump/)*
 
