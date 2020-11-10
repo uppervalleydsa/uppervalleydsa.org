@@ -10,7 +10,7 @@ We'll be hosting [orientation sessions every Tuesday in November and December at
 
 All are welcome to our General Body Meetings, 2nd Monday of every month at 8 PM. [Contact us](/contact) for info. 
 
-[Join our mailing list for updates](https://groups.google.com/g/upper-valley-dsa-bulletins/join)
+[Join our mailing list for updates](/contact)
 
 Come to one of our Political Education events, like [Book Club](https://fb.me/e/37PzH5xM3), or [Socialist Night School](https://fb.me/e/4oCCw01wV) to learn more about Democratic Socialism. 
 
