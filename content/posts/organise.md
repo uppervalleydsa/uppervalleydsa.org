@@ -2,7 +2,6 @@
 title: Organise
 author: Upper Valley DSA
 date: 2020-11-04T02:43:34.604Z
-thumbnail: ""
 ---
 As the dust settles on the most contentious and bizarre national election in living memory, many of us are left with a profound dissatisfaction. Having been forced to choose between two elderly, white, male, sexual predators for the umpteenth time, being shamed into choosing ‘harm reduction’, and choosing the ‘lesser of two evils’, how can people of good conscience continue the struggle for equality, freedom, and opportunity that our society promises?
 
