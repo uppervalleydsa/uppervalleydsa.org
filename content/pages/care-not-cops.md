@@ -6,9 +6,9 @@ url: /care-not-cops
 ---
 We are currently engaged in a campaign in Lebanon, NH to reallocate 50% of the police budget to other services that aid and support citizens. Please [read and sign our petition](https://docs.google.com/forms/d/e/1FAIpQLSe-CIQ2TXU22NvmwqyUqVhepf-br9Y1l7B5ud1AG9ds9pWPVA/viewform?usp=sf_link).
 
-This campaign is set to culminate in a Lebanon City Council meeting set for **Wednesday, November 18**. Members of UVDSA will present our CareNotCops proposal to the Lebanon City Council who will consider it as they determine the upcoming year's police budget. **We call on all DSA members to attend the Lebanon City Council meeting in solidarity with the CareNotCops campaign. [Learn how to attend the meeting here.](https://lebanonnh.gov/1359/Lebanon-Live-Meetings)**
+On Wednesday, November 18**,** members of UVDSA presented our CareNotCops proposal to the Lebanon City Council who will consider it as they determine the 2022 police budget. **Watch the presentation below.**
 
-![](/uploads/twitterbanner2.png)
+`youtube: OKegLmFdRFI`
 
 We believe that the current City of Lebanon budget priorities--which allocates $6.3 million to the police while allocating only $560,000 to health and human services--do not reflect the values of our community.
 
@@ -34,3 +34,5 @@ Mitigate potential funding cuts to key municipal departments, such as **Librarie
 Recreation and Parks**, and **Public Works**, so that they are fully able to carry out their duties for the City and its residents. Provide funding for the proposed **Lebanon Community Center**.
 
 **For more information, [please view our full proposal to the city council](https://drive.google.com/file/d/1W_grwocGp1kh9SwKLI6OeFc3fEz2GOCb/view?usp=sharing) or [Contact Us](/contact).**
+
+![](/uploads/twitterbanner2.png)
