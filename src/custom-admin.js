@@ -1,6 +1,7 @@
 import React from 'react';
 import CMS from 'netlify-cms-app';
 
+import * as YouTubeEditor from './components/YouTube/Editor';
 import { PreviewContext } from './constants';
 import BasicContent from './templates/BasicContent';
 import BlogEntry from './templates/BlogEntry';
@@ -32,6 +33,8 @@ const PreviewBlogEntry = (props) => <Preview {...props} template={BlogEntry} />;
 
 CMS.registerPreviewTemplate('pages', PreviewBasicContent);
 CMS.registerPreviewTemplate('blog', PreviewBlogEntry);
+
+CMS.registerEditorComponent(YouTubeEditor);
 
 CMS.init({
   config: {
