@@ -1,4 +1,4 @@
 ---
 from: /calendar
-to: https://calendar.google.com/calendar?cid=dG9scTg2ZDI5NzVrZWppaDE2MjVzN2pxZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
+to: https://calendar.google.com/calendar/embed?src=tolq86d2975kejih1625s7jqe0%40group.calendar.google.com&ctz=America%2FNew_York
 ---
