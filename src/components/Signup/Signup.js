@@ -1,43 +1,22 @@
 import React from 'react';
 
-import {
-  wrapper,
-  form,
-  row,
-  emailField,
-  subBtn,
-  subTitle,
-} from './signup.module.css';
+import { subTitle } from './signup.module.css';
 
 export default () => {
-  const group = 'upper-valley-dsa-bulletins';
   return (
-    <div className={wrapper}>
+    <div>
       <h4 className={subTitle}>Subscribe to our mailing list</h4>
-      <form
-        className={form}
-        target="_blank"
-        action={`http://groups.google.com/group/${group}/boxsubscribe`}
-      >
-        <div className={row}>
-          <input
-            className={emailField}
-            name="email"
-            placeholder="Email address"
-          />
-          <input
-            className={subBtn}
-            type="submit"
-            value="Subscribe"
-            name="sub"
-          />
-        </div>
-        <div className={row}>
-          <a href={`http://groups.google.com/group/${group}`}>
-            See recent posts
-          </a>
-        </div>
-      </form>
+      <p>
+        <span>Join the </span>
+        <a href="https://groups.google.com/u/2/g/upper-valley-dsa-bulletins">
+          Upper Valley DSA Bulletins group on Google Groups
+        </a>
+        <span> by sending an email to </span>
+        <a href="mailto:upper-valley-dsa-bulletins+subscribe@googlegroups.com">
+          upper-valley-dsa-bulletins+subscribe@googlegroups.com
+        </a>
+        <span>.</span>
+      </p>
     </div>
   );
 };

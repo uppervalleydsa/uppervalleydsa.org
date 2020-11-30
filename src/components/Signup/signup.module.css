@@ -5,17 +5,3 @@
 .subTitle {
   margin-bottom: calc(margin / 2);
 }
-
-.email-field {
-  height: 50px;
-  max-width: 350px;
-  width: calc(100% - 125px - margin / 2);
-  margin-right: calc(margin / 2);
-  padding: calc(margin / 2);
-  font-family: inherit;
-  border: 1px solid verylightgrey;
-}
-
-.sub-btn {
-  @extend %btn-primary;
-}
