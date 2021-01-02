@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { embedTarget } from './signup.module.css';
-
 const slug = 'sign-up-for-the-weekly-bulletin';
 
 const triggerEmbed = () => {
@@ -22,11 +20,7 @@ const triggerEmbed = () => {
 
 export default () => {
   return (
-    <div
-      className={embedTarget}
-      id={`can-form-area-${slug}`}
-      ref={triggerEmbed}
-    >
+    <div id={`can-form-area-${slug}`} ref={triggerEmbed}>
       <a href={`https://actionnetwork.org/forms/${slug}?source=direct_link`}>
         Sign up for the weekly Bulletin
       </a>
