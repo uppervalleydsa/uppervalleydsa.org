@@ -5,7 +5,8 @@
   "version": "0.1.0",
   "author": "Brian Jacobel <bjacobel@gmail.com>",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "aws-lambda": "1.0.6",

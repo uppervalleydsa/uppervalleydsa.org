@@ -1,10 +1,10 @@
-import { SQSEvent } from 'aws-lambda';
+import { APIGatewayEvent } from 'aws-lambda';
 
 import log from './utils/log';
 
-export default async (event: SQSEvent): Promise<string> => {
+export const handler = async (event: APIGatewayEvent): Promise<string> => {
   try {
-    return Promise.resolve(event.Records[0].eventSource);
+    return Promise.resolve(event.body || 'no body');
   } catch (e) {
     log.info(JSON.stringify(event, null, 2));
     log.error(e);
