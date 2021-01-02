@@ -6,7 +6,8 @@
   "author": "Brian Jacobel <bjacobel@gmail.com>",
   "scripts": {
     "build": "webpack",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "start": "netlify dev -f dist"
   },
   "dependencies": {
     "aws-lambda": "1.0.6",
