@@ -12,6 +12,7 @@ module.exports = {
     author: name,
     siteUrl: url,
   },
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',

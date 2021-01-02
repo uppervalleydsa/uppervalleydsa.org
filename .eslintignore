@@ -3,5 +3,6 @@ package.json
 package-lock.json
 public
 content/*
-node_modules
+**/node_modules
 .vscode
+**/dist

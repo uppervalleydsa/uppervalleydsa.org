@@ -4,6 +4,9 @@
   "description": "Gatsby site for the Upper Valley DSA",
   "version": "0.1.0",
   "author": "Brian Jacobel <bjacobel@gmail.com>",
+  "workspaces": [
+    "functions"
+  ],
   "dependencies": {
     "@juggle/resize-observer": "^3.2.0",
     "autoprefixer": "^9.8.6",
@@ -42,6 +45,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "netlify-cli": "^2.69.11",
     "netlify-cms-proxy-server": "^1.3.8",
     "prettier": "^2.2.1"
   },
@@ -50,11 +54,13 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "yarn run --silent build:site && yarn run --silent build:functions",
+    "build:functions": "yarn --silent workspace functions build",
+    "build:site": "gatsby build",
     "start": "concurrently \"netlify-cms-proxy-server\" \"GATSBY_NETLIFY_LOCAL_BACKEND=true gatsby develop\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint": "eslint . && prettier --ignore-path .eslintignore -c .",
+    "lint": "eslint . && prettier --ignore-path .eslintignore -c . && yarn --silent workspace functions typecheck",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
