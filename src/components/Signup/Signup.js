@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { subTitle, embedTarget } from './signup.module.css';
+import { embedTarget } from './signup.module.css';
 
 const slug = 'sign-up-for-the-weekly-bulletin';
 
