@@ -14,6 +14,8 @@ links:
         url: /organizing
       - subtitle: Care Not Cops
         url: /care-not-cops
+      - subtitle: Endorsements
+        url: /endorsements
   - title: Events
     sublinks:
       - subtitle: Events
