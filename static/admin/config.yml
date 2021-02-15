@@ -80,6 +80,14 @@ collections:
         options:
           - { label: 'Mailing list sign-up', value: 'Signup' }
           - { label: 'Calendar', value: 'Calendar' }
+      - label: 'Custom CSS'
+        required: false
+        name: 'css'
+        widget: 'code'
+        default_language: 'css'
+        output_code_only: true
+        allow_language_selection: false
+        hint: 'Inject custom CSS into the page. For advanced users.'
 
   - name: 'special'
     label: 'Special Pages'

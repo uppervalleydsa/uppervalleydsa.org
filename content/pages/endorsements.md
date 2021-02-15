@@ -1,6 +1,16 @@
 ---
-title: Contact
+title: Endorsements
 url: /endorsements
+css: |
+  ul.social-links {
+    margin: 0;
+  }
+
+  ul.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+    list-style-type: none;
+  }
 ---
 
 Upper Valley DSA endorses candidates for office whom the chapter believes will advance the goals of socialism locally. The chapter body endorses the below candidates on the basis of our shared support for our [organizing goals](/organizing), including: building a society where the government and economy work for the people and not the reverse; building a just future where everyone’s voice matters, and eradicating racism, sexism, Islamophobia, and the many forms of oppression upon which capitalism depends, and fighting for reforms to empower ordinary people.
@@ -9,11 +19,13 @@ Upper Valley DSA endorses candidates for office whom the chapter believes will a
 
 ### Lebanon City Council (Ward 2)
 
-Devin Wilkie, he/him, has been a resident of Lebanon for eight years. A nonfiction book publisher at Steerforth Press, his interests include free expression, arts advocacy, and truthful and informative storytelling. He has more than a decade of experience volunteering with political organizations on topics ranging from LGBTQ+ advocacy, intersectional feminism, youth activism, housing justice, electoral involvement, ecological environmentalism, and education access. He is an organizer for the NHWP Writers' Night Out and sits on the board for Housing First Upper Valley and Lebanon's Arts and Culture Commission. He looks forward to serving his community to ensure all voices are heard, especially those that are historically underrepresented, and that Lebanon remains a welcoming opportunity with a range of opportunities for all while recognizing its potential for growth and improvement.
+<ul class="social-links">
+  <li><a href="http://devinwilkie.com">Website</a></li>
+  <li><a href="https://twitter.com/devinbookman">Twitter</a></li>
+  <li><a href="https://www.facebook.com/DevinWilkie">Facebook</a></li>
+</ul>
 
-- [Website](http://devinwilkie.com)
-- [Twitter](https://twitter.com/devinbookman)
-- [Facebook](https://www.facebook.com/DevinWilkie)
+Devin Wilkie, he/him, has been a resident of Lebanon for eight years. A nonfiction book publisher at Steerforth Press, his interests include free expression, arts advocacy, and truthful and informative storytelling. He has more than a decade of experience volunteering with political organizations on topics ranging from LGBTQ+ advocacy, intersectional feminism, youth activism, housing justice, electoral involvement, ecological environmentalism, and education access. He is an organizer for the NHWP Writers' Night Out and sits on the board for Housing First Upper Valley and Lebanon's Arts and Culture Commission. He looks forward to serving his community to ensure all voices are heard, especially those that are historically underrepresented, and that Lebanon remains a welcoming opportunity with a range of opportunities for all while recognizing its potential for growth and improvement.
 
 ## Sylvia Puglisi
 
