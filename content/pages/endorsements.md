@@ -11,8 +11,13 @@ css: |
     margin-right: 20px;
     list-style-type: none;
   }
----
 
+  .floated-image {
+    float: right;
+    margin-left: 20px;
+    max-width: 300px;
+  }
+---
 Upper Valley DSA endorses candidates for office whom the chapter believes will advance the goals of socialism locally. The chapter body endorses the below candidates on the basis of our shared support for our [organizing goals](/organizing), including: building a society where the government and economy work for the people and not the reverse; building a just future where everyone’s voice matters, and eradicating racism, sexism, Islamophobia, and the many forms of oppression upon which capitalism depends, and fighting for reforms to empower ordinary people.
 
 ## Devin Wilkie
@@ -25,11 +30,31 @@ Upper Valley DSA endorses candidates for office whom the chapter believes will a
   <li><a href="https://www.facebook.com/DevinWilkie">Facebook</a></li>
 </ul>
 
+
+
+<div class="floated-image">
+
+![](/uploads/2018-12-07-12.50.19.jpg)
+
+</div>
+
 Devin Wilkie, he/him, has been a resident of Lebanon for eight years. A nonfiction book publisher at Steerforth Press, his interests include free expression, arts advocacy, and truthful and informative storytelling. He has more than a decade of experience volunteering with political organizations on topics ranging from LGBTQ+ advocacy, intersectional feminism, youth activism, housing justice, electoral involvement, ecological environmentalism, and education access. He is an organizer for the NHWP Writers' Night Out and sits on the board for Housing First Upper Valley and Lebanon's Arts and Culture Commission. He looks forward to serving his community to ensure all voices are heard, especially those that are historically underrepresented, and that Lebanon remains a welcoming opportunity with a range of opportunities for all while recognizing its potential for growth and improvement.
 
 ## Sylvia Puglisi
 
 ### Lebanon City Council (At Large)
+
+<ul class="social-links">
+  <li><a href="https://www.thesylvianfissure.me/">Website</a></li>
+  <li><a href="https://twitter.com/Sylvia_teacher">Twitter</a></li>
+  <li><a href="https://www.facebook.com/sylvia.puglisi">Facebook</a></li>
+</ul>
+
+<div class="floated-image">
+
+![](/uploads/mvimg_20180511_211922.jpg)
+
+</div>
 
 My name is Sylvia Puglisi and I am running for Lebanon City Council. I am running because I would like to offer my skills and resources to the people of Lebanon. In the past years, I fell in love with this community of considerate, practically-minded and self-sufficient individuals who have such a strong history of local organizing, caring for their neighbors, and inspiring political interest and investment. The details of government are often opaque and technical, and I admire intensely the work done by current and former Lebanon civil servants to make the structure and work of governing accessible and understandable — from updates and outreach programs to face-to-face conversation and community organizing. I believe I have a lot to add to these efforts, and I would like to invest my time and energy for the next years into building more and better ways for Lebanon’s community to invest in itself!
 
