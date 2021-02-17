@@ -3,21 +3,11 @@ title: Contact
 url: /contact
 widgets:
   - Signup
-css: |
-  .contact-illo {
-    float: right;
-    height: 200px;
-    width: 200px;
-  }
 ---
 
 ### Get in touch with us via the following channels:
 
-<div class="contact-illo">
-
-![Our differences make us strong.](/uploads/intersectionalism.png 'Intersectionalism')
-
-</div>
+<img src="/uploads/intersectionalism.png" style="float: right; max-width: 200px; margin-left: 20px" />
 
 - [Email Us](mailto:uppervalleydsa@gmail.com)
 - [Facebook](https://facebook.com/upper-valley-dsa)
