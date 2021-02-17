@@ -1,8 +1,9 @@
 ---
 title: Organizing
 description: The Upper Valley DSA is currently focused on several local
-  organizing priorities, including police and prison abolition, a just COVID-19
-  recovery, and the Welcoming Communities initiative.
+  organizing priorities, including police and prison abolition, Mutual Aid,
+  Housing Justice, a just COVID-19 recovery, and the Welcoming Communities
+  initiative.
 url: /organizing
 widgets:
   - Signup
@@ -20,6 +21,28 @@ The ultimate goal of the abolition of the police and prison industrial system is
 Another world is possible. Eliminating the power, control, and indeed the very existence of police and prisons is necessary to create it.
 
 ##### Visit the [Care Not Cops Campaign](/care-not-cops) page to see how we are organizing for this future in Lebanon, NH.
+
+### Mutual Aid
+
+Mutual aid is when people get together to meet each other's basic survival needs with a shared understanding that the systems we live under are not going to meet our needs and we can do it together right now. Mutual aid is a reciprocal exchange of resources and services for mutual benefit!
+
+SOLIDARITY, NOT CHARITY. “Charity” is a framework that often means rich people giving a little bit to poor people, and often frames people in need as morally lesser than rich people—as if poverty were the fault of the poor rather than the fault of systems of racism, heteropatriarchy, ableism, land theft and labor exploitation that make some people rich and keep other people poor. Charity looks like generosity from rich people, but actually upholds the systems that make most people poor for the benefit of the few.
+
+![Solidarity Not Charity](/uploads/46fa9356-f207-4443-bc22-f7a3534c00aa.jpeg "The People's Table")
+
+### The People's Table
+
+The People's Table is an effort to help those most in need in our communities by providing needed supplies, in accessible locations. It is also an opportunity for organizers to talk with vulnerable populations and learn more about their struggles. To get involved, [reach out!](/contact)
+
+### Bike Collective
+
+One of the clear messages from talking to folks at the People's Table was that transportation is an issue in the Upper Valley. Our chapter has a number of folks with experience and connections in the local cycling community. We are collecting and refurbishing bikes to provide to those most in need. 
+
+## Housing Justice
+
+Our Housing Justice research group is looking into a number of issues that touch everyone in the Upper Valley.  Immediate needs like Housing Insecurity and the need for a low-barrier shelter, as well as coordinated Prison Release housing; medium-term priorities like Tenant Union Organizing and Eviction Support; and longer term goals around Land-Use policy, alternative housing models, and more. This widely and deeply felt issue is everywhere in the Upper Valley and we need your help. Get involved. 
+
+
 
 ### COVID-19
 
