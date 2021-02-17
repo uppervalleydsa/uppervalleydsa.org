@@ -1,5 +1,7 @@
 ---
 title: Endorsements
+description: Upper Valley DSA endorses Sylvia Puglisi and Devin Wilkie for
+  Lebanon City Council. Vote in the City election on March 9th.
 url: /endorsements
 css: |
   ul.social-links {
@@ -12,8 +14,7 @@ css: |
     list-style-type: none;
   }
 ---
-
-Upper Valley DSA endorses candidates for office whom the chapter believes will advance the goals of socialism locally. The chapter body endorses the below candidates on the basis of our shared support for our [organizing goals](/organizing), including: building a society where the government and economy work for the people and not the reverse; building a just future where everyone’s voice matters, and eradicating racism, sexism, Islamophobia, and the many forms of oppression upon which capitalism depends, and fighting for reforms to empower ordinary people.
+Upper Valley DSA endorses candidates for office who the chapter believes will advance the goals of socialism locally. The chapter body endorses the below candidates on the basis of our shared support for our [organizing goals](/organizing), including: building a society where the government and economy work for the people and not the reverse; building a just future where everyone’s voice matters, and eradicating racism, sexism, Islamophobia, and the many forms of oppression upon which capitalism depends, and fighting for reforms to empower ordinary people.
 
 ## Devin Wilkie
 
