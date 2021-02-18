@@ -29,7 +29,6 @@ css: |
     }
   }
 ---
-
 Upper Valley DSA endorses candidates for office who the chapter believes will advance the goals of socialism locally. The chapter body endorses the below candidates on the basis of our shared support for our [organizing goals](/organizing), including: building a society where the government and economy work for the people and not the reverse; building a just future where everyone’s voice matters, and eradicating racism, sexism, Islamophobia, and the many forms of oppression upon which capitalism depends, and fighting for reforms to empower ordinary people.
 
 <a class="cta-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfJXt4bs1n-TojUBNjYuRw1b5QEzuym356SWpZnIdXtJ77IHA/viewform?usp=sf_link">Support our endorsed candidates in their campaigns to build a more just Upper Valley →</a>
@@ -50,7 +49,7 @@ Upper Valley DSA endorses candidates for office who the chapter believes will ad
 
 </div>
 
-Devin Wilkie, he/him, has been a resident of Lebanon for eight years. A nonfiction book publisher at Steerforth Press, his interests include free expression, arts advocacy, and truthful and informative storytelling. He has more than a decade of experience volunteering with political organizations on topics ranging from LGBTQ+ advocacy, intersectional feminism, youth activism, housing justice, electoral involvement, ecological environmentalism, and education access. He is an organizer for the NHWP Writers' Night Out and sits on the board for Housing First Upper Valley and Lebanon's Arts and Culture Commission. He looks forward to serving his community to ensure all voices are heard, especially those that are historically underrepresented, and that Lebanon remains a welcoming opportunity with a range of opportunities for all while recognizing its potential for growth and improvement.
+Devin Wilkie, he/him, has been a resident of Lebanon for eight years. A nonfiction book publisher at Steerforth Press, his interests include free expression, arts advocacy, and truthful and informative storytelling. He has more than a decade of experience volunteering with political organizations on topics ranging from LGBTQ+ advocacy, intersectional feminism, youth activism, housing justice, electoral involvement, ecological environmentalism, and education access. He is an organizer for the NHWP Writers' Night Out and sits on the board for Housing First Upper Valley and Lebanon's Arts and Culture Commission. He looks forward to serving his community to ensure all voices are heard, especially those that are historically underrepresented, and that Lebanon remains a welcoming community with a range of opportunities for all while recognizing its potential for growth and improvement.
 
 ## Sylvia Puglisi
 
