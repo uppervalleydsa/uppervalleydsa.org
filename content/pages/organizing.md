@@ -14,7 +14,7 @@ The Upper Valley DSA is currently focused on several local organizing priorities
 
 ### Lebanon City Council Election
 
-We are very pleased to endorse Sylvia Puglisi (At-Large) and Devin Wilkie (Ward 2) for Lebanon City Council. We'll be working hard to make sure these two excellent candidates get elected and bring power back to the people, where it belongs. We need your help! For more information about the candidates, and how to get involved, see our endorsement announcement.  
+We are very pleased to endorse Sylvia Puglisi (At-Large) and Devin Wilkie (Ward 2) for Lebanon City Council. We'll be working hard to make sure these two excellent candidates get elected and bring power back to the people, where it belongs. We need your help! For more information about the candidates, and how to get involved, see our [endorsement announcement](/endorsements).  
 
 ### Police and Prison Abolition
 
