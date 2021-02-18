@@ -1,0 +1,21 @@
+@value dsared from './colors.module.css';
+@value margin from './measurements.module.css';
+
+:global {
+  .cta-button {
+    display: block;
+    background-color: dsared;
+    color: white;
+    padding: margin;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    text-wrap: balance;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

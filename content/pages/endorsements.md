@@ -32,6 +32,8 @@ css: |
 
 Upper Valley DSA endorses candidates for office who the chapter believes will advance the goals of socialism locally. The chapter body endorses the below candidates on the basis of our shared support for our [organizing goals](/organizing), including: building a society where the government and economy work for the people and not the reverse; building a just future where everyone’s voice matters, and eradicating racism, sexism, Islamophobia, and the many forms of oppression upon which capitalism depends, and fighting for reforms to empower ordinary people.
 
+<a class="cta-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfJXt4bs1n-TojUBNjYuRw1b5QEzuym356SWpZnIdXtJ77IHA/viewform?usp=sf_link">Support our endorsed candidates in their campaigns to build a more just Upper Valley →</a>
+
 ## Devin Wilkie
 
 ### Lebanon City Council (Ward 2)
@@ -44,7 +46,7 @@ Upper Valley DSA endorses candidates for office who the chapter believes will ad
 
 <div class="floated-image">
 
-![](/uploads/2018-12-07-12.50.19.jpg)
+![](/uploads/devin.png)
 
 </div>
 
@@ -62,7 +64,7 @@ Devin Wilkie, he/him, has been a resident of Lebanon for eight years. A nonficti
 
 <div class="floated-image">
 
-![](/uploads/sylvia.jpg)
+![](/uploads/syl.png)
 
 </div>
 

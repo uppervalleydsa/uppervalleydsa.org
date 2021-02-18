@@ -13,6 +13,7 @@ import Footer from '../Footer';
 import { content, wrapper } from './layout.module.css';
 // @TODO: get all css into modules
 import '../../styles/global.css';
+import '../../styles/patterns.module.css';
 
 const Layout = ({ children }) => {
   return (
