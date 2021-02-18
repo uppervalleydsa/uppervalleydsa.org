@@ -35,7 +35,7 @@ const findRespImageLink = (ast) => {
 /* eslint-disable react/no-danger */
 export default ({ data, children }) => {
   const { html, htmlAst, frontmatter } = data.markdownRemark;
-  const { widgets, title, description } = frontmatter;
+  const { widgets, title, description, css } = frontmatter;
 
   const ifHtml = html ? { dangerouslySetInnerHTML: { __html: html } } : {};
   const requestedComponents = (widgets || []).map((name) =>
@@ -51,6 +51,7 @@ export default ({ data, children }) => {
 
   return (
     <>
+      <style type="text/css">{css}</style>
       {!preview && (
         <SEO title={title} description={description} image={image} />
       )}
@@ -71,6 +72,7 @@ export const query = graphql`
       html
       htmlAst
       frontmatter {
+        css
         title
         description
         widgets
