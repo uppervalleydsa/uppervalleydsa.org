@@ -12,6 +12,10 @@ widgets:
 
 The Upper Valley DSA is currently focused on several local organizing priorities. For more information or to get involved, [please contact us! ](https://uppervalleydsa.org/contact/)
 
+### Lebanon City Council Election
+
+We are very pleased to endorse Sylvia Puglisi (At-Large) and Devin Wilkie (Ward 2) for Lebanon City Council. We'll be working hard to make sure these two excellent candidates get elected and bring power back to the people, where it belongs. We need your help! For more information about the candidates, and how to get involved, see our endorsement announcement.  
+
 ### Police and Prison Abolition
 
 The Upper Valley Chapter of the Democratic Socialists of America stands in solidarity with Black and Indigenous communities and organizations who call for the abolition of police and prisons. The United States was founded on stolen land and built with stolen labor. Police forces were created to protect the rights of white supremacy and serve the interests of racial capitalism, including by suppressing working-class strikes and enforcing Black Codes and Jim Crow. These violent and repressive roles assigned to policing continue today, including through state sanctioned police lynchings and millions of disproportionately Black and indigenous people locked into prison slavery. We say, “Enough!” As a necessary step towards decolonization and an end to capitalism, we call for the abolition of police and prisons.
@@ -41,8 +45,6 @@ One of the clear messages from talking to folks at the People's Table was that t
 ## Housing Justice
 
 Our Housing Justice research group is looking into a number of issues that touch everyone in the Upper Valley.  Immediate needs like Housing Insecurity and the need for a low-barrier shelter, as well as coordinated Prison Release housing; medium-term priorities like Tenant Union Organizing and Eviction Support; and longer term goals around Land-Use policy, alternative housing models, and more. This widely and deeply felt issue is everywhere in the Upper Valley and we need your help. Get involved. 
-
-
 
 ### COVID-19
 
