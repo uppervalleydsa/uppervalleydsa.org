@@ -32,7 +32,7 @@ Mutual aid is when people get together to meet each other's basic survival needs
 
 SOLIDARITY, NOT CHARITY. “Charity” is a framework that often means rich people giving a little bit to poor people, and often frames people in need as morally lesser than rich people—as if poverty were the fault of the poor rather than the fault of systems of racism, heteropatriarchy, ableism, land theft and labor exploitation that make some people rich and keep other people poor. Charity looks like generosity from rich people, but actually upholds the systems that make most people poor for the benefit of the few.
 
-![Solidarity Not Charity](/uploads/46fa9356-f207-4443-bc22-f7a3534c00aa.jpeg "The People's Table")
+![Solidarity Not Charity](/uploads/image-from-ios-2-.jpg "The People's Table")
 
 ### The People's Table
 
