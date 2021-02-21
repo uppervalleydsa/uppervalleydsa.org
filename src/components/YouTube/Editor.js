@@ -13,27 +13,28 @@ export const label = 'YouTube Video';
 // Fields the user need to fill out when adding an instance of the component
 export const fields = [
   {
-    name: 'id',
-    label: 'YouTube Video ID',
+    name: 'url',
+    label: 'YouTube Video URL',
     hint:
-      'Just the letters after https://youtu.be/ or https://youtube.com/watch?v= (eg: OKegLmFdRFI)',
+      'Full, non-shortened HTTPS YouTube URL (eg: https://www.youtube.com/watch?v=OKegLmFdRFI). If the preview shows, the video works.',
     widget: 'string',
   },
 ];
 
 // Pattern to identify a block as being an instance of this component
-export const pattern = /^`youtube: ([a-zA-Z]+)`$/;
+export const pattern = /^`youtube: (\S+)`$/;
 
 // Function to extract data elements from the regexp match
 export const fromBlock = (match) => {
   return {
-    id: match[1],
+    url: match[1],
+    id: match[1].split('https://www.youtube.com/watch?v=')[1],
   };
 };
 
 // Function to create a text block from an instance of this component
 export const toBlock = (obj) => {
-  return `\`youtube: ${obj.id}\``;
+  return `\`youtube: ${obj.url}\``;
 };
 
 // Preview output for this component. Can either be a string or a React component

@@ -9,11 +9,11 @@ We are currently engaged in a campaign in Lebanon, NH to reallocate 50% of the p
 
 On Wednesday, November 18, members of UVDSA presented our CareNotCops proposal to the Lebanon City Council who will consider it as they determine the 2022 police budget. **Watch the presentation below.**
 
-`youtube: OKegLmFdRFI`
+`youtube: https://www.youtube.com/watch?v=OKegLmFdRFI`
 
 We believe that the current City of Lebanon budget priorities--which allocates $6.3 million to the police while allocating only $560,000 to health and human services--do not reflect the values of our community.
 
-We support reducing the police budget in Lebanon 50% by 2022 and reallocating the \$3.15 million to social services provided by the city and local non-profits.
+We support reducing the police budget in Lebanon 50% by 2022 and reallocating the $3.15 million to social services provided by the city and local non-profits.
 
 We believe re-allocating a portion of public funds from the police department will create a safer and healthier community by providing much-needed resources for senior services, substance abuse counseling, affordable housing, transportation, and other social services.
 
