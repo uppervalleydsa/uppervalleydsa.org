@@ -4,6 +4,7 @@ author: Brian Jacobel
 date: 2021-02-22T01:10:30.308Z
 thumbnail: /uploads/8459118346_d5e24e2741_o.jpg
 ---
+
 The past week saw a devastating winter storm sweep Texas, plunging the state into darkness and cold as infrastructure failed and politicians stood by. We stand in solidarity with our Texan comrades, and encourage those with means to donate to the mutual aid funds linked below.
 
 Texas is a case study in the compounding crises of capitalism. Nearly 20% of Texans do not have health insurance, the [highest uninsured rate in the nation](https://www.texastribune.org/2019/09/10/texas-has-most-people-without-health-insurance-nation-again/) and more than double the national average. The electrical grid has been [systematically privatized and deregulated](https://www.huffpost.com/entry/texas-power-grid-failure-why_n_602e9682c5b6cc8bbf3a0268), allowing corporations to delay needed repairs in search of greater profits. Houselessness has skyrocketed as Texan cities have gentrified, [especially in the Houston and Austin areas](https://www.statesman.com/news/20200519/austin-sees-11-increase-in-homeless-count-45-increase-in-unsheltered-population). Warming locations opened as the cold hit, but some were forced to stay away – [police have been known to “sweep” encampments](https://discourseblog.com/texas-winter-crisis-houseless-people/) while houseless residents seek warmth, destroying the belongings of the unsheltered. For those Texans fortunate enough to have power and heat, another shock may be coming – greedy power companies have increased rates more than one hundredfold, and households are already seeing [electrical bills in the tens of thousands of dollars](https://www.nytimes.com/2021/02/20/us/texas-storm-electric-bills.html). One executive bragged that the storm was [“like hitting the jackpot”](https://twitter.com/NPR/status/1363292381156638720?s=20) for his oil and gas company. The death toll now nears 60, most of them Texans [experiencing houselessness, poverty and unmet medical need.](https://www.nytimes.com/2021/02/19/us/texas-deaths-winter-storm.html)
@@ -24,9 +25,9 @@ Texans seemed to agree, as Mayor Boyd was forced to resign within days of the po
 
 We’ve heard strains of this same song from local leaders in the Upper Valley before. In November, Lebanon mayor Tim McNamara spoke in opposition to reallocating some of the [enormous Lebanon police budget](https://uppervalleydsa.org/care-not-cops) towards increased social services, including a community center and programs to address hunger and mental health, by saying:
 
-> One of the problems with allocating additional resources to human services is that people will tend to gravitate towards those areas where services are provided. 
+> One of the problems with allocating additional resources to human services is that people will tend to gravitate towards those areas where services are provided.
 >
-> – *Lebanon Mayor Tim MacNamara, Nov. 18, 2020*
+> – _Lebanon Mayor Tim McNamara, Nov. 18, 2020_
 
 `youtube: https://www.youtube.com/watch?v=Uu4Vx-c1PHs`
 
@@ -36,9 +37,9 @@ We are not on our own. Even if our local leaders disagree, residents of the Uppe
 
 If you have the means, please consider donating to one of these Texan mutual aid funds.
 
-* [Austin Mutual Aid](https://www.facebook.com/AustinMutualAid/)
-* [Houseless Organizing Coalition](https://linktr.ee/htx.hoc) (Houston)
-* [Houston Mutual Aid](https://t.co/vM9Coo0k1r?amp=1)
-* [Feed The People Dallas Mutual Aid](https://www.facebook.com/feedthepeopledallas/)
+- [Austin Mutual Aid](https://www.facebook.com/AustinMutualAid/)
+- [Houseless Organizing Coalition](https://linktr.ee/htx.hoc) (Houston)
+- [Houston Mutual Aid](https://t.co/vM9Coo0k1r?amp=1)
+- [Feed The People Dallas Mutual Aid](https://www.facebook.com/feedthepeopledallas/)
 
-*Lead photo credit: [Corey Templeton, Flickr](https://www.flickr.com/photos/coreytempleton/8459118346/) ([CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/))*
+_Lead photo credit: [Corey Templeton, Flickr](https://www.flickr.com/photos/coreytempleton/8459118346/) ([CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/))_
