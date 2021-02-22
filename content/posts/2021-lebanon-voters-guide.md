@@ -3,13 +3,15 @@ title: 2021 Lebanon Voter's Guide
 author: Upper Valley DSA
 date: 2021-02-15T02:47:34.180Z
 thumbnail: /uploads/voters-guide-banner.png
-css: |
-  a { text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  h1 {font-weight: 900;}
-  h2, h3{ font-weight: 900; color: #666666}
-  li {margin-bottom: 0px;}
 ---
+
+<style type='text/css'>
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h1 {font-weight: 900;}
+    h2, h3{ font-weight: 900; color: #666666}
+    li {margin-bottom: 0px;}
+</style>
 
 # Make Sure Your Voice is Heard.
 
