@@ -1,8 +1,8 @@
 ---
 title: You're (Not) on Your Own
 author: Brian Jacobel
-date: 2021-02-22T01:10:30.308Z
-thumbnail: /uploads/8459118346_d5e24e2741_o.jpg
+date: 2021-02-21T10:10:30.308Z
+thumbnail: /uploads/storm.jpg
 ---
 
 The past week saw a devastating winter storm sweep Texas, plunging the state into darkness and cold as infrastructure failed and politicians stood by. We stand in solidarity with our Texan comrades, and encourage those with means to donate to the mutual aid funds linked below.
