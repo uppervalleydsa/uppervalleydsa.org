@@ -18,4 +18,19 @@
       text-decoration: underline;
     }
   }
+
+  .floated-image {
+    float: right;
+    margin-left: 20px;
+    width: 100%;
+    max-width: 250px;
+  }
+
+  @media (max-width: 400px) {
+    .floated-image {
+      margin: 0;
+      float: none;
+      max-width: unset;
+    }
+  }
 }
