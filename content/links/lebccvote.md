@@ -1,4 +1,4 @@
 ---
 from: /LebCCVote
-to: https://docs.google.com/document/d/1TAryh0y_A8_ozBiy-QWQ9rVQLSg9mtHW-MYupfXZwGg/edit?usp=sharing
+to: https://uppervalleydsa.org/blog/2021-02-15-2021-lebanon-voters-guide/
 ---
