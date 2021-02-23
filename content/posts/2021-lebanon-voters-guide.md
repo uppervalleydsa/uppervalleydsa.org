@@ -11,6 +11,7 @@ thumbnail: /uploads/voters-guide-banner.png
     h1 {font-weight: 900;}
     h2, h3{ font-weight: 900; color: #666666}
     li {margin-bottom: 0px;}
+    * {font-size: 1.2rem}
 </style>
 
 # Make Sure Your Voice is Heard.
