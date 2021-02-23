@@ -2,7 +2,7 @@
 title: 2021 Lebanon Voter's Guide
 author: Upper Valley DSA
 date: 2021-02-15T02:47:34.180Z
-thumbnail: /uploads/voters-guide-banner.png
+thumbnail: /uploads/voters-guide-banner-sm.png
 
 ---
 
