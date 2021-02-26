@@ -1,0 +1,24 @@
+@value dsatan, dsared from '../../styles/colors.module.css';
+@value mobile, margin, contentWell from '../../styles/measurements.module.css';
+
+.banner {
+  text-align: center;
+  padding: margin;
+  margin: calc(-0.5 * margin) auto margin auto;
+  width: 100%;
+  max-width: contentWell;
+  background-color: dsatan;
+
+  * {
+    color: dsared;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

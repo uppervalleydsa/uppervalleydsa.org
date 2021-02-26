@@ -3,4 +3,5 @@
 
 /* layout */
 @value margin: 20px;
+@value contentWell: 960px;
 @value maxz: 2147483647;

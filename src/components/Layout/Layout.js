@@ -9,6 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Header from '../Header';
+import Banner from '../Banner';
 import Footer from '../Footer';
 import { content, wrapper } from './layout.module.css';
 // @TODO: get all css into modules
@@ -19,6 +20,7 @@ const Layout = ({ children }) => {
   return (
     <div className={wrapper}>
       <Header />
+      <Banner />
       <main className={content}>
         <main>{children}</main>
       </main>
