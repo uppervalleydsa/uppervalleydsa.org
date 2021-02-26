@@ -17,6 +17,10 @@
   a {
     text-decoration: none;
 
+    strong {
+      font-weight: 900;
+    }
+
     &:hover {
       text-decoration: underline;
     }
