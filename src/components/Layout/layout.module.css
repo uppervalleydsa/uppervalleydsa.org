@@ -1,4 +1,4 @@
-@value margin, mobile from '../../styles/measurements.module.css';
+@value margin, mobile, contentWell from '../../styles/measurements.module.css';
 
 .wrapper {
   display: flex;
@@ -8,7 +8,7 @@
 
 .content {
   flex: 1;
-  max-width: 960px;
+  max-width: contentWell;
   width: 100%;
   padding: 0 margin;
   margin: 0 auto;
