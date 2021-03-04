@@ -16,21 +16,21 @@ module.exports = {
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `uploads`,
+        name: 'uploads',
         path: path.join(__dirname, 'static/uploads/'),
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `content`,
+        name: 'content',
         path: path.join(__dirname, 'content'),
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
@@ -49,10 +49,10 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-relative-images`,
+            resolve: 'gatsby-remark-relative-images',
           },
           {
-            resolve: `gatsby-remark-images`,
+            resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 960,
             },
@@ -71,7 +71,7 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-plugin-netlify-cms`,
+      resolve: 'gatsby-plugin-netlify-cms',
       options: {
         manualInit: true,
         enableIdentityWidget: false,
@@ -92,6 +92,12 @@ module.exports = {
       options: {
         trackingId: 'UA-174910115-1',
         exclude: ['/admin/**'],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-facebook-pixel',
+      options: {
+        pixelId: '780995026178743',
       },
     },
   ],

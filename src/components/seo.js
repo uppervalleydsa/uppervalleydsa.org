@@ -110,7 +110,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
-  image: PropTypes.oneOf([
+  image: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.shape({
       childImageSharp: PropTypes.shape,

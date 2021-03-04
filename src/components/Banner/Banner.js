@@ -20,10 +20,10 @@ const query = graphql`
 const Banner = () => {
   const preview = useContext(PreviewContext);
   const client = useIsClient();
+  const data = useStaticQuery(query);
 
   // Don't render these in the preview (CMS), or on the server
   if (!client || preview) return null;
-  const data = useStaticQuery(query);
   const { html, frontmatter } = data.markdownRemark;
   const { expires } = frontmatter;
 
