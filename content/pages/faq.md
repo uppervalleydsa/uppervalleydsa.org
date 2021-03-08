@@ -4,7 +4,7 @@ description: Frequently asked questions and resources for members of Upper Valle
 url: /faq
 ---
 
-## FAQ for New Members
+## New Members
 
 ### Q: Where are meetings?
 
