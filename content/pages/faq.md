@@ -1,8 +1,10 @@
 ---
-title: New Members
-description: Resources for new members of Upper Valley DSA.
-url: /new-members
+title: FAQ
+description: Frequently asked questions and resources for members of Upper Valley DSA.
+url: /faq
 ---
+
+## FAQ for New Members
 
 ### Q: Where are meetings?
 
