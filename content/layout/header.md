@@ -6,6 +6,8 @@ links:
         url: /about
       - subtitle: Contact
         url: /contact
+      - subtitle: FAQ
+        url: /faq
       - subtitle: Join
         url: /join
   - title: Issues
