@@ -107,6 +107,7 @@ collections:
         name: 'banner'
         file: 'content/layout/banner.md'
         fields:
+          - { label: 'Enabled', name: 'enabled', widget: 'boolean' }
           - { label: 'Active until', name: 'expires', widget: 'datetime' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Header links'

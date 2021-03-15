@@ -1,6 +1,11 @@
 ---
 title: How to Join the Struggle!
 url: /join
+css: |-
+  .join-img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
 ---
 There are so many different ways to get involved. We are a broad, welcoming, inclusive organization, and your talents, enthusiasm, and efforts are needed for this very important work. 
 
@@ -20,4 +25,8 @@ Ultimately, we hope you'll become an active organizer - get involved in one of o
 
 Please reach out if you have questions, however it makes the most sense for you to do so. [Contact us today!](/contact)
 
+<div class="join-img">
+
 ![](/uploads/one-struggle.png)
+
+</div>

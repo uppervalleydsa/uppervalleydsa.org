@@ -12,22 +12,30 @@ const query = graphql`
       html
       frontmatter {
         expires
+        enabled
       }
     }
   }
 `;
 
+const mockData = {
+  markdownRemark: {
+    frontmatter: {
+      enabled: false,
+    },
+  },
+};
+
 const Banner = () => {
   const preview = useContext(PreviewContext);
   const client = useIsClient();
-  const data = useStaticQuery(query);
+  const data = preview || !client ? mockData : useStaticQuery(query);
 
   // Don't render these in the preview (CMS), or on the server
-  if (!client || preview) return null;
   const { html, frontmatter } = data.markdownRemark;
-  const { expires } = frontmatter;
+  const { expires, enabled } = frontmatter;
 
-  if (moment().diff(expires) > 0) return null;
+  if (!enabled || moment().diff(expires) > 0) return null;
 
   // eslint-disable-next-line react/no-danger
   return <div className={banner} dangerouslySetInnerHTML={{ __html: html }} />;
