@@ -26,7 +26,7 @@
     "gatsby-transformer-remark": "^2.16.1",
     "gatsby-transformer-sharp": "^2.12.1",
     "moment": "^2.29.1",
-    "netlify-cms-app": "^2.14.29",
+    "netlify-cms-app": "^2.14.30",
     "postcss-font-magician": "^2.3.1",
     "precss": "2",
     "prop-types": "^15.7.2",
