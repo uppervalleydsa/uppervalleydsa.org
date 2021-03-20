@@ -29,13 +29,13 @@ const mockData = {
 const Banner = () => {
   const preview = useContext(PreviewContext);
   const client = useIsClient();
-  const data = preview || !client ? mockData : useStaticQuery(query);
+  const data = preview ? mockData : useStaticQuery(query);
 
   // Don't render these in the preview (CMS), or on the server
   const { html, frontmatter } = data.markdownRemark;
   const { expires, enabled } = frontmatter;
 
-  if (!enabled || moment().diff(expires) > 0) return null;
+  if (!enabled || !client || moment().diff(expires) > 0) return null;
 
   // eslint-disable-next-line react/no-danger
   return <div className={banner} dangerouslySetInnerHTML={{ __html: html }} />;
