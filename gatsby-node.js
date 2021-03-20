@@ -67,7 +67,32 @@ exports.createPages = async ({ actions, graphql }) => {
     }
   `);
 
-  blogPages.allMarkdownRemark.edges.forEach(({ node }) => {
+  const allBlogs = blogPages.allMarkdownRemark.edges;
+  const postsPerPage = 6;
+  const numPages = Math.ceil(allBlogs.length / postsPerPage);
+
+  // blog pagination entries
+  Array.from({ length: numPages }).forEach((_, i) => {
+    actions.createPage({
+      path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+      component: require.resolve('./src/templates/BlogIndex'),
+      context: {
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    });
+  });
+
+  actions.createPage({
+    path: '/blog/1',
+    component: require.resolve(`./src/templates/Redirect.js`),
+    context: { to: '/blog' },
+  });
+
+  // individual blog pages
+  allBlogs.forEach(({ node }) => {
     const {
       fields: { filepath, url },
     } = node;
