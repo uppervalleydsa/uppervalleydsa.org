@@ -1,0 +1,5 @@
+{
+  "name": "BlogIndex",
+  "main": "./BlogIndex.js",
+  "private": true
+}
