@@ -1,0 +1,33 @@
+@value margin, maxz from '../../styles/measurements.module.css';
+@value darkgrey from '../../styles/colors.module.css';
+
+.spinWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  top: calc(margin / 2);
+  right: calc(margin / 2);
+  flex-direction: column;
+  z-index: maxz;
+}
+
+.spinner {
+  height: 30px;
+  width: 30px;
+  animation: rotate 0.8s infinite linear;
+  border: 7px solid darkgrey;
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

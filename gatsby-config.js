@@ -1,7 +1,15 @@
 const path = require('path');
+const dotenv = require('dotenv');
+
+dotenv.config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
 
 const name = 'Upper Valley DSA';
-const url = 'https://uppervalleydsa.org';
+const url =
+  process.env.NODE_ENV === 'development'
+    ? 'http://localhost:8000'
+    : 'https://uppervalleydsa.org';
 const description =
   'Upper Valley (Vermont and New Hampshire) chapter of the largest socialist organization in the United States.';
 const privateRoutes = ['/members', '/admin/*'];
@@ -132,6 +140,14 @@ module.exports = {
             host: null,
           },
         },
+      },
+    },
+    {
+      resolve: `gatsby-source-stripe`,
+      options: {
+        objects: ['Price', 'Product'],
+        secretKey: process.env.STRIPE_SECRET_KEY,
+        downloadFiles: false,
       },
     },
   ],
