@@ -1,9 +1,18 @@
 const path = require('path');
+const dotenv = require('dotenv');
+
+dotenv.config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
 
 const name = 'Upper Valley DSA';
-const url = 'https://uppervalleydsa.org';
+const url =
+  process.env.NODE_ENV === 'development'
+    ? 'http://localhost:8000'
+    : 'https://uppervalleydsa.org';
 const description =
   'Upper Valley (Vermont and New Hampshire) chapter of the largest socialist organization in the United States.';
+const privateRoutes = ['/members', '/admin/*'];
 
 module.exports = {
   siteMetadata: {
@@ -86,7 +95,12 @@ module.exports = {
         logo: './src/images/logo-noborder.png',
       },
     },
-    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        exclude: privateRoutes,
+      },
+    },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
@@ -98,6 +112,42 @@ module.exports = {
       resolve: 'gatsby-plugin-facebook-pixel',
       options: {
         pixelId: '768928687350834',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        env: {
+          production: {
+            host: url,
+            sitemap: `${url}/sitemap.xml`,
+            policy: [
+              {
+                userAgent: '*',
+                allow: '/',
+                disallow: privateRoutes,
+              },
+            ],
+          },
+          'branch-deploy': {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+            sitemap: null,
+            host: null,
+          },
+          'deploy-preview': {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+            sitemap: null,
+            host: null,
+          },
+        },
+      },
+    },
+    {
+      resolve: `gatsby-source-stripe`,
+      options: {
+        objects: ['Price', 'Product'],
+        secretKey: process.env.STRIPE_SECRET_KEY,
+        downloadFiles: false,
       },
     },
   ],

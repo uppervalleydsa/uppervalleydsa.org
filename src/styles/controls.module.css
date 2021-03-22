@@ -1,12 +1,14 @@
 @value dsared, verylightgrey from '../../styles/colors.module.css';
+@value margin, radius from '../../styles/measurements.module.css';
 
 %btn {
   min-width: 125px;
   height: 50px;
-  padding: calc(margin / 2);
+  padding: calc(margin / 2) margin;
   font-weight: 700;
   outline: none;
   cursor: pointer;
+  border-radius: radius;
   transition: box-shadow 0.2s ease-in-out;
 
   &:hover {
@@ -26,4 +28,13 @@
   color: dsared;
   background: white;
   border: 3px solid dsared;
+}
+
+%btn-text {
+  background: none;
+  border: none;
+  padding: 0;
+  color: dsared;
+  text-decoration: underline;
+  cursor: pointer;
 }

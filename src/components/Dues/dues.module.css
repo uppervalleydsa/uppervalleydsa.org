@@ -1,0 +1,38 @@
+@import '../../styles/controls.module.css';
+
+.checkoutBtn {
+  @extend %btn-primary;
+}
+
+.dues {
+  position: relative;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      margin: 0 margin margin margin;
+    }
+  }
+
+  &.checkoutLoading {
+    button {
+      opacity: 0.1;
+    }
+  }
+}
+
+.freeDuesBtn {
+  @extend %btn-text;
+  font-style: italic;
+}
+
+.spinner {
+  position: absolute;
+  left: 0;
+  top: 25%;
+}

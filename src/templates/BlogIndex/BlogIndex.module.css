@@ -1,5 +1,5 @@
 @value lightgrey, verylightgrey, dsared from '../../styles/colors.module.css';
-@value mobile, margin from '../../styles/measurements.module.css';
+@value mobile, margin, radius from '../../styles/measurements.module.css';
 
 .list {
   list-style-type: none;
@@ -68,7 +68,7 @@
       background-color: dsared;
       cursor: pointer;
       transition: box-shadow 0.2s ease-in-out;
-      border-radius: 5px;
+      border-radius: radius;
       text-align: center;
       display: flex;
       align-items: center;
