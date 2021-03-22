@@ -70,5 +70,8 @@
   },
   "bugs": {
     "url": "https://github.com/bjacobel/uvdsa/issues"
+  },
+  "resolutions": {
+    "gatsby-source-filesystem": "2.11.1"
   }
 }
