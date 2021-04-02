@@ -8,10 +8,10 @@ export default ({ pageContext }) => {
   if (pageContext.success) {
     return (
       <Layout>
-        <h2>Dues payment complete</h2>
+        <h2>Dues enrollment complete</h2>
         <p>
-          Your dues have been processed sucessfully, and a reciept will be sent
-          to your email on file.
+          You have sucessfully been enrolled in monthly chapter dues. If you
+          made a payment, a receipt will be send to your email on file.
         </p>
         <p>
           For any questions about your dues membership, please email
@@ -25,9 +25,9 @@ export default ({ pageContext }) => {
   if (pageContext.failure) {
     return (
       <Layout>
-        <h2>Dues payment error</h2>
+        <h2>Dues enrollment error</h2>
         <p>
-          <span>Your dues payment could not be completed. </span>
+          <span>Your dues enrollment could not be completed. </span>
           <Link to="/members">Please try again.</Link>
         </p>
         <p>

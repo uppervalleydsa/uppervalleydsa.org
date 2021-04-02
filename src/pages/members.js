@@ -21,7 +21,7 @@ const Members = ({ data }) => (
 
     <h3>Dues</h3>
     <p>
-      <span>Optional dues help sustain the chapter&#39;s </span>
+      <span>Optional monthly dues help sustain the chapter&#39;s </span>
       <Link to="/issues">organizing priorities</Link>
       <span> and fund mutual aid projects. </span>
       <span>
@@ -32,6 +32,7 @@ const Members = ({ data }) => (
       <span> </span>
       <Mailto address="dues@uppervalleydsa.org" />.
     </p>
+    <p>You can enroll in dues at any of the following tiers, paid monthly:</p>
     <Dues prices={data.prices.edges} />
   </Layout>
 );
