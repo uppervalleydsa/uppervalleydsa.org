@@ -1,5 +1,5 @@
-@value dsared, verylightgrey from '../../styles/colors.module.css';
-@value margin, radius from '../../styles/measurements.module.css';
+@value dsared, verylightgrey from './colors.module.css';
+@value margin, radius from './measurements.module.css';
 
 %btn {
   min-width: 125px;
