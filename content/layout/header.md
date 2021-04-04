@@ -10,6 +10,8 @@ links:
         url: /faq
       - subtitle: Join
         url: /join
+      - subtitle: Donate
+        url: /donate
   - title: Issues
     sublinks:
       - subtitle: Our issues

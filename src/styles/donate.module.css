@@ -1,0 +1,5 @@
+@import './controls.module.css';
+
+.donateBtn {
+  @extend %btn-primary;
+}

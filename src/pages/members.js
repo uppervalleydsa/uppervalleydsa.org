@@ -42,7 +42,8 @@ const Members = ({ location, data }) => {
   const [freeDues, ...paidDues] = data.prices.edges;
 
   const { siteUrl } = data.site.siteMetadata;
-  const callbackUrls = {
+  const options = {
+    mode: 'subscription',
     successUrl: `${siteUrl}/members#dues-success`,
     cancelUrl: `${siteUrl}/members#dues-error`,
   };
@@ -95,7 +96,7 @@ const Members = ({ location, data }) => {
                   disabled={loading}
                   className={checkoutBtn}
                   onClick={(e) =>
-                    redirectToCheckout(e, node.id, callbackUrls, setLoading)
+                    redirectToCheckout(e, node.id, options, setLoading)
                   }
                 >
                   ${node.unit_amount / 100}
@@ -108,7 +109,7 @@ const Members = ({ location, data }) => {
             type="button"
             className={freeDuesBtn}
             onClick={(e) =>
-              redirectToCheckout(e, freeDues.node.id, callbackUrls, setLoading)
+              redirectToCheckout(e, freeDues.node.id, options, setLoading)
             }
           >
             Formal membership with waived fees is also available.
