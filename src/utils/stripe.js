@@ -10,15 +10,19 @@ export const memoizedClient = async () => {
   return stripeInstance;
 };
 
-export const redirectToCheckout = async (event, price, setLoading, siteUrl) => {
+export const redirectToCheckout = async (
+  event,
+  price,
+  callbackUrls,
+  setLoading,
+) => {
   event.preventDefault();
   setLoading(true);
   const stripe = await memoizedClient();
   const { error } = await stripe.redirectToCheckout({
     mode: 'subscription',
     lineItems: [{ price, quantity: 1 }],
-    successUrl: `${siteUrl}/members/dues-success`,
-    cancelUrl: `${siteUrl}/members/dues-error`,
+    ...callbackUrls,
   });
 
   if (error) {
