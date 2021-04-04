@@ -131,7 +131,7 @@ const Members = ({ location, data }) => {
         </p>
       </Layout>
     );
-  } else if (hash === '#dues-failure') {
+  } else if (hash === '#dues-error') {
     return (
       <Layout>
         <h2>Dues enrollment error</h2>
