@@ -9,3 +9,24 @@ export const memoizedClient = async () => {
   stripeInstance = await loadStripe(process.env.GATSBY_STRIPE_PUBLISHABLE_KEY);
   return stripeInstance;
 };
+
+export const redirectToCheckout = async (
+  event,
+  price,
+  callbackUrls,
+  setLoading,
+) => {
+  event.preventDefault();
+  setLoading(true);
+  const stripe = await memoizedClient();
+  const { error } = await stripe.redirectToCheckout({
+    mode: 'subscription',
+    lineItems: [{ price, quantity: 1 }],
+    ...callbackUrls,
+  });
+
+  if (error) {
+    console.error('Error:', error);
+    setLoading(false);
+  }
+};

@@ -131,16 +131,4 @@ exports.createPages = async ({ actions, graphql }) => {
       context: { to },
     });
   });
-
-  actions.createPage({
-    path: '/members/dues-success',
-    component: require.resolve(`./src/templates/StripeCallback.js`),
-    context: { success: true },
-  });
-
-  actions.createPage({
-    path: '/members/dues-error',
-    component: require.resolve(`./src/templates/StripeCallback.js`),
-    context: { failure: true },
-  });
 };

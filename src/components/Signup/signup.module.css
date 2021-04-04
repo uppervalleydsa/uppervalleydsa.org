@@ -1,6 +1,4 @@
-@import '../../styles/controls.module.css';
-@value margin, mobile from '../../styles/measurements.module.css';
-@value verylightgrey from '../../styles/colors.module.css';
+@value margin from '../../styles/measurements.module.css';
 
 .subTitle {
   margin-bottom: calc(margin / 2);
