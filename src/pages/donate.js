@@ -11,16 +11,21 @@ import {
   donateBtn,
   spinBtn,
   spinBtnContainer,
+  amountControl,
 } from '../styles/donate.module.css';
 
-/* eslint-disable react/no-danger */
 const Donate = ({ location, data }) => {
   const { hash } = location;
   const [loading, setLoading] = useState(false);
+
+  const [decrementEnabled, setDecrementEnabled] = useState(true);
+  const [incrementEnabled, setIncrementEnabled] = useState(true);
+
   const donations = data.prices.edges;
   const donationMin = donations[0].node.unit_amount;
   const donationMax = donations[donations.length - 1].node.unit_amount;
-  const [selectedAmount, selectAmount] = useState(donations[0].node);
+
+  const [selectedAmount, selectAmount] = useState(donations[2].node);
   const [selectedAmountFormatted, selectAmountFormatted] = useState(
     `$${selectedAmount.unit_amount / 100}.00`,
   );
@@ -51,17 +56,27 @@ const Donate = ({ location, data }) => {
 
     const desiredIndex = currentIndex + increment;
     if (desiredIndex < 0 || desiredIndex > donations.length - 1) {
-      console.log('nuh uh');
-    } else {
-      selectAmount(donations[desiredIndex].node);
-      selectAmountFormatted(
-        `$${donations[desiredIndex].node.unit_amount / 100}.00`,
-      );
+      return;
     }
+
+    if (desiredIndex === 0) {
+      setDecrementEnabled(false);
+    } else if (desiredIndex === donations.length - 1) {
+      setIncrementEnabled(false);
+    } else {
+      setDecrementEnabled(true);
+      setIncrementEnabled(true);
+    }
+
+    selectAmount(donations[desiredIndex].node);
+    selectAmountFormatted(
+      `$${donations[desiredIndex].node.unit_amount / 100}.00`,
+    );
   };
 
   const { siteUrl } = data.site.siteMetadata;
   const options = {
+    submitType: 'donate',
     successUrl: `${siteUrl}/donate#success`,
     cancelUrl: `${siteUrl}/donate#error`,
   };
@@ -94,6 +109,8 @@ const Donate = ({ location, data }) => {
                 type="button"
                 tabIndex="-1"
                 aria-label="Decrease donation amount"
+                className={amountControl}
+                disabled={!decrementEnabled}
                 onClick={() => updateAmount({ key: '-' })}
               >
                 -
@@ -102,6 +119,8 @@ const Donate = ({ location, data }) => {
                 type="button"
                 tabIndex="-1"
                 aria-label="Increase donation amount"
+                className={amountControl}
+                disabled={!incrementEnabled}
                 onClick={() => updateAmount({ key: '+' })}
               >
                 +
