@@ -11645,10 +11645,10 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-netlify-cms-app@^2.14.39:
-  version "2.14.39"
-  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.14.39.tgz#31583208e690c1bc5e9701647ed5a2eedcb1ebe2"
-  integrity sha512-8ePnnt3wra/qMHOxFLsAledUnaCPANBniEMSbHSWqjUZgKWnRmaH5lQQ9PI3xWN6PUj43GWd/04LfpEvGWJs9Q==
+netlify-cms-app@^2.14.40:
+  version "2.14.40"
+  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.14.40.tgz#5d06e0f1687ad14b4a6569f6773335b1d2643dcc"
+  integrity sha512-L8/bpDle8aa45VKVGx6P0rtjqZZ5+S6JeRoZzftc+G5qiq122seQvL/Yd84zw6Lmmtz5jSK96bVbuoddo6b+Iw==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
@@ -11661,7 +11661,7 @@ netlify-cms-app@^2.14.39:
     netlify-cms-backend-github "^2.12.0"
     netlify-cms-backend-gitlab "^2.9.9"
     netlify-cms-backend-test "^2.10.7"
-    netlify-cms-core "^2.39.3"
+    netlify-cms-core "^2.39.4"
     netlify-cms-editor-component-image "^2.6.7"
     netlify-cms-lib-auth "^2.3.0"
     netlify-cms-lib-util "^2.13.0"
@@ -11743,10 +11743,10 @@ netlify-cms-backend-test@^2.10.7:
   resolved "https://registry.yarnpkg.com/netlify-cms-backend-test/-/netlify-cms-backend-test-2.10.7.tgz#8ba5e87fc340b580fdafc1d3d9a6b213cba9830b"
   integrity sha512-AoCLHVUocXLSzfXJwn4CeqqKph1lIeyzQcsjJN6Je5r2UU66fiayG+skhu3RjudeKiIfmA4Cf/p0Ay9ooRkxOg==
 
-netlify-cms-core@^2.39.3:
-  version "2.39.3"
-  resolved "https://registry.yarnpkg.com/netlify-cms-core/-/netlify-cms-core-2.39.3.tgz#2d65d861ecec15e58a931284de94dce821199655"
-  integrity sha512-2VyApHed/G+sLCjIeDb4hhVUw+vupxC/bJgDR8c1SAZSbYNw/vtQ0vU4GcFOqmnINxc2gjj7U1wXRn3AbthPvg==
+netlify-cms-core@^2.39.4:
+  version "2.39.4"
+  resolved "https://registry.yarnpkg.com/netlify-cms-core/-/netlify-cms-core-2.39.4.tgz#3692171232cf7c155bba5ac3607a7433e60f533d"
+  integrity sha512-BdGcuVezlKaYau46UoRQcfnHm1iVuo6s2IMTF+I+P1eoaYMD7u1LoE3oUoMajUriDDaOt1T2bnSe5dLo56NddA==
   dependencies:
     "@iarna/toml" "2.2.5"
     ajv "^8.0.0"
