@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 import Mailto from '../components/Mailto';
@@ -10,6 +10,7 @@ import {
   donationContainer,
   donateBtn,
   spinBtn,
+  spinBtnAmount,
   spinBtnContainer,
   amountControl,
 } from '../styles/donate.module.css';
@@ -89,8 +90,15 @@ const Donate = ({ location, data }) => {
           description="Make a donation to support socialist organizing in the Upper Valley."
         />
         <h2>Donate</h2>
-        <p>Your support will fund TODO TODO need copy</p>
-        <p>Please note that donations are not tax-deductible.</p>
+        <p>
+          <span>Your donation will fund chapter </span>
+          <Link to="/organizing">organizing priorities</Link>
+          <span> and mutual aid projects.</span>
+        </p>
+        <p>
+          Thank you for your support. Please note that donations are not
+          tax-deductible.
+        </p>
         <div className={donationContainer}>
           <div className={spinBtnContainer}>
             <div
@@ -104,7 +112,7 @@ const Donate = ({ location, data }) => {
               tabIndex="0"
               onKeyDown={updateAmount}
             >
-              {selectedAmountFormatted}
+              <div className={spinBtnAmount}>{selectedAmountFormatted}</div>
               <button
                 type="button"
                 tabIndex="-1"
