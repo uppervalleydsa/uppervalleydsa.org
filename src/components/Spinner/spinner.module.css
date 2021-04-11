@@ -17,8 +17,9 @@
   height: 30px;
   width: 30px;
   animation: rotate 0.8s infinite linear;
-  border: 7px solid darkgrey;
-  border-right-color: transparent;
+  border-width: 7px;
+  border-style: solid;
+  border-color: darkgrey transparent darkgrey darkgrey;
   border-radius: 50%;
 }
 

@@ -1,0 +1,58 @@
+@import './controls.module.css';
+@value verylightgrey from './colors.module.css';
+@value radius, margin, mobile from './measurements.module.css';
+
+.donationContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+
+  .spinBtnContainer {
+    @media (max-width: mobile) {
+      height: 70px;
+      flex-grow: 1;
+    }
+
+    .spinBtn {
+      height: 54px;
+      display: flex;
+      border: 2px solid verylightgrey;
+      border-radius: radius;
+      justify-content: flex-end;
+
+      .spinBtnAmount {
+        min-width: 170px;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: right;
+        margin: calc(margin / 2);
+      }
+
+      .amountControl {
+        @extend %btn-primary;
+        min-width: unset;
+        padding: unset;
+        height: 30px;
+        width: 30px;
+        margin: calc(margin / 2);
+        margin-left: 0;
+        font-size: 1em;
+
+        &:disabled {
+          background: verylightgrey;
+        }
+      }
+    }
+  }
+
+  .donateBtn {
+    margin: 2px margin;
+    margin-right: 0;
+    @extend %btn-primary;
+
+    @media (max-width: mobile) {
+      margin-right: margin;
+      flex-grow: 1;
+    }
+  }
+}
