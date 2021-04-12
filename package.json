@@ -41,7 +41,7 @@
     "react-use-measure": "^2.0.4"
   },
   "devDependencies": {
-    "concurrently": "^6.0.1",
+    "concurrently": "^6.0.2",
     "eslint": "^7.24.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.1.0",
