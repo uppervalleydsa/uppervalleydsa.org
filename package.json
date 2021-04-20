@@ -25,7 +25,7 @@
     "gatsby-remark-embed-video": "^3.1.1",
     "gatsby-remark-images": "^5.0.0",
     "gatsby-remark-relative-images": "0.2.3",
-    "gatsby-source-filesystem": "^3.3.0",
+    "gatsby-source-filesystem": "3.0.0",
     "gatsby-source-stripe": "^3.2.2",
     "gatsby-transformer-remark": "^4.0.0",
     "gatsby-transformer-sharp": "^2.12.1",
@@ -70,8 +70,5 @@
   },
   "bugs": {
     "url": "https://github.com/bjacobel/uvdsa/issues"
-  },
-  "resolutions": {
-    "gatsby-source-filesystem": "2.11.1"
   }
 }
