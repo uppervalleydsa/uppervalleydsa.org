@@ -3,7 +3,6 @@ title: FAQ
 description: Frequently asked questions and resources for members of Upper Valley DSA.
 url: /faq
 ---
-
 ## New Members
 
 ### Q: Where are meetings?
@@ -20,7 +19,7 @@ url: /faq
 
 ### Q : Do I need to be a registered member of the DSA to join the chapter?
 
-**A**: No, we don’t require you to be a [dues-paying member of DSA national](https://www.dsausa.org/join) to be part of our working groups, chapter projects, or to attend meetings. The only thing you need to be a [registered DSA member in good standing](https://definitions.uslegal.com/g/good-standing/) to do is to vote in chapter-wide decisions, like resolutions and elections.
+**A**: No, we don’t require you to be a dues-paying member, either of [our chapter](https://uppervalleydsa.org/members/) or of [DSA national](https://www.dsausa.org/join) to be part of our working groups, chapter projects, or to attend meetings. The only thing you need to be a [member in good standing](https://definitions.uslegal.com/g/good-standing/) of either our chapter or DSA national to do is to vote in chapter-wide decisions, like resolutions and elections.
 
 ### Q: There’s so many things going on, where can I jump in?
 
