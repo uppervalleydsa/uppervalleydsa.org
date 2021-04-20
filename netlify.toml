@@ -7,4 +7,4 @@ package = "netlify-plugin-gatsby-cache"
 [[headers]]
   for = "/*"
   [headers.values]
-    Permissions-Polict = "interest-cohort=()"
+    Permissions-Policy = "interest-cohort=()"
