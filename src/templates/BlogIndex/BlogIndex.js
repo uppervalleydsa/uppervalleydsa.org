@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, Link, navigate } from 'gatsby';
 import moment from 'moment';
-import Img from 'gatsby-image/withIEPolyfill';
+import { GatsbyImage } from "gatsby-plugin-image";
 import ReactPaginate from 'react-paginate';
 import classNames from 'classnames';
 import useMeasure from 'react-use-measure';
@@ -70,10 +70,9 @@ export default ({ data, pageContext }) => (
                 <Link to={fields.url}>Read more →</Link>
               </div>
               {frontmatter.thumbnail && (
-                <Img
-                  className={thumbnail}
-                  fluid={frontmatter.thumbnail.childImageSharp.fluid}
-                />
+                <GatsbyImage
+                  image={frontmatter.thumbnail.childImageSharp.gatsbyImageData}
+                  className={thumbnail} />
               )}
             </div>
           </li>
@@ -84,33 +83,30 @@ export default ({ data, pageContext }) => (
   </Layout>
 );
 
-export const query = graphql`
-  query allBlogPosts($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "^/posts/" } }
-      sort: { fields: frontmatter___date, order: DESC }
-      limit: $limit
-      skip: $skip
-    ) {
-      edges {
-        node {
-          fields {
-            url
-          }
-          excerpt(pruneLength: 250)
-          frontmatter {
-            title
-            date
-            thumbnail {
-              childImageSharp {
-                fluid(maxWidth: 350) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+export const query = graphql`query allBlogPosts($skip: Int!, $limit: Int!) {
+  allMarkdownRemark(
+    filter: {fileAbsolutePath: {regex: "^/posts/"}}
+    sort: {fields: frontmatter___date, order: DESC}
+    limit: $limit
+    skip: $skip
+  ) {
+    edges {
+      node {
+        fields {
+          url
+        }
+        excerpt(pruneLength: 250)
+        frontmatter {
+          title
+          date
+          thumbnail {
+            childImageSharp {
+              gatsbyImageData(width: 350, layout: CONSTRAINED)
             }
           }
         }
       }
     }
   }
+}
 `;
