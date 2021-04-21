@@ -6,6 +6,7 @@ dotenv.config({
 });
 
 const name = 'Upper Valley DSA';
+const shortName = 'UVDSA';
 const url =
   process.env.NODE_ENV === 'development'
     ? 'http://localhost:8000'
@@ -89,11 +90,15 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-favicon',
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        appName: name,
-        appDescription: description,
-        logo: './src/images/logo-noborder.png',
+        name,
+        description,
+        short_name: shortName,
+        start_url: '/',
+        display: 'browser',
+        background_color: '#e92531',
+        icon: './src/images/logo-noborder.png',
       },
     },
     {
