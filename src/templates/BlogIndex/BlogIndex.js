@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, Link, navigate } from 'gatsby';
 import moment from 'moment';
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage } from 'gatsby-plugin-image';
 import ReactPaginate from 'react-paginate';
 import classNames from 'classnames';
 import useMeasure from 'react-use-measure';
@@ -50,7 +50,7 @@ const PaginationControls = ({ numPages, currentPage }) => {
 };
 
 /* eslint-disable react/no-danger */
-export default ({ data, pageContext }) => (
+const BlogIndex = ({ data, pageContext }) => (
   <Layout>
     <SEO title="Blog" />
     <h2>Blog</h2>
@@ -72,7 +72,8 @@ export default ({ data, pageContext }) => (
               {frontmatter.thumbnail && (
                 <GatsbyImage
                   image={frontmatter.thumbnail.childImageSharp.gatsbyImageData}
-                  className={thumbnail} />
+                  className={thumbnail}
+                />
               )}
             </div>
           </li>
@@ -83,30 +84,33 @@ export default ({ data, pageContext }) => (
   </Layout>
 );
 
-export const query = graphql`query allBlogPosts($skip: Int!, $limit: Int!) {
-  allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "^/posts/"}}
-    sort: {fields: frontmatter___date, order: DESC}
-    limit: $limit
-    skip: $skip
-  ) {
-    edges {
-      node {
-        fields {
-          url
-        }
-        excerpt(pruneLength: 250)
-        frontmatter {
-          title
-          date
-          thumbnail {
-            childImageSharp {
-              gatsbyImageData(width: 350, layout: CONSTRAINED)
+export const query = graphql`
+  query allBlogPosts($skip: Int!, $limit: Int!) {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "^/posts/" } }
+      sort: { fields: frontmatter___date, order: DESC }
+      limit: $limit
+      skip: $skip
+    ) {
+      edges {
+        node {
+          fields {
+            url
+          }
+          excerpt(pruneLength: 250)
+          frontmatter {
+            title
+            date
+            thumbnail {
+              childImageSharp {
+                gatsbyImageData(width: 350, layout: CONSTRAINED)
+              }
             }
           }
         }
       }
     }
   }
-}
 `;
+
+export default BlogIndex;

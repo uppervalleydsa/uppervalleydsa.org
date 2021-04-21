@@ -1,8 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-export default ({ pageContext }) => (
+const Redirect = ({ pageContext }) => (
   <Helmet>
     <meta httpEquiv="refresh" content={`0;URL='${pageContext.to}'`} />
   </Helmet>
 );
+
+export default Redirect;

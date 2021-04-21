@@ -1,3 +1,4 @@
 import React from 'react';
 
-export default ({ address }) => <a href={`mailto:${address}`}>{address}</a>;
+const Mailto = ({ address }) => <a href={`mailto:${address}`}>{address}</a>;
+export default Mailto;

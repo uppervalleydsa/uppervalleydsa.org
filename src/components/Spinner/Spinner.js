@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 import { spinWrap, spinner } from './spinner.module.css';
 
-export default ({ className, color }) => {
+const Spinner = ({ className, color }) => {
   const styleOverrides = {};
   if (color) {
     styleOverrides.borderColor = `${color} transparent ${color} ${color}`;
@@ -15,3 +15,5 @@ export default ({ className, color }) => {
     </div>
   );
 };
+
+export default Spinner;

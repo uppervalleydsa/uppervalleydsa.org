@@ -4,7 +4,7 @@ import facebook from '../../images/facebook.svg';
 import twitter from '../../images/twitter.svg';
 import { footer, socials, socialItem } from './footer.module.css';
 
-export default () => (
+const Footer = () => (
   <footer className={footer}>
     <ul className={socials}>
       <li className={socialItem}>
@@ -20,3 +20,5 @@ export default () => (
     </ul>
   </footer>
 );
+
+export default Footer;

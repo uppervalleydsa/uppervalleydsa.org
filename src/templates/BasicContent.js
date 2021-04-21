@@ -33,7 +33,7 @@ const findRespImageLink = (ast) => {
 };
 
 /* eslint-disable react/no-danger */
-export default ({ data, children }) => {
+const BasicContent = ({ data, children }) => {
   const { html, htmlAst, frontmatter } = data.markdownRemark;
   const { widgets, title, description, css } = frontmatter;
 
@@ -80,3 +80,5 @@ export const query = graphql`
     }
   }
 `;
+
+export default BasicContent;
