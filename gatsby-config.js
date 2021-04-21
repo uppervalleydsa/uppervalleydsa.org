@@ -82,14 +82,6 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        manualInit: true,
-        enableIdentityWidget: false,
-        modulePath: path.join(__dirname, 'src/custom-admin.js'),
-      },
-    },
-    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name,
@@ -99,6 +91,14 @@ module.exports = {
         display: 'browser',
         background_color: '#e92531',
         icon: './src/images/logo-noborder.png',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        manualInit: true,
+        enableIdentityWidget: false,
+        modulePath: path.join(__dirname, 'src/custom-admin.js'),
       },
     },
     {
