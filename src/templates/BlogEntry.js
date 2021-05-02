@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { graphql, Link } from 'gatsby';
 import moment from 'moment';
-import Img from 'gatsby-image/withIEPolyfill';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
@@ -13,7 +13,7 @@ import {
 } from './templates.module.css';
 
 /* eslint-disable react/no-danger */
-export default ({ data, children }) => {
+const BlogEntry = ({ data, children }) => {
   const { html, frontmatter, excerpt } = data.markdownRemark;
   const { title, author, date, thumbnail, note } = frontmatter;
 
@@ -33,9 +33,9 @@ export default ({ data, children }) => {
             <h3 className={dateClass}>{moment(date).format('LL')}</h3>
           </div>
           {thumbnail && thumbnail.childImageSharp && (
-            <Img
+            <GatsbyImage
+              image={thumbnail.childImageSharp.gatsbyImageData}
               className={thumbnailClass}
-              fluid={thumbnail.childImageSharp.fluid}
             />
           )}
           {thumbnail && !thumbnail.childImageSharp && (
@@ -69,12 +69,12 @@ export const query = graphql`
         note
         thumbnail {
           childImageSharp {
-            fluid(maxWidth: 650) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 650, layout: CONSTRAINED)
           }
         }
       }
     }
   }
 `;
+
+export default BlogEntry;

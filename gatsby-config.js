@@ -6,6 +6,7 @@ dotenv.config({
 });
 
 const name = 'Upper Valley DSA';
+const shortName = 'UVDSA';
 const url =
   process.env.NODE_ENV === 'development'
     ? 'http://localhost:8000'
@@ -15,6 +16,9 @@ const description =
 const privateRoutes = ['/members', '/admin/*'];
 
 module.exports = {
+  flags: {
+    FAST_DEV: true,
+  },
   siteMetadata: {
     title: name,
     description,
@@ -77,28 +81,27 @@ module.exports = {
         ],
       },
     },
-    'gatsby-transformer-sharp',
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name,
+        description,
+        short_name: shortName,
+        start_url: '/',
+        display: 'browser',
+        background_color: '#e92531',
+        icon: './src/images/logo-noborder.png',
+      },
+    },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         manualInit: true,
         enableIdentityWidget: false,
         modulePath: path.join(__dirname, 'src/custom-admin.js'),
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-favicon',
-      options: {
-        appName: name,
-        appDescription: description,
-        logo: './src/images/logo-noborder.png',
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-sitemap',
-      options: {
-        exclude: privateRoutes,
       },
     },
     {

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { subTitle } from './signup.module.css';
 
-export default () => {
+const Signup = () => {
   return (
     <div>
       <h4 className={subTitle}>Subscribe to our mailing list</h4>
@@ -20,3 +20,5 @@ export default () => {
     </div>
   );
 };
+
+export default Signup;

@@ -9,6 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
+import { getSrc } from 'gatsby-plugin-image';
 
 import logo from '../images/logo-noborder.png';
 
@@ -34,7 +35,7 @@ function SEO({ description, lang, meta, title, image }) {
   } else if (typeof image === 'string') {
     ogImage = image;
   } else {
-    ogImage = image.childImageSharp.fluid.src;
+    ogImage = getSrc(image.childImageSharp.gatsbyImageData);
   }
 
   const schemaOrgJSONLD = {
