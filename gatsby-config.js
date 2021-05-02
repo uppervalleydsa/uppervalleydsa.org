@@ -105,12 +105,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-sitemap',
-      options: {
-        exclude: privateRoutes,
-      },
-    },
-    {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-174910115-1',
