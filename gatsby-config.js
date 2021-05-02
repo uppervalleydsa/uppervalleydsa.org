@@ -16,6 +16,9 @@ const description =
 const privateRoutes = ['/members', '/admin/*'];
 
 module.exports = {
+  flags: {
+    FAST_DEV: true,
+  },
   siteMetadata: {
     title: name,
     description,
