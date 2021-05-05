@@ -1,8 +1,6 @@
 name: 'Dependabot'
 on:
-  pull_request:
-    branches:
-      - dependabot/**
+  - pull_request
 jobs:
   lint-test:
     name: 'Dependabot Automerge'
