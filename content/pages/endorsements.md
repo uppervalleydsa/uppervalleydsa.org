@@ -74,7 +74,7 @@ If elected, voters will have in me a dedicated worker who is focused on making t
 
 <div class="floated-image">
 
-![](/uploads/aileen.png)
+![](/uploads/aileen.jpg)
 
 </div>
 
