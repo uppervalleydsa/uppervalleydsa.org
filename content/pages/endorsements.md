@@ -1,7 +1,8 @@
 ---
 title: Endorsements
 description: Upper Valley DSA endorses Sylvia Puglisi and Devin Wilkie for
-  Lebanon City Council. Vote in the City election on March 9th.
+  Lebanon City Council. Vote in the City election on March 9th. Aileen Eagleton,
+    who is running for Hanover Selectboard elections on July 13th has also been endorsed by the chapter.
 url: /endorsements
 css: |
   ul.social-links {
@@ -59,3 +60,24 @@ As a life-long educator, I am dedicated to listening and learning. I believe str
 In a community as diverse as Lebanon, I believe it is crucial for elected officials to see themselves as representatives of all their constituents; one of my greatest motivations for running is the frustration of being excluded, of being cut out from the group of people that matter in the decision-making of my city. I aver to never dismiss or ignore Lebanon residents who are different than me—whose appearance, or family, or socioeconomic advantages don’t align with my expectations, whose values don’t align with mine. The work of politics is making decisions that other people may fairly disagree with: the easy way to handle disagreement is to dismiss your opponents as idiots, bad actors, or outsiders. I promise to take the hard way, of listening to those who think differently than me, doing my homework, and evaluating ideas sincerely on their merits and effects.
 
 If elected, voters will have in me a dedicated worker who is focused on making the details of Lebanon local government clear to them. I am well-used to parsing through voluminous information, asking questions, and translating my understanding into tools that others can use to empower themselves. I am also an avid pedestrian, a supporter of local businesses and workers, a union member, a lover of mathematics, an amateur artist, and married to a hard-working and brilliant husband. I hope Lebanon voters will give me the opportunity to give my time to the City Council, as we all work through the next years’ challenges together!
+
+
+## Aileen Eagleton
+
+### Lebanon City Council (At Large)
+
+<ul class="social-links">
+  <li><a href="/https://uppervalleydsa.org">Website</a></li>
+  <li><a href="https://twitter.com/UV_DSA">Twitter</a></li>
+  <li><a href="https://www.facebook.com/UpperValleyDSA">Facebook</a></li>
+</ul>
+
+<div class="floated-image">
+
+![](/uploads/aileen.png)
+
+</div>
+
+Aileen's Statement
+
+
