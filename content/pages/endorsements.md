@@ -1,8 +1,6 @@
 ---
 title: Endorsements
-description: Upper Valley DSA endorses Sylvia Puglisi and Devin Wilkie for
-  Lebanon City Council. Vote in the City election on March 9th. Aileen Eagleton,
-  who is running for Hanover Selectboard elections on July 13th has also been endorsed by the chapter.
+description: Upper Valley DSA endorses Aileen Eagleton for Hanover Selectboard. Vote on July 13.
 url: /endorsements
 css: |
   ul.social-links {
