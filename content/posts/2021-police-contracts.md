@@ -2,7 +2,7 @@
 title: Who is accountable for Lebanon's police contract?
 author: Upper Valley DSA
 date: 2021-05-15T02:47:34.180Z
-thumbnail: /uploads/voters-guide-banner-sm.png
+thumbnail: /uploads/lebpolice.png
 ---
 <style type='text/css'>
     a { text-decoration: none; }
