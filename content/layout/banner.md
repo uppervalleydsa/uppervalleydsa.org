@@ -1,6 +1,6 @@
 ---
-expires: 2021-03-10T01:00:00.000Z
-enabled: false
+expires: 2021-07-14T01:00:00.000Z
+enabled: true
 ---
 
-[Vote **Devin Wilkie** and **Sylvia Puglisi** for Lebanon City Council on March 9.](/blog/2021-02-15-2021-lebanon-voters-guide/)
+[Vote **Aileen Eagleton** for Hanover Selectboard on July 13.](/endorsements)
