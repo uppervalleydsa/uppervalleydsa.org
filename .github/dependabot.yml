@@ -7,9 +7,6 @@ updates:
     open-pull-requests-limit: 10
     ignore:
       - dependency-name: precss
-      - dependency-name: gatsby-plugin-netlify-cms
-        versions:
-          - 5.4.0
       - dependency-name: react
         versions:
           - '>= 17'
