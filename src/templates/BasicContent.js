@@ -67,7 +67,7 @@ const BasicContent = ({ data, children }) => {
 };
 
 export const query = graphql`
-  query($url: String!) {
+  query ($url: String!) {
     markdownRemark(frontmatter: { url: { eq: $url } }) {
       html
       htmlAst
