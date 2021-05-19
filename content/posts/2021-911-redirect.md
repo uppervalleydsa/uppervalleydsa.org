@@ -6,20 +6,33 @@ thumbnail: /uploads/LPD_logo.png
 ---
 Lebanon officials are in active discussions with other Upper Valley communities over a plan to provide a [regional mobile mental health crisis unit](https://www.vnews.com/Upper-Valley-towns-work-to-create-social-worker-position-39244069). Similar programs have proven to be very effective in providing safer and more effective first responses to mental health emergencies and other non-violent personal crises than the police can. The oft-cited [CAHOOTS program](https://whitebirdclinic.org/what-is-cahoots/) in Eugene, OR responds to thousands of calls per year, diverting approximately 20% of 911 calls away from police. 
 
-The finer details of the proposed Upper Valley program are yet to be released. It's unclear at this point if the intention is to have the social worker accompany police or be the solitary responder
+The finer details of the proposed Upper Valley program are yet to be released. It's unclear at this point if the intention is to have the social worker accompany police or be the solitary responder. Lebanon City Manager Shaun Mullholand also stated that it's "not yet clear" how the program will be funded. West Central Behavioral Health is also pursuing a similar, complimentary program aimed at a large region covering Unity to Orford, NH, with the goal of having a social worker able to respond within 30 minutes to a mental health crisis.
+
+Upper Valley DSA laid out our position on a local 911 redirect program in Lebanon in our 2020 [CareNotCops](https://uppervalleydsa.org/care-not-cops) proposal. We maintain that such a program, whether local or regional, must be operated independent of local police departments and be funded by diverting funding away from those same police departments. 
+
+Why is this important? Here are a few reasons:
+- Providing police accompaniment is, at best, unnecessary and costly. This approach has been piloted in many other communities in the country. In these programs, it has been shown that up to 20% of 911 calls are diverted from police to social workers and mental health professionals, and that police backup is very rarely requested. 
+- A police presence will often escalate a mental health crisis due to fears of arrest or violence. Social workers and mental health professionals are better equipped to deescalate these crises and get people the help they need.
+- Police training on mental health crisis intervention and deescalation has been shown to be ineffective and is a poor substitute for social work and mental health professionals,  who have years of academic training and hands-on experience.
+- If 911 calls are being diverted away from police, municipal funding should similarly be diverted away from police departments in order to fund these alternative first response programs. This provides a logical and consistent funding source for these programs year-after-year. 
+
+## A community-based approach to crisis response
+
+A 911 redirect program is a true community-based approach to crisis response. It is a recognition that people in crisis are our neighbors and that help and healing can occur within the community. This is the opposite of a law enforcement approach, which weaponizes the specter of violence and punishment to shame and separate those in crisis from their community.
+
+Cops and their supporters point to things like training and community outreach programs as evidence of effective community-based policing. Crisis Intervention Teams are a commonly-cited training program for mental health crisis response by police; however, CITs have been shown to be "[woefully inadequate](https://www.npr.org/2020/10/19/924146486/removing-cops-from-behavioral-crisis-calls-we-need-to-change-the-model?utm_campaign=npr&utm_medium=social&utm_term=nprnews&utm_source=twitter.com)" in reducing violence and getting people in crisis the support they need. This is not surprising. The notion that providing brief training courses to police officers provides them with the same capabilities as mental health professionals with years of academic training and hands-on experience doesn’t pass basic logical scrutiny.
+
+Community outreach programs attempt to demonstrate that policing can be community-based. Unfortunately, the behavior of police consistently shows that they see themselves as separate from the community. This contradiction was highly visible nationwide last summer as we watched police respond to protests against police brutality with [more brutality](https://www.nytimes.com/2021/03/20/us/protests-policing-george-floyd.html). Many of these offending police departments have received deescalation and unconscious bias training, which were conveniently ignored during the violent suppression of protests. This mentality is symbolized through the Thin Blue Line flag, popularized and displayed by many police departments after the [2014 Ferguson protests](https://www.themarshallproject.org/2020/06/08/the-short-fraught-history-of-the-thin-blue-line-american-flag). When presented with demands for reform, police instead retreat farther behind the blue line and further away from the community.
+
+This contradiction is on display within the Lebanon Police Department as well. The Department leans heavily on [community outreach programs](https://lebanonnh.gov/467/Community-Outreach), including an ice cream patrol deploying Justice, the department’s mascot dog, at community events. The Department also clearly wants to position itself as central to addressing crises of mental health in the community. In a recent WCAX article about the [police killing of a mentally-ill man in Thornton, NH](https://www.wcax.com/2021/03/17/do-officers-need-more-training-for-crisis-intervention/), Chief Richard Mello focused his remarks on the [maligned](https://www.npr.org/2020/10/19/924146486/removing-cops-from-behavioral-crisis-calls-we-need-to-change-the-model?utm_campaign=npr&utm_medium=social&utm_term=nprnews&utm_source=twitter.com) crisis intervention and deescalation training model within the police department, rather than acknowledging how an alternative first response program would have prevented this killing. Mello has previously acknowledged the role of mental health crisis programs but has also hinted at continued "[involvement](https://www.vnews.com/West-Central-Behavioral-Health-seeks-funds-for-mobile-crisis-unit-36000328)" of the police department. In a recent [officer recruitment video](https://www.facebook.com/watch), Mello describes the role of a Lebanon police officer as being a "social worker" in addition to many other responsibilities. Mental health is squarely outside of a scope of a cop's work. In any other case, this would be considered blatant malpractice. 
+
+The recuitment video is telling in many ways:
+- While there is some mention of working with the community, much of the focus is on “cool factor” items like guns, police cruisers, and mountain bikes. Virtually no time is spent on social work issues, and community involvement receives precious little time as well. If the PD was intent on recruiting officers who truly wanted to do “social work,” then this video was not made for them. 
+- The infamous Thin Blue Line flag makes multiple appearances in the video. In the first screen capture, you can see the flag prominently displayed inside the Police Department headquarters. Each time a cop heads down to the Farmer’s Market or to do an ice cream patrol, they leave from a facility with that flag in it, which tells you everything you need to know.
+
+If we want alternative first response programs that are truly effective and community-based, then they must remain separate from police departments and be funded with diverted police budget funding.
 
 
-
-
-![Plots owned by big box stores in West Lebanon](/uploads/k9_LPD.png)
-
-*Source: City of Lebanon*
-
-
-
-
-
-
-
+![LPD K9 Units](/uploads/k9_LPD.png)
 
 
