@@ -13,7 +13,7 @@
     "gatsby": "^3.7.2",
     "gatsby-plugin-facebook-pixel": "^1.0.8",
     "gatsby-plugin-google-analytics": "^3.7.1",
-    "gatsby-plugin-image": "^1.7.1",
+    "gatsby-plugin-image": "^1.8.0",
     "gatsby-plugin-manifest": "^3.7.1",
     "gatsby-plugin-netlify-cms": "~5.7.1",
     "gatsby-plugin-postcss": "^4.7.1",
