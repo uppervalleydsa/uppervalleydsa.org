@@ -10980,10 +10980,10 @@ netlify-cms-locales@^1.33.0:
   resolved "https://registry.yarnpkg.com/netlify-cms-locales/-/netlify-cms-locales-1.33.0.tgz#4754749e0eca41d5f9a463823eed8fecf3dc8373"
   integrity sha512-IBA83qWX1QT4VyHwxxe+SuAbZKhbdDyhp7s49TtJS7QuE9gyUtmVeAWBMalF5Spih/hDwaNISHDaos3WK4HR6g==
 
-netlify-cms-proxy-server@^1.3.18:
-  version "1.3.18"
-  resolved "https://registry.yarnpkg.com/netlify-cms-proxy-server/-/netlify-cms-proxy-server-1.3.18.tgz#0f0b8441746fc6285ebb8ee120e4269335267c04"
-  integrity sha512-JbM+JSjmydwF1TlP1sdC1ZrovNCc1FSEJRZFBGi/rDD42yXd4c18W1yUTTvxV/IScLNS+B+pmLMnL+HFB4618A==
+netlify-cms-proxy-server@^1.3.19:
+  version "1.3.19"
+  resolved "https://registry.yarnpkg.com/netlify-cms-proxy-server/-/netlify-cms-proxy-server-1.3.19.tgz#59e3f72f48710b39ee80208373cf34c7ecadb196"
+  integrity sha512-c48vRP3T+N2vABcuaozKO4r15FFPHwULxjlwktmx/cb3N8tdyh96dK9hN6n/i6R+hF9ONJcX2Uc16L0UvYmffA==
   dependencies:
     "@hapi/joi" "^17.0.2"
     async-mutex "^0.3.0"
