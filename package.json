@@ -27,7 +27,7 @@
     "gatsby-source-filesystem": "^3.10.0",
     "gatsby-source-stripe": "^3.2.2",
     "gatsby-transformer-remark": "^4.7.0",
-    "gatsby-transformer-sharp": "^3.9.0",
+    "gatsby-transformer-sharp": "^3.10.0",
     "moment": "^2.29.1",
     "netlify-cms-app": "^2.15.28",
     "postcss-font-magician": "^2.3.1",
