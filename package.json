@@ -10,7 +10,7 @@
     "autoprefixer": "^9.8.7",
     "classnames": "^2.3.1",
     "dotenv": "9.0.2",
-    "gatsby": "^3.11.1",
+    "gatsby": "^3.14.0",
     "gatsby-plugin-facebook-pixel": "^1.0.8",
     "gatsby-plugin-google-analytics": "^3.14.0",
     "gatsby-plugin-image": "^1.14.0",
