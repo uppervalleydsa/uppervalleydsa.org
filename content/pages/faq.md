@@ -11,7 +11,7 @@ url: /faq
 
 ### Q: How often does the DSA meet?
 
-**A**: The entire Upper Valley DSA meets once a month, but the specific working groups typically meet every week. You can see upcoming meetings in [our Google Calendar](https://calendar.google.com/calendar/embed?src=tolq86d2975kejih1625s7jqe0%40group.calendar.google.com&ctz=America%2FNew_York). If you miss a meeting, you can always check meeting minutes [in the Google Drive](https://drive.google.com/drive/folders/1eL9nAWwfpQBzdkryf_MRy1evYkfdSp-E?usp=sharing).
+**A**: The entire Upper Valley DSA meets once a month, but the specific working groups typically meet every week. You can see upcoming meetings in [our Google Calendar](https://calendar.google.com/calendar/embed?src=tolq86d2975kejih1625s7jqe0%40group.calendar.google.com&ctz=America%2FNew_York). If you miss a meeting, you can always check meeting minutes in [the Google Drive](https://drive.google.com/drive/folders/1BCZdgudcPeSXY3n0NVGXhW9C-uIubwg9?usp=sharing) (you need permission to access, [reach out](/contact) to be added).
 
 ### Q: I can’t access the internet for meetings - how can I get involved?
 
