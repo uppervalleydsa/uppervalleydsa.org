@@ -12767,10 +12767,10 @@ react-modal@^3.8.1:
     react-lifecycles-compat "^3.0.0"
     warning "^4.0.3"
 
-react-paginate@^7.1.5:
-  version "7.1.5"
-  resolved "https://registry.yarnpkg.com/react-paginate/-/react-paginate-7.1.5.tgz#fac437f67fbeb5bfa688a175142839d94240a58b"
-  integrity sha512-CpyWSwsIIsFhWAQvmXDWuEl+yzfzisgvsUoZTj2IR1mFvm9oPTmeNBFc1wg8/i6ASmETeOmOnc78/U/MXyjd0w==
+react-paginate@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/react-paginate/-/react-paginate-8.0.1.tgz#e256b6f9de25215ef681cffe4cb2309f9cc2c2bd"
+  integrity sha512-8BB/uGfrG9Jy47RXi0WRjPh86PzMUsFbd2HnNt/LSDUYDZZDrh7KkDO4Rtv5cOhiLolTerFmecXhkFzeOOjUsw==
   dependencies:
     prop-types "^15.6.1"
 
