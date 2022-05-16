@@ -2,10 +2,10 @@
 title: Abortion Rights Rally Speech
 author: Upper Valley DSA
 date: 2022-05-15T23:18:29.867Z
-note: "Sasha Brietzke, former co-chair and active organizer gave this speech at
-  a rally in Hanover on Wednesday May 11th. "
+note: "Delivered by an active organizer at a rally in Hanover on Wednesday May
+  11th. "
 ---
-Hi everyone, my name is Sasha Brietzke and I am a graduate student in psychology right here at Dartmouth. I’m also a member of the Upper Valley DSA. 
+Hello everyone, 
 
 I, like many of you, was both devastated and unsurprised about the Roe leak. We’ve watched reproductive rights erode in front of our very eyes across our lifetimes. Yes, we’ve seen the Republicans stack the courts and harass people outside of abortion clinics. But we’ve also watched President Bill Clinton renew the racist, sexist Hyde Amendment that denies federal funds for poor people seeking to exercise their reproductive rights, we’ve watched as the “Hope and Change” president Barack Obama signed an executive order upholding the principles of the Hyde Amendment and working with anti-choice Democrats to strip the Affordable Care Act of assured abortion coverage, and we’re now watching Joe Biden lacking the courage and political will to repeal it despite all his campaign promises.
 
