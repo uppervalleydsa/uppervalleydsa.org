@@ -18,6 +18,8 @@ Our Housing Justice research group is looking into a number of issues that touch
 
 We are proud to partner with the [Upper Valley Tenant's Union](https://www.uppervalleytenants.org/) to build a mass movement to provide housing to all. 
 
+![](/uploads/uvtu.png)
+
 ### Reproductive Justice
 
 If you need resources, please [check out our info sheet](https://docs.google.com/document/d/1vwqsYHljgU_6XBahkBfP0lE0H8_rFRhvwZOSc7SYnUo/edit?usp=sharing). 
