@@ -12,9 +12,21 @@ widgets:
 
 The Upper Valley DSA is currently focused on several local organizing priorities. For more information or to get involved, [please contact us! ](https://uppervalleydsa.org/contact/)
 
-### Lebanon City Council Election
+### Housing Justice
 
-We are very pleased to endorse Sylvia Puglisi (At-Large) and Devin Wilkie (Ward 2) for Lebanon City Council. We'll be working hard to make sure these two excellent candidates get elected and bring power back to the people, where it belongs. We need your help! For more information about the candidates, and how to get involved, see our [endorsement announcement](/endorsements).  
+Our Housing Justice research group is looking into a number of issues that touch everyone in the Upper Valley.  Immediate needs like Housing Insecurity and the need for a low-barrier shelter, as well as coordinated Prison Release housing; medium-term priorities like Tenant Union Organizing and Eviction Support; and longer term goals around Land-Use policy, alternative housing models, and more. This widely and deeply felt issue is everywhere in the Upper Valley and we need your help. Get involved. 
+
+We are proud to partner with the [Upper Valley Tenant's Union](https://www.uppervalleytenants.org/) to build a mass movement to provide housing to all. 
+
+### Reproductive Justice
+
+If you need resources, please [check out our info sheet](https://docs.google.com/document/d/1vwqsYHljgU_6XBahkBfP0lE0H8_rFRhvwZOSc7SYnUo/edit?usp=sharing). 
+
+We are proud to partner with Upper Valley for Abortion Rights - UV4AR - to seek Reproductive Justice for all. This means the right to not have a child, but also the right to have a child, and to do so under safe and supportive conditions. The current capitalist system requires cheap and exploitable labour to concentrate wealth in very few hands. Forced birth of certain babies, and forced sterilization of others, to support the white supremacist order must be abolished. A just world would mean anyone could choose to not have a child for any reason, and also those who wish to have children would be supported with free and easy access to all healthcare, wages that can support a child in comfort and more. 
+
+[Join us to get involved](/contact) in moving towards this world. 
+
+![UV4AR](/uploads/upper-valley-for-abortion-rights-uv4r.png "Upper Valley for Abortion Rights")
 
 ### Police and Prison Abolition
 
@@ -32,25 +44,9 @@ Mutual aid is when people get together to meet each other's basic survival needs
 
 SOLIDARITY, NOT CHARITY. “Charity” is a framework that often means rich people giving a little bit to poor people, and often frames people in need as morally lesser than rich people—as if poverty were the fault of the poor rather than the fault of systems of racism, heteropatriarchy, ableism, land theft and labor exploitation that make some people rich and keep other people poor. Charity looks like generosity from rich people, but actually upholds the systems that make most people poor for the benefit of the few.
 
-### The People's Table
-
-The People's Table is an effort to help those most in need in our communities by providing needed supplies, in accessible locations. It is also an opportunity for organizers to talk with vulnerable populations and learn more about their struggles. To get involved, [reach out!](/contact)
-
 ### Bike Collective
 
 One of the clear messages from talking to folks at the People's Table was that transportation is an issue in the Upper Valley. Our chapter has a number of folks with experience and connections in the local cycling community. We are collecting and refurbishing bikes to provide to those most in need. 
-
-## Housing Justice
-
-Our Housing Justice research group is looking into a number of issues that touch everyone in the Upper Valley.  Immediate needs like Housing Insecurity and the need for a low-barrier shelter, as well as coordinated Prison Release housing; medium-term priorities like Tenant Union Organizing and Eviction Support; and longer term goals around Land-Use policy, alternative housing models, and more. This widely and deeply felt issue is everywhere in the Upper Valley and we need your help. Get involved. 
-
-### COVID-19
-
-The current global pandemic is the defining issue of our times and it is abundantly clear that our heavily capitalist economic system is dangerous, oppressive, and designed only to serve the wealthy and powerful.
-
-DSA national has a bulletin for info, [click here to view](https://www.dsausa.org/news). There is also a [collaborative One-Stop Resources document ](https://drive.google.com/open?id=1f9qGDVbs7NfrhBCMVFQouiwU2b5Ew0scA3x6OzVNViM)that is being updated frequently.
-
-Upper Valley Response Team is coordinating mutual aid for the region. [Sign up](http://www.transformationalpractice.org/covid) to help, or request help for yourself or someone you know who is vulnerable or needs assistance.
 
 ### Welcoming Communities
 
