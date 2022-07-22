@@ -8,7 +8,7 @@ url: /organizing
 widgets:
   - Signup
 ---
-![Capitalism kills](/uploads/lebpolice.png)
+
 
 The Upper Valley DSA is currently focused on several local organizing priorities. For more information or to get involved, [please contact us! ](https://uppervalleydsa.org/contact/)
 
