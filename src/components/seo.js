@@ -13,7 +13,7 @@ import { getSrc } from 'gatsby-plugin-image';
 
 import logo from '../images/logo-noborder.png';
 
-function SEO({ description, lang, meta, title, image }) {
+const SEO = ({ description, lang, meta, title, image }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -97,7 +97,7 @@ function SEO({ description, lang, meta, title, image }) {
       </script>
     </Helmet>
   );
-}
+};
 
 SEO.defaultProps = {
   lang: `en`,
