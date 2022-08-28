@@ -109,6 +109,8 @@ SEO.defaultProps = {
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
+  // PropTypes.object is logical here - meta props can be totally arbitrary
+  // eslint-disable-next-line react/forbid-prop-types
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
   image: PropTypes.oneOfType([
