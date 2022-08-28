@@ -58,7 +58,7 @@ const BlogEntry = ({ data, children }) => {
 };
 
 export const query = graphql`
-  query($filepath: String!) {
+  query ($filepath: String!) {
     markdownRemark(fields: { filepath: { eq: $filepath } }) {
       html
       excerpt(pruneLength: 250)

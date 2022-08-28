@@ -15,8 +15,7 @@ export const fields = [
   {
     name: 'url',
     label: 'YouTube Video URL',
-    hint:
-      'Full, non-shortened HTTPS YouTube URL (eg: https://www.youtube.com/watch?v=OKegLmFdRFI). If the preview shows, the video works.',
+    hint: 'Full, non-shortened HTTPS YouTube URL (eg: https://www.youtube.com/watch?v=OKegLmFdRFI). If the preview shows, the video works.',
     widget: 'string',
   },
 ];
