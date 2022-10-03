@@ -1,4 +1,4 @@
 ---
 from: /abortionrights
-to: https://dsausa.zoom.us/j/93836429489
+to: https://dartmouth.zoom.us/j/98675774153?pwd=SXYyemUwL0IraUl6aThIWi9OblpMUT09
 ---
