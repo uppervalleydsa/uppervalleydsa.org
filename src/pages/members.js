@@ -54,12 +54,20 @@ const Members = ({ location, data }) => {
   };
 
   const submitManageForm = (evt) => {
-    setManageApiLoading(true);
     evt.preventDefault();
     const { email } = evt.currentTarget.elements;
 
-    if (email.value) {
-      fetch('').then(() => {
+    if (email.value && email.value.length) {
+      setManageApiLoading(true);
+      fetch('/api/manage-dues', {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email.value,
+        }),
+      }).then(() => {
         setManageApiLoading(false);
         navigate('/members/#manage-submit');
       });
