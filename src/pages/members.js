@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { graphql, Link } from 'gatsby';
+import { graphql, Link, navigate } from 'gatsby';
 import classNames from 'classnames';
 
 import Layout from '../components/Layout';
@@ -10,9 +10,13 @@ import { redirectToCheckout } from '../utils/stripe';
 import {
   dues,
   checkoutBtn,
-  checkoutLoading,
+  checkoutLoadingState,
   freeDuesBtn,
   spinner,
+  manageForm,
+  manageInput,
+  manageBtn,
+  manageLoadingState,
 } from '../styles/members.module.css';
 
 export const query = graphql`
@@ -38,7 +42,8 @@ export const query = graphql`
 
 const Members = ({ location, data }) => {
   const { hash } = location;
-  const [loading, setLoading] = useState(false);
+  const [checkoutLoading, setCheckoutLoading] = useState(false);
+  const [manageApiLoading, setManageApiLoading] = useState(false);
   const [freeDues, ...paidDues] = data.prices.edges;
 
   const { siteUrl } = data.site.siteMetadata;
@@ -46,6 +51,19 @@ const Members = ({ location, data }) => {
     mode: 'subscription',
     successUrl: `${siteUrl}/members#dues-success`,
     cancelUrl: `${siteUrl}/members#dues-error`,
+  };
+
+  const submitManageForm = (evt) => {
+    setManageApiLoading(true);
+    evt.preventDefault();
+    const { email } = evt.currentTarget.elements;
+
+    if (email.value) {
+      fetch('').then(() => {
+        setManageApiLoading(false);
+        navigate('/members/#manage-submit');
+      });
+    }
   };
 
   if (!hash) {
@@ -83,20 +101,20 @@ const Members = ({ location, data }) => {
         </p>
         <div
           className={classNames(dues, {
-            [checkoutLoading]: loading,
+            [checkoutLoadingState]: checkoutLoading,
           })}
         >
-          {loading && <Spinner className={spinner} />}
+          {checkoutLoading && <Spinner className={spinner} />}
           <ul>
             {paidDues.map(({ node }) => (
               <li key={node.id}>
                 <button
                   role="link"
                   type="button"
-                  disabled={loading}
+                  disabled={checkoutLoading}
                   className={checkoutBtn}
                   onClick={(e) =>
-                    redirectToCheckout(e, node.id, options, setLoading)
+                    redirectToCheckout(e, node.id, options, setCheckoutLoading)
                   }
                 >
                   ${node.unit_amount / 100}
@@ -109,12 +127,46 @@ const Members = ({ location, data }) => {
             type="button"
             className={freeDuesBtn}
             onClick={(e) =>
-              redirectToCheckout(e, freeDues.node.id, options, setLoading)
+              redirectToCheckout(
+                e,
+                freeDues.node.id,
+                options,
+                setCheckoutLoading,
+              )
             }
           >
             Formal membership with waived fees is also available.
           </button>
         </div>
+
+        <br />
+        <h3>Manage Dues</h3>
+        <p>
+          Dues-paying members can manage their dues subscription by entering
+          their email in the box below. After submitting, you will recieve an
+          email with a link to update credit card information, change dues
+          level, or cancel a dues subscription.
+        </p>
+        <form className={manageForm} onSubmit={submitManageForm}>
+          <input
+            id="email"
+            type="text"
+            className={manageInput}
+            placeholder="Email"
+          />
+          <button
+            className={classNames(manageBtn, {
+              [manageLoadingState]: manageApiLoading,
+            })}
+            type="submit"
+          >
+            {manageApiLoading ? (
+              <Spinner color="white" />
+            ) : (
+              <span>Manage Dues</span>
+            )}
+          </button>
+        </form>
       </Layout>
     );
   } else if (hash === '#dues-success') {
@@ -142,6 +194,20 @@ const Members = ({ location, data }) => {
         </p>
         <p>
           <span>If issues continue, please email </span>
+          <Mailto address="dues@uppervalleydsa.org" />.
+        </p>
+      </Layout>
+    );
+  } else if (hash === '#manage-submit') {
+    return (
+      <Layout>
+        <h2>Dues Management</h2>
+        <p>
+          If an active dues subscription exists for the submitted email address,
+          an email will be sent with details on how to manage your dues payment.
+        </p>
+        <p>
+          <span>If you do not recieve an email, please contact </span>
           <Mailto address="dues@uppervalleydsa.org" />.
         </p>
       </Layout>
