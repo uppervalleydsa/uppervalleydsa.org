@@ -38,27 +38,7 @@
   top: 25%;
 }
 
-.manageForm {
-  display: flex;
-  height: 50px;
-  width: 500px;
-}
-
-.manageInput {
-  flex-grow: 1;
-  padding: margin;
-  border: 1px solid black;
-  border-radius: radius 0 0 radius;
-}
-
 .manageBtn {
   @extend %btn-primary;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-
-  &.manageLoadingState {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
 }
 
