@@ -77,101 +77,7 @@ const Members = ({ location, data }) => {
     cancelUrl: `${siteUrl}/members#dues-error`,
   };
 
-  if (!hash) {
-    return (
-      <Layout>
-        <SEO title="Members" />
-        <h2>Members</h2>
-        <p>Useful links and information for members.</p>
-
-        <h3>FAQ</h3>
-        <p>
-          Check out <Link to="/faq">the FAQ</Link> for lots of info on meetings,
-          working groups and more.
-        </p>
-
-        <h3>Dues</h3>
-        <p>
-          <span>
-            Optional monthly dues help sustain the chapter&#39;s Upper Valley
-          </span>
-          <span> </span>
-          <Link to="/organizing">organizing priorities</Link>
-          <span> and fund local mutual aid projects. </span>
-          <span>
-            These dues are separate from any membership dues you may pay to
-            National DSA. Click below to set up dues payment with a credit or
-            debit card. Questions about dues (including cancellation) can be
-            directed to
-          </span>
-          <span> </span>
-          <Mailto address="dues@uppervalleydsa.org" />.
-        </p>
-        <p>
-          You can enroll in dues at any of the following tiers, paid monthly:
-        </p>
-        <div
-          className={classNames(dues, {
-            [checkoutLoadingState]: checkoutLoading,
-          })}
-        >
-          {checkoutLoading && <Spinner className={spinner} />}
-          <ul>
-            {paidDues.map(({ id, price, price_id }) => (
-              <li key={id}>
-                <button
-                  role="link"
-                  type="button"
-                  disabled={checkoutLoading}
-                  className={checkoutBtn}
-                  onClick={(e) =>
-                    redirectToCheckout(e, price_id, options, setCheckoutLoading)
-                  }
-                >
-                  ${price / 100}
-                </button>
-              </li>
-            ))}
-          </ul>
-          <button
-            role="link"
-            type="button"
-            className={freeDuesBtn}
-            onClick={(e) =>
-              redirectToCheckout(
-                e,
-                duesPrices[0].price_id,
-                options,
-                setCheckoutLoading,
-              )
-            }
-          >
-            Formal membership with waived fees is also available.
-          </button>
-        </div>
-
-        <br />
-        <h3>Manage Dues</h3>
-        <p>
-          Dues-paying members can manage their dues subscription by clicking the
-          button below. You will be directed to an external site (stripe.com,
-          our payment processor) which will ask you to enter your email address
-          for verification. After verification, you&#39;ll be able to update
-          credit card information, change dues plan, or cancel a dues
-          subscription.
-        </p>
-        <div className={manageBtnContainer}>
-          <a
-            className={manageBtn}
-            href="https://billing.stripe.com/p/login/3cs5nQexGa5xguc4gg"
-          >
-            Manage dues
-          </a>
-        </div>
-        <br />
-      </Layout>
-    );
-  } else if (hash === '#dues-success') {
+  if (hash === '#dues-success') {
     return (
       <Layout>
         <h2>Dues enrollment complete</h2>
@@ -201,6 +107,97 @@ const Members = ({ location, data }) => {
       </Layout>
     );
   }
+
+  return (
+    <Layout>
+      <SEO title="Members" />
+      <h2>Members</h2>
+      <p>Useful links and information for members.</p>
+
+      <h3>FAQ</h3>
+      <p>
+        Check out <Link to="/faq">the FAQ</Link> for lots of info on meetings,
+        working groups and more.
+      </p>
+
+      <h3>Dues</h3>
+      <p>
+        <span>
+          Optional monthly dues help sustain the chapter&#39;s Upper Valley
+        </span>
+        <span> </span>
+        <Link to="/organizing">organizing priorities</Link>
+        <span> and fund local mutual aid projects. </span>
+        <span>
+          These dues are separate from any membership dues you may pay to
+          National DSA. Click below to set up dues payment with a credit or
+          debit card. Questions about dues (including cancellation) can be
+          directed to
+        </span>
+        <span> </span>
+        <Mailto address="dues@uppervalleydsa.org" />.
+      </p>
+      <p>You can enroll in dues at any of the following tiers, paid monthly:</p>
+      <div
+        className={classNames(dues, {
+          [checkoutLoadingState]: checkoutLoading,
+        })}
+      >
+        {checkoutLoading && <Spinner className={spinner} />}
+        <ul>
+          {paidDues.map(({ id, price, price_id }) => (
+            <li key={id}>
+              <button
+                role="link"
+                type="button"
+                disabled={checkoutLoading}
+                className={checkoutBtn}
+                onClick={(e) =>
+                  redirectToCheckout(e, price_id, options, setCheckoutLoading)
+                }
+              >
+                ${price / 100}
+              </button>
+            </li>
+          ))}
+        </ul>
+        <button
+          role="link"
+          type="button"
+          className={freeDuesBtn}
+          onClick={(e) =>
+            redirectToCheckout(
+              e,
+              duesPrices[0].price_id,
+              options,
+              setCheckoutLoading,
+            )
+          }
+        >
+          Formal membership with waived fees is also available.
+        </button>
+      </div>
+
+      <br />
+      <h3>Manage Dues</h3>
+      <p>
+        Dues-paying members can manage their dues subscription by clicking the
+        button below. You will be directed to an external site (stripe.com, our
+        payment processor) which will ask you to enter your email address for
+        verification. After verification, you&#39;ll be able to update credit
+        card information, change dues plan, or cancel a dues subscription.
+      </p>
+      <div className={manageBtnContainer}>
+        <a
+          className={manageBtn}
+          href="https://billing.stripe.com/p/login/3cs5nQexGa5xguc4gg"
+        >
+          Manage dues
+        </a>
+      </div>
+      <br />
+    </Layout>
+  );
 };
 
 export default Members;
