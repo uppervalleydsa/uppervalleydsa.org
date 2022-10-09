@@ -68,8 +68,6 @@ const Members = ({ location, data }) => {
   }, [data]);
   const paidDues = useMemo(() => duesPrices.slice(1), [duesPrices]);
 
-  console.log(paidDues);
-
   const { siteUrl } = data.site.siteMetadata;
   const options = {
     mode: 'subscription',
