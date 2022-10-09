@@ -200,8 +200,6 @@ const Members = ({ location, data }) => {
         </p>
       </Layout>
     );
-  } else {
-    throw new Error(`Didn't expect to recieve hash: ${hash}`);
   }
 };
 
