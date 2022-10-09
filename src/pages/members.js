@@ -16,6 +16,7 @@ import {
   freeDuesBtn,
   spinner,
   manageBtn,
+  manageBtnContainer,
 } from '../styles/members.module.css';
 
 export const query = graphql`
@@ -152,18 +153,21 @@ const Members = ({ location, data }) => {
         <br />
         <h3>Manage Dues</h3>
         <p>
-          Dues-paying members can manage their dues subscription by entering
-          clicking the button below. The external site (stripe.com, our payment
-          processor) will ask you to enter your email address for verification.
-          After verification, you&#39;ll be able to update credit card
-          information, change dues level, or cancel a dues subscription.
+          Dues-paying members can manage their dues subscription by clicking the
+          button below. You will be directed to an external site (stripe.com,
+          our payment processor) which will ask you to enter your email address
+          for verification. After verification, you&#39;ll be able to update
+          credit card information, change dues plan, or cancel a dues
+          subscription.
         </p>
-        <Link
-          className={manageBtn}
-          to="https://billing.stripe.com/p/login/3cs5nQexGa5xguc4gg"
-        >
-          Manage dues
-        </Link>
+        <div className={manageBtnContainer}>
+          <a
+            className={manageBtn}
+            href="https://billing.stripe.com/p/login/3cs5nQexGa5xguc4gg"
+          >
+            Manage dues
+          </a>
+        </div>
       </Layout>
     );
   } else if (hash === '#dues-success') {

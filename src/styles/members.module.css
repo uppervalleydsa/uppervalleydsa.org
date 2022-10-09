@@ -38,6 +38,14 @@
   top: 25%;
 }
 
+.manageBtnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .manageBtn {
   @extend %btn-primary;
+  display: inline-block;
+
 }
