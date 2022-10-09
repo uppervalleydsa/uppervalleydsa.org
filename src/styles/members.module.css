@@ -1,4 +1,5 @@
 @import './controls.module.css';
+@value margin, radius from './measurements.module.css';
 
 .checkoutBtn {
   @extend %btn-primary;
@@ -19,7 +20,7 @@
     }
   }
 
-  &.checkoutLoading {
+  &.checkoutLoadingState {
     button {
       opacity: 0.1;
     }
@@ -35,4 +36,8 @@
   position: absolute;
   left: 0;
   top: 25%;
+}
+
+.manageBtn {
+  @extend %btn-primary;
 }

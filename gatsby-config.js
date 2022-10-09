@@ -96,6 +96,7 @@ module.exports = {
         icon: './src/images/logo-noborder.png',
       },
     },
+    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
