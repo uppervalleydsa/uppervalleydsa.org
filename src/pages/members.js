@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+/* eslint-disable camelcase */
+
+import React, { useMemo, useState } from 'react';
 import { graphql, Link } from 'gatsby';
 import classNames from 'classnames';
 
@@ -23,10 +25,18 @@ export const query = graphql`
         siteUrl
       }
     }
-    prices: allStripePrice(
-      filter: { active: { eq: true }, product: { name: { regex: "/Dues/" } } }
-      sort: { fields: unit_amount, order: ASC }
+    products: allStripeProduct(
+      filter: {active: {eq: true}, name: {regex: "/Dues \\(\\$/"}}
     ) {
+      edges {
+        node {
+          id
+          name
+          default_price
+        }
+      }
+    }
+    prices: allStripePrice(filter: {active: {eq: true}}) {
       edges {
         node {
           id
@@ -40,7 +50,24 @@ export const query = graphql`
 const Members = ({ location, data }) => {
   const { hash } = location;
   const [checkoutLoading, setCheckoutLoading] = useState(false);
-  const [freeDues, ...paidDues] = data.prices.edges;
+  const duesPrices = useMemo(() => {
+    const prices = data.prices.edges.reduce(
+      (prev, { node: { id, unit_amount } }) => ({ ...prev, [id]: unit_amount }),
+      {},
+    );
+    return data.products.edges
+      .reduce(
+        (prev, { node: { id, name, default_price } }) => [
+          ...prev,
+          { id, name, price_id: default_price, price: prices[default_price] },
+        ],
+        [],
+      )
+      .sort((a, b) => a.price - b.price);
+  }, [data]);
+  const paidDues = useMemo(() => duesPrices.slice(1), [duesPrices]);
+
+  console.log(paidDues);
 
   const { siteUrl } = data.site.siteMetadata;
   const options = {
@@ -89,18 +116,18 @@ const Members = ({ location, data }) => {
         >
           {checkoutLoading && <Spinner className={spinner} />}
           <ul>
-            {paidDues.map(({ node }) => (
-              <li key={node.id}>
+            {paidDues.map(({ id, price, price_id }) => (
+              <li key={id}>
                 <button
                   role="link"
                   type="button"
                   disabled={checkoutLoading}
                   className={checkoutBtn}
                   onClick={(e) =>
-                    redirectToCheckout(e, node.id, options, setCheckoutLoading)
+                    redirectToCheckout(e, price_id, options, setCheckoutLoading)
                   }
                 >
-                  ${node.unit_amount / 100}
+                  ${price / 100}
                 </button>
               </li>
             ))}
@@ -112,7 +139,7 @@ const Members = ({ location, data }) => {
             onClick={(e) =>
               redirectToCheckout(
                 e,
-                freeDues.node.id,
+                duesPrices[0].price_id,
                 options,
                 setCheckoutLoading,
               )
