@@ -168,6 +168,7 @@ const Members = ({ location, data }) => {
             Manage dues
           </a>
         </div>
+        <br />
       </Layout>
     );
   } else if (hash === '#dues-success') {
