@@ -6,7 +6,7 @@
   "author": "Brian Jacobel <bjacobel@gmail.com>",
   "dependencies": {
     "@juggle/resize-observer": "^3.4.0",
-    "@stripe/stripe-js": "^1.38.1",
+    "@stripe/stripe-js": "^1.39.0",
     "autoprefixer": "^9.8.8",
     "classnames": "^2.3.2",
     "dotenv": "16.0.3",
