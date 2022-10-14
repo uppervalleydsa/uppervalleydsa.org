@@ -47,5 +47,4 @@
 .manageBtn {
   @extend %btn-primary;
   display: inline-block;
-
 }
