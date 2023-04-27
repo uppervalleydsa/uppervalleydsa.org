@@ -39,7 +39,7 @@
     "react-helmet": "^6.1.0",
     "react-paginate": "^8.2.0",
     "react-use-measure": "^2.1.1",
-    "sharp": "^0.32.0"
+    "sharp": "^0.32.1"
   },
   "devDependencies": {
     "@netlify/plugin-gatsby": "1.0.3",
