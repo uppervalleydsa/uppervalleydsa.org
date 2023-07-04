@@ -19,7 +19,7 @@ import {
   hidesNestedItems,
   nestedNavItems,
 } from './header.module.css';
-import logo from '../../images/logo.png';
+import logo from '../../images/logo-noborder.png';
 
 const MenuButton = ({ toggleMenu, menuActive }) => {
   return (
