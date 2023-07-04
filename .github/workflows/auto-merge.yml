@@ -10,7 +10,7 @@ jobs:
       - name: Wait on tests
         uses: lewagon/wait-on-check-action@v0.2
         with:
-          ref: master
+          ref: main
           repo-token: ${{ secrets.AUTOMERGE_TOKEN }}
           wait-interval: 20
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
